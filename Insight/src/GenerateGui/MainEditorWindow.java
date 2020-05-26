@@ -115,7 +115,10 @@ public class MainEditorWindow{
 		});
 		
 		
-		// -------------------------------------------------  event Listeners
+		// ------------------------------------------------- SpellCheck and event Listeners
+		SpellCheckInitializer spellCheck = new SpellCheckInitializer();
+		spellCheck.initializeSpellCheck(textArea);
+		
 		EventHandlerEditor eventHandler = new EventHandlerEditor();
 		eventHandler.handleEdit(schemaPath,fileName,EditorWindow,btnVolatileStorage,btnClear,btnRollBack,btnSave,btnCancel,textArea,linesArea,labelN,printerMenu,btnFind);		
 		makeVisible();
