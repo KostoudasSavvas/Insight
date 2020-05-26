@@ -5,6 +5,7 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.border.LineBorder;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
+import java.io.IOException;
 import java.awt.Color;
 import java.awt.Font;
 import eventHandling.EventHandlerInsight;
@@ -138,6 +139,13 @@ public class MainInsightWindow{
 		textPane_1.setEditable(false);
 		
 		
+		// show the intro window
+		StartWindowCreator startWindow = new StartWindowCreator();
+		try {
+			startWindow.initialize();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 		eventListenerGenerate(InsightWindow,mntmNewMenuItem_5,mntmNewMenuItem,mntmNewMenuItem_4,textPane,textPane_1,list,mntmNewMenuItem_3,mntmNewMenuItem_1,mntmNewMenuItem_2,mntmNewMenuItem_6);
 		makeVisible();
 	}
