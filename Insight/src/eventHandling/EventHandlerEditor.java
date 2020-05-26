@@ -107,7 +107,7 @@ public class EventHandlerEditor {
 		    System.exit(-1);			
 		}
 			
-		// --------------------------s----------------------------------------------------------------------------------------- -------------------- end of load code
+		// -------------------------------------------------------------------------------------------------------------------- -------------------- end of load code
 		    
 		buttonSave.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent e){
@@ -133,16 +133,8 @@ public class EventHandlerEditor {
 		    	if (checkBox1.isSelected() && Number > 0){
 			    	rb.rollBack(Number,textArea, splitter.splitText(ldFile.getName()), checkBox1, docList);
 			    	if (Number <= 0){
-						JOptionPane.showMessageDialog(null,"Initial empty version has loaded.","There is none versions left.", JOptionPane.INFORMATION_MESSAGE);
+						JOptionPane.showMessageDialog(null,"Initial contents were loaded.","Undo Manager", JOptionPane.INFORMATION_MESSAGE);
 			    	}else{
-			    		Number--;
-			    	}
-		    	}else{
-			    	if (Number <= 0){
-			    		textArea.setText(initialVersion);
-						JOptionPane.showMessageDialog(null,"Initial version has loaded.","There is none versions left.", JOptionPane.INFORMATION_MESSAGE);
-			    	}else if(Number > 0){
-			    		rb.rollBack(Number, textArea, splitter.splitText(ldFile.getName()),checkBox1,docList);
 			    		Number--;
 			    	}
 		    	}	
