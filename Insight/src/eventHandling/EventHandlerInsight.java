@@ -1,5 +1,6 @@
 package eventHandling;
 
+import java.awt.TextArea;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
@@ -16,6 +17,7 @@ import GenerateGui.EditWindow;
 import GenerateGui.FindFunctionInsight;
 import GenerateGui.MainEditorWindow;
 import HardDriveManager.FileLoaderController;
+import groupBy.GroupErrorHandler;
 
 
 public class EventHandlerInsight implements ActionListener{
@@ -160,6 +162,25 @@ public class EventHandlerInsight implements ActionListener{
 					editWindow.makeVisible();
 				}
 			});
+			
+			
+			
+			
+			// grouping by Error
+			groupError.addActionListener(new ActionListener() {				
+				public void actionPerformed(ActionEvent e) {
+					GroupErrorHandler errorHandle = new GroupErrorHandler();
+					errorHandle.handleGroupError(mainTextArea);
+				}
+			});
+			
+			// group by file
+			groupFile.addActionListener(new ActionListener() {				
+				public void actionPerformed(ActionEvent e) {
+					mainTextArea.setText(initialVersion);
+				}
+			});
+			
 			
 			
 			// printing the main text pane
