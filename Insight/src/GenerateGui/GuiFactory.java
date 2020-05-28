@@ -33,47 +33,6 @@ public class GuiFactory {
 		return Window;
 	}
 	
-	public JMenuItem createItem(JPanel panel,String name,int x1,int x2,int y1, int y2,String text){
-		JMenuItem item = new JMenuItem(name);
-		item.setBounds(x1,x2,y1,y2);
-		item.setVerticalTextPosition(AbstractButton.CENTER);
-		item.setHorizontalTextPosition(AbstractButton.LEADING);
-		item.setToolTipText(text);
-		panel.add(item);
-		return item;
-	}
-	
-	// create method only for the create doc button
-	public JButton createDocButton(JPanel panel,String name,int x1,int x2,int y1, int y2,String text){
-		JButton button = new JButton(name);
-		button.setBounds(x1,x2,y1,y2);
-		button.setVerticalTextPosition(AbstractButton.CENTER);
-		button.setHorizontalTextPosition(AbstractButton.LEADING);
-		button.setToolTipText(text);
-		panel.add(button);
-		return button;
-	}
-	
-	public JButton createSimpleButton(JPanel panel,String name,int x1,int x2,int y1, int y2,String text){
-		JButton button = new JButton(name);
-		button.setBounds(x1,x2,y1,y2);
-		button.setToolTipText(text);
-		panel.add(button);
-		return button;
-	}
-	
-	// method to create JLabels main
-	public JLabel createLabel(JPanel panel,String name,int x1,int x2,int y1, int y2,Boolean special){
-		JLabel label = new JLabel(name);
-		label.setBounds(x1,x2,y1,y2);
-		label.setForeground(Color.WHITE);
-		label.setHorizontalAlignment(SwingConstants.CENTER);
-		if (special){
-			label.setBackground(Color.DARK_GRAY);                    
-		}
-		panel.add(label);
-		return label;
-	}
 	
 	public JLabel createLabelBar(JMenuBar bar,String text){
 		JLabel label = new JLabel(text);
@@ -81,27 +40,6 @@ public class GuiFactory {
 		return label;
 	}
 	
-	// method to create simple JLabels
-	public JLabel createLabelSimple(JPanel panel,String name,int x1, int y1, int x2, int y2,Boolean special){
-		JLabel label = new JLabel(name);
-		if (special){
-			label.setForeground(Color.WHITE);
-		}
-		label.setBounds(x1,y1,x2,y2);
-		panel.add(label);
-		return label;
-	}
-	
-	// method to create checkBoxes
-	public JCheckBox createBox(JPanel panel,String name, int x1, int x2, int y1, int y2,String text){
-		JCheckBox box = new JCheckBox(name);
-		box.setBounds(x1,x2,y1,y2);
-		if (!(text.isEmpty())){
-			box.setToolTipText(text);
-		}
-		panel.add(box);
-		return box;
-	}
 	
 	// method to create the main JPanel
 	public JPanel createMainPanel(JFrame window,int Number){
@@ -147,12 +85,6 @@ public class GuiFactory {
 		return bar;
 	}
 	
-	public JMenu createSimpleMenu(JMenu mainMenu,String name,String text) {
-		JMenu menu = new JMenu(name);
-		menu.setToolTipText(text);
-		mainMenu.add(menu);
-		return menu;
-	}
 	
 	public JMenu createMenu(JMenuBar bar,String text,String ImageName){
 		JMenu menu = new JMenu();

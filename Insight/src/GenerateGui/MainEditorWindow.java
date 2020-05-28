@@ -2,23 +2,13 @@ package GenerateGui;
 
 import javax.swing.*;
 import eventHandling.EventHandlerEditor;
-import eventHandling.EventHandlerInsight;
-//import eventhand.MainEditorWindowHelper;
 import eventHandling.SpellCheckInitializer;
-
 import java.awt.BorderLayout;
 import java.awt.event.KeyEvent;
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
 import java.awt.Color;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
-import javax.swing.event.MenuEvent;
-import javax.swing.event.MenuListener;
 import javax.swing.text.Element;
-
  
 
 public class MainEditorWindow{
