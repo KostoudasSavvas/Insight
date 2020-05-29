@@ -1,0 +1,177 @@
+
+Schema Folder: C:\Users\savaf\Documents\SCHEMA_EVO_2019\HaliteChallenge__Halite-II
+
+File: 1499261826.sql Line: 62 Error: The keyword 'NOT' is invalid. Keyword: 'NOT',[minor]
+File: 1499261826.sql Line: 62 Error: The keyword 'NOT' is invalid. Keyword: 'NOT',[minor]
+File: 1507107532.sql Line: 1 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1507107532.sql Line: 248 Error: The keyword '1' is invalid. Keyword: '1',[minor]
+File: 1507107532.sql Line: 1 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1507107532.sql Line: 248 Error: Keyword '1'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1507107532.sql Line: 1 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1507107532.sql Line: 248 Error: The keyword '1' is invalid. Keyword: '1',[minor]
+File: 1507107532.sql Line: 1 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1507107532.sql Line: 248 Error: Keyword '1'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1508275975.sql Line: 269 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508275975.sql Line: 271 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508275975.sql Line: 273 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508275975.sql Line: 275 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508275975.sql Line: 277 Keyword: 'MODIFY'
+File: 1508275975.sql Line: 279 Keyword: 'MODIFY'
+File: 1508275975.sql Line: 281 Keyword: 'MODIFY'
+File: 1508275975.sql Line: 283 Keyword: 'MODIFY'
+File: 1508275975.sql Line: 285 Keyword: 'MODIFY'
+File: 1508275975.sql Line: 295 Error: The keyword 'WHERE' is invalid. Keyword: 'WHERE',[minor]
+File: 1508275975.sql Line: 277 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508275975.sql Line: 279 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508275975.sql Line: 281 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508275975.sql Line: 283 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508275975.sql Line: 285 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508275975.sql Line: 269 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508275975.sql Line: 271 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508275975.sql Line: 273 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508275975.sql Line: 275 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508275975.sql Line: 277 Keyword: 'MODIFY'
+File: 1508275975.sql Line: 279 Keyword: 'MODIFY'
+File: 1508275975.sql Line: 281 Keyword: 'MODIFY'
+File: 1508275975.sql Line: 283 Keyword: 'MODIFY'
+File: 1508275975.sql Line: 285 Keyword: 'MODIFY'
+File: 1508275975.sql Line: 295 Error: The keyword 'WHERE' is invalid. Keyword: 'WHERE',[minor]
+File: 1508275975.sql Line: 277 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508275975.sql Line: 279 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508275975.sql Line: 281 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508275975.sql Line: 283 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508275975.sql Line: 285 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508284910.sql Line: 270 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508284910.sql Line: 272 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508284910.sql Line: 274 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508284910.sql Line: 276 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508284910.sql Line: 278 Keyword: 'MODIFY'
+File: 1508284910.sql Line: 280 Keyword: 'MODIFY'
+File: 1508284910.sql Line: 282 Keyword: 'MODIFY'
+File: 1508284910.sql Line: 284 Keyword: 'MODIFY'
+File: 1508284910.sql Line: 286 Keyword: 'MODIFY'
+File: 1508284910.sql Line: 296 Error: The keyword 'WHERE' is invalid. Keyword: 'WHERE',[minor]
+File: 1508284910.sql Line: 278 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508284910.sql Line: 280 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508284910.sql Line: 282 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508284910.sql Line: 284 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508284910.sql Line: 286 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508284910.sql Line: 270 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508284910.sql Line: 272 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508284910.sql Line: 274 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508284910.sql Line: 276 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508284910.sql Line: 278 Keyword: 'MODIFY'
+File: 1508284910.sql Line: 280 Keyword: 'MODIFY'
+File: 1508284910.sql Line: 282 Keyword: 'MODIFY'
+File: 1508284910.sql Line: 284 Keyword: 'MODIFY'
+File: 1508284910.sql Line: 286 Keyword: 'MODIFY'
+File: 1508284910.sql Line: 296 Error: The keyword 'WHERE' is invalid. Keyword: 'WHERE',[minor]
+File: 1508284910.sql Line: 278 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508284910.sql Line: 280 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508284910.sql Line: 282 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508284910.sql Line: 284 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508284910.sql Line: 286 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508315574.sql Line: 270 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508315574.sql Line: 272 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508315574.sql Line: 274 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508315574.sql Line: 276 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508315574.sql Line: 278 Keyword: 'MODIFY'
+File: 1508315574.sql Line: 280 Keyword: 'MODIFY'
+File: 1508315574.sql Line: 282 Keyword: 'MODIFY'
+File: 1508315574.sql Line: 284 Keyword: 'MODIFY'
+File: 1508315574.sql Line: 286 Keyword: 'MODIFY'
+File: 1508315574.sql Line: 296 Error: The keyword 'WHERE' is invalid. Keyword: 'WHERE',[minor]
+File: 1508315574.sql Line: 278 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508315574.sql Line: 280 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508315574.sql Line: 282 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508315574.sql Line: 284 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508315574.sql Line: 286 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508315574.sql Line: 270 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508315574.sql Line: 272 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508315574.sql Line: 274 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508315574.sql Line: 276 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508315574.sql Line: 278 Keyword: 'MODIFY'
+File: 1508315574.sql Line: 280 Keyword: 'MODIFY'
+File: 1508315574.sql Line: 282 Keyword: 'MODIFY'
+File: 1508315574.sql Line: 284 Keyword: 'MODIFY'
+File: 1508315574.sql Line: 286 Keyword: 'MODIFY'
+File: 1508315574.sql Line: 296 Error: The keyword 'WHERE' is invalid. Keyword: 'WHERE',[minor]
+File: 1508315574.sql Line: 278 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508315574.sql Line: 280 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508315574.sql Line: 282 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508315574.sql Line: 284 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508315574.sql Line: 286 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508315744.sql Line: 270 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508315744.sql Line: 272 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508315744.sql Line: 274 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508315744.sql Line: 276 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508315744.sql Line: 278 Keyword: 'MODIFY'
+File: 1508315744.sql Line: 280 Keyword: 'MODIFY'
+File: 1508315744.sql Line: 282 Keyword: 'MODIFY'
+File: 1508315744.sql Line: 284 Keyword: 'MODIFY'
+File: 1508315744.sql Line: 286 Keyword: 'MODIFY'
+File: 1508315744.sql Line: 296 Error: The keyword 'WHERE' is invalid. Keyword: 'WHERE',[minor]
+File: 1508315744.sql Line: 300 Error: The keyword 'is_gpu_enabled' is invalid. Keyword: 'is_gpu_enabled',[minor]
+File: 1508315744.sql Line: 302 Error: The keyword 'WHERE' is invalid. Keyword: 'WHERE',[minor]
+File: 1508315744.sql Line: 278 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508315744.sql Line: 280 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508315744.sql Line: 282 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508315744.sql Line: 284 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508315744.sql Line: 286 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508315744.sql Line: 270 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508315744.sql Line: 272 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508315744.sql Line: 274 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508315744.sql Line: 276 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508315744.sql Line: 278 Keyword: 'MODIFY'
+File: 1508315744.sql Line: 280 Keyword: 'MODIFY'
+File: 1508315744.sql Line: 282 Keyword: 'MODIFY'
+File: 1508315744.sql Line: 284 Keyword: 'MODIFY'
+File: 1508315744.sql Line: 286 Keyword: 'MODIFY'
+File: 1508315744.sql Line: 296 Error: The keyword 'WHERE' is invalid. Keyword: 'WHERE',[minor]
+File: 1508315744.sql Line: 300 Error: The keyword 'is_gpu_enabled' is invalid. Keyword: 'is_gpu_enabled',[minor]
+File: 1508315744.sql Line: 302 Error: The keyword 'WHERE' is invalid. Keyword: 'WHERE',[minor]
+File: 1508315744.sql Line: 278 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508315744.sql Line: 280 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508315744.sql Line: 282 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508315744.sql Line: 284 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508315744.sql Line: 286 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508957248.sql Line: 269 Error: The keyword 'is_gpu_enabled' is invalid. Keyword: 'is_gpu_enabled',[minor]
+File: 1508957248.sql Line: 271 Error: The keyword 'WHERE' is invalid. Keyword: 'WHERE',[minor]
+File: 1508957248.sql Line: 275 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508957248.sql Line: 277 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508957248.sql Line: 279 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508957248.sql Line: 281 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508957248.sql Line: 283 Keyword: 'MODIFY'
+File: 1508957248.sql Line: 285 Keyword: 'MODIFY'
+File: 1508957248.sql Line: 287 Keyword: 'MODIFY'
+File: 1508957248.sql Line: 289 Keyword: 'MODIFY'
+File: 1508957248.sql Line: 291 Keyword: 'MODIFY'
+File: 1508957248.sql Line: 301 Error: The keyword 'WHERE' is invalid. Keyword: 'WHERE',[minor]
+File: 1508957248.sql Line: 283 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508957248.sql Line: 285 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508957248.sql Line: 287 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508957248.sql Line: 289 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508957248.sql Line: 291 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508957248.sql Line: 269 Error: The keyword 'is_gpu_enabled' is invalid. Keyword: 'is_gpu_enabled',[minor]
+File: 1508957248.sql Line: 271 Error: The keyword 'WHERE' is invalid. Keyword: 'WHERE',[minor]
+File: 1508957248.sql Line: 275 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508957248.sql Line: 277 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508957248.sql Line: 279 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508957248.sql Line: 281 Error: The keyword 'DROP' is invalid. Keyword: 'DROP',[minor]
+File: 1508957248.sql Line: 283 Keyword: 'MODIFY'
+File: 1508957248.sql Line: 285 Keyword: 'MODIFY'
+File: 1508957248.sql Line: 287 Keyword: 'MODIFY'
+File: 1508957248.sql Line: 289 Keyword: 'MODIFY'
+File: 1508957248.sql Line: 291 Keyword: 'MODIFY'
+File: 1508957248.sql Line: 301 Error: The keyword 'WHERE' is invalid. Keyword: 'WHERE',[minor]
+File: 1508957248.sql Line: 283 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508957248.sql Line: 285 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508957248.sql Line: 287 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508957248.sql Line: 289 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1508957248.sql Line: 291 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1510467974.sql Line: 7 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: ';'
+File: 1510467974.sql Line: 7 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: ';'
+File: 1511800868.sql Line: 7 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: ';'
+File: 1511800868.sql Line: 7 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: ';'
+File: 1512766814.sql Line: 7 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: ';'
+File: 1512766814.sql Line: 7 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: ';'
