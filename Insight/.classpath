@@ -8,6 +8,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/savaf/Documents/SK Editor Libraries/jortho-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/JOrtho_1.0/jortho.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
