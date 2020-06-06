@@ -182,8 +182,21 @@ public class EventHandlerEditor {
 		// event Handling for the exit button
 		btnCancel.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				if (JOptionPane.showConfirmDialog(null, "Are you sure you want to return to main menu?", "" , 0) == JOptionPane.YES_OPTION){
-					newWindow.setVisible(false);
+				if (JOptionPane.showConfirmDialog(null, "Are you sure you want to return to main menu? An automatic save of the Sql file will happen.", "Close Window" , 0) == JOptionPane.YES_OPTION){
+					if (checkBox1.isSelected()){         // volatile storage
+						ArrayList<String> list = new ArrayList<String>();
+						list.add(textArea.getText());
+						Document doc1 = new Document(Number,"savvas","21-5-2020",list,splitter.splitText(ldFile.getName())+"Log"+Number+".txt");
+						vt1.putVersion(doc1);
+						Number++;
+	    				sv.save(textArea, openDocPath, list);
+	    				JOptionPane.showMessageDialog(null, "Current document saved","Saving Action Successfull", JOptionPane.INFORMATION_MESSAGE);
+	    				
+						// finally after successfull save close the editor
+						newWindow.setVisible(false);
+					}else{
+	    				JOptionPane.showMessageDialog(null, "Select the volatile checkbox in order to save your file.","No storage type selected", JOptionPane.INFORMATION_MESSAGE);
+					}
 				}
 			}
 		});

@@ -30,8 +30,8 @@ public class EditWindow {
 	public EditWindow(HashMap<Integer, String> schemaNames,String schemaPath) {
 		editWindow = new JFrame("Insight Edit File Selector");
 		editWindow.setResizable(false);
-		
-		editWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		editWindow.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);		
+
 		editWindow.setBounds(100, 100, 351, 469);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));

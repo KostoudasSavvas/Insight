@@ -1,6 +1,7 @@
 package GenerateGui;
 
 import java.awt.Color;
+import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.Image;
@@ -18,7 +19,6 @@ public class GuiFactory {
 		JFrame LPMainWindow = new JFrame(name);
 		LPMainWindow.setResizable(true);
 		LPMainWindow.setBounds(x1,x2,y1,y2);
-		LPMainWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		LPMainWindow.setVisible(true);
 		return LPMainWindow;
 	}
@@ -27,7 +27,6 @@ public class GuiFactory {
 		JFrame Window = new JFrame(name);
 		Window.setResizable(true);
 		Window.setBounds(x1,x2,y1,y2);
-		Window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		//Window.setExtendedState(JFrame.MAXIMIZED_BOTH);   if we want full screen the editor remove the comments from the commands
 		//Window.setUndecorated(true);
 		return Window;
@@ -206,21 +205,64 @@ public class GuiFactory {
 		return area;
 	}
 	
-	public void onExit(JFrame frame, boolean dispose){
+	
+	
+	public JPanel createPanelServiceComplete(int number) {
+		JPanel panel = new javax.swing.JPanel() {
+            @Override
+            protected void paintComponent(Graphics g) {
+                super.paintComponent(g);
+                g.setColor(new Color(31,190,214));
+                if (number == 1) {
+                	 g.drawLine(0, 22, 900, 22);
+                     g.drawLine(0, 173, 900, 173);
+                     g.drawLine(0, 337, 900, 337);
+                }else if (number == 2) {
+                	 g.drawLine(0, 30, 900, 30);
+                     g.drawLine(0, 47, 900, 47);
+                     g.drawLine(0, 153, 900, 153);
+                     g.drawLine(0, 275, 900, 275);
+                     g.drawLine(0, 430, 900, 430);
+                }else if (number == 3) {
+                	 g.drawLine(0, 30, 900, 30);
+                     g.drawLine(0, 65, 900, 65);
+                     g.drawLine(0, 148, 900, 148);
+                     g.drawLine(0, 220, 900, 220);
+                     g.drawLine(0, 318, 900, 318);
+                     g.drawLine(0, 403, 900, 403);
+                }else if (number == 4) {
+                	 g.drawLine(0, 30, 900, 30);
+                     g.drawLine(0, 67, 900, 67);
+                     g.drawLine(0, 133, 900, 133);
+                }else if (number == 5) {
+                	 g.drawLine(0, 45, 900, 45);
+                     g.drawLine(400,75,400,500);
+                     //g.drawLine(400,75,400,500);
+                     //g.drawLine(400,75,400,500);
+                     //g.drawLine(400,75,400,500);
+                     //g.drawLine(400,75,400,500);
+                     //g.drawLine(400,75,400,500);
 
-		frame.addWindowListener(new WindowAdapter() {
-			@Override
-			public void windowClosing(WindowEvent windowEvent){
-				if (JOptionPane.showConfirmDialog(null, "Are you sure you want to exit?", "title" , 0) == JOptionPane.YES_OPTION){
-					if (dispose){
-						frame.setDefaultCloseOperation(2);
-					} else {
-						frame.setDefaultCloseOperation(3);
-					}
-				} else {
-					frame.setDefaultCloseOperation(0);
-				}
-			}
-		});
-	}	
+                }else if (number == 6) {
+                	// none drawing of lines for panel service number 6
+                }else {
+                	 g.drawLine(0, 30, 900, 30);
+                     g.drawLine(0, 67, 900, 67);
+                     g.drawLine(0, 143, 900, 143);
+                     g.drawLine(0, 171, 100, 171);
+                     g.drawLine(0, 187, 160, 187);
+                     g.drawLine(0, 218, 160, 218);
+                     g.drawLine(0, 247, 180, 247);
+                     g.drawLine(0, 278, 190, 278);
+                     g.drawLine(0, 346, 900, 346);
+                     g.drawLine(0, 375, 85, 375);
+                     g.drawLine(0, 405, 100, 405);
+                     g.drawLine(0, 434, 85, 434);
+                }
+            }
+        };
+		panel.setBounds(new Rectangle(500, 500, 500, 500));
+		panel.setPreferredSize(new Dimension(300,400));		
+		return panel;
+	}
 }

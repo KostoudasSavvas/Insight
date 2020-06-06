@@ -5,10 +5,13 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.border.LineBorder;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 import java.io.IOException;
 import java.awt.Color;
 import java.awt.Font;
 import eventHandling.EventHandlerInsight;
+import serviceMenu.ServiceMenuHandler;
 
 
 public class MainInsightWindow{
@@ -19,7 +22,7 @@ public class MainInsightWindow{
 		InsightWindow = new JFrame();
 		InsightWindow.setTitle("Insight");
 		InsightWindow.setResizable(false);
-		InsightWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		InsightWindow.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
 		InsightWindow.setBounds(100, 100, 1001, 726);
 		GuiFactory guiFactory = new GuiFactory();
 		
@@ -69,6 +72,11 @@ public class MainInsightWindow{
 		JMenu mnNewMenu_4 = new JMenu("");
 		guiFactory.setImage(mnNewMenu_4, "/printer.png");
 		menuBar.add(mnNewMenu_4);
+		
+		JMenu mnNewMenu_8 = new JMenu("");
+		guiFactory.setImage(mnNewMenu_8, "/customer-service.png");
+		mnNewMenu_8.setMnemonic(KeyEvent.VK_H);	// key stroke alt+H to guide user to the help/service menu.
+		menuBar.add(mnNewMenu_8);
 		
 		JMenuItem mntmNewMenuItem_4 = new JMenuItem("Print Log File");
 		mntmNewMenuItem_4.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_P, InputEvent.CTRL_MASK));
@@ -146,12 +154,12 @@ public class MainInsightWindow{
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		eventListenerGenerate(InsightWindow,mntmNewMenuItem_5,mntmNewMenuItem,mntmNewMenuItem_4,textPane,textPane_1,list,mntmNewMenuItem_3,mntmNewMenuItem_1,mntmNewMenuItem_2,mntmNewMenuItem_6);
+		eventListenerGenerate(InsightWindow,mntmNewMenuItem_5,mntmNewMenuItem,mntmNewMenuItem_4,textPane,textPane_1,list,mntmNewMenuItem_3,mntmNewMenuItem_1,mntmNewMenuItem_2,mntmNewMenuItem_6,mnNewMenu_8);
 		makeVisible();
 	}
 	
 	
-	public static void eventListenerGenerate(JFrame InsightWindow,JMenuItem btnCancel,JMenuItem btnLoad,JMenuItem btnPrint,JTextPane mainTArea,JTextPane secondaryArea,JList<String> schemaList,JMenuItem btnFind,JMenuItem groupError,JMenuItem groupFile,JMenuItem btnEdit){
+	public static void eventListenerGenerate(JFrame InsightWindow,JMenuItem btnCancel,JMenuItem btnLoad,JMenuItem btnPrint,JTextPane mainTArea,JTextPane secondaryArea,JList<String> schemaList,JMenuItem btnFind,JMenuItem groupError,JMenuItem groupFile,JMenuItem btnEdit,JMenu serviceMenu){
 		int k = 1;     // integer for the event Handling
 		
 		EventHandlerInsight eventHN1 = new EventHandlerInsight(InsightWindow,k,btnPrint,mainTArea,secondaryArea,schemaList,btnFind,groupError,groupFile,btnEdit); //handling for the button load document
@@ -159,6 +167,18 @@ public class MainInsightWindow{
 		
 		EventHandlerInsight eventHN2 = new EventHandlerInsight(InsightWindow,(k+1),btnPrint,mainTArea,secondaryArea,schemaList,btnFind,groupError,groupFile,btnEdit); // handling for the button cancel
 		btnCancel.addActionListener(eventHN2);
+		
+		
+		ServiceMenuHandler serviceMenuHandling = new ServiceMenuHandler();   // this opens and handles the service menu
+		serviceMenuHandling.eventListenerService(serviceMenu);
+		
+		InsightWindow.addWindowListener(new WindowAdapter() {
+			public void windowClosing(WindowEvent windowEvent){
+				if (JOptionPane.showConfirmDialog(InsightWindow, "Are you sure you want to exit from Insight?", "Exit Application",0) == JOptionPane.YES_OPTION){
+					System.exit(0);
+			    }
+			}
+		});
 	}
 	
 	

@@ -24,7 +24,8 @@ public class MainEditorWindow{
  		GFactory4 = new GuiFactory();
 		
 		EditorWindow = GFactory4.createFrameEditor("Insight Editor",400, 150, 1000, 720);
-		GFactory4.onExit(EditorWindow, false);
+		EditorWindow.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);		
+
 		
 		// -----------------------------------  the panel of the editor
 		JPanel panel = GFactory4.createMainPanel(EditorWindow,3);

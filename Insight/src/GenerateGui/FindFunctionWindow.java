@@ -20,7 +20,8 @@ public class FindFunctionWindow{
 		GFactory  = new GuiFactory();
 		findWindow = GFactory.createFrame("Find/Replace", 600, 150, 370, 458);
 		findWindow.setResizable(false);
-		GFactory.onExit(findWindow, false);
+		findWindow.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);		
+
 		this.textArea = textArea;
 		//------------------------------------------------- panel,buttons and menu items of the find window.
 		
