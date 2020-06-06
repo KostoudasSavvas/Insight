@@ -94,7 +94,7 @@ public class GroupErrorHandler {
 		
 		for (String groupLine : finalTextAreaContents) {
 			try {
-				styledDoc.insertString(styledDoc.getLength(),groupLine + "\n", null);
+				styledDoc.insertString(styledDoc.getLength(),groupLine + "\n\n", null);
 			}catch (Exception ex) {
 				System.out.println(ex);
 			}

@@ -80,7 +80,7 @@ public class FileLoaderController {
 				if (lineMajor.contains("Schema Folder:")) {
 					styledDoc.insertString(styledDoc.getLength(),lineMajor + "\n\n", null);
 				}else {
-					styledDoc.insertString(styledDoc.getLength(),lineMajor + "\n", null);
+					styledDoc.insertString(styledDoc.getLength(),lineMajor + "\n\n", null);
 				}
 			}catch (Exception ex) {
 				System.out.println(ex);

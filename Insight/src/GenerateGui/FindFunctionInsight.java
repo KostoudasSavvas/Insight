@@ -16,6 +16,7 @@ public class FindFunctionInsight{
 	public FindFunctionInsight(JTextPane textArea) {
 		GFactory  = new GuiFactory();
 		findWindow = GFactory.createFrame("Find/Replace", 600, 150, 370, 420);
+		findWindow.setResizable(false);
 		GFactory.onExit(findWindow, false);
 		this.textArea = textArea;
 		//------------------------------------------------- panel,buttons and menu items of the find window.
