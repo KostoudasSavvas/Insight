@@ -228,8 +228,7 @@ public class GuiFactory {
                      g.drawLine(0, 65, 900, 65);
                      g.drawLine(0, 148, 900, 148);
                      g.drawLine(0, 220, 900, 220);
-                     g.drawLine(0, 318, 900, 318);
-                     g.drawLine(0, 403, 900, 403);
+                     g.drawLine(0, 302, 900, 302);
                 }else if (number == 4) {
                 	 g.drawLine(0, 30, 900, 30);
                      g.drawLine(0, 67, 900, 67);
@@ -248,16 +247,8 @@ public class GuiFactory {
                 }else {
                 	 g.drawLine(0, 30, 900, 30);
                      g.drawLine(0, 67, 900, 67);
-                     g.drawLine(0, 143, 900, 143);
-                     g.drawLine(0, 171, 100, 171);
-                     g.drawLine(0, 187, 160, 187);
-                     g.drawLine(0, 218, 160, 218);
-                     g.drawLine(0, 247, 180, 247);
-                     g.drawLine(0, 278, 190, 278);
-                     g.drawLine(0, 346, 900, 346);
-                     g.drawLine(0, 375, 85, 375);
-                     g.drawLine(0, 405, 100, 405);
-                     g.drawLine(0, 434, 85, 434);
+                     g.drawLine(0, 163, 900, 163);
+                     g.drawLine(0, 359, 900, 359);
                 }
             }
         };

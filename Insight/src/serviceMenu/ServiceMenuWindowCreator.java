@@ -117,70 +117,36 @@ public class ServiceMenuWindowCreator {
         labelText3.setBounds(0, 0, 900, 28);
         panel5.add(labelText3);
         
-        JLabel labelPeriod = new JLabel("<html>1.8 --All about Period of Automatic Storage--<br/>The period of autotatic storage can be set in any"
-        		+ " of the availiable options.The span of the options is from 10 seconds<br/> all the way up to 1 hour. The default value of the period"
-        		+ "is set to 10 seconds.You can change it accordingly<br/> in a value that you like.</html>");
+        JLabel labelPeriod = new JLabel("<html>3.1 --All about Group By Error--<br/>The options offers the ability of grouping by Error for each file. This means"
+        		+ " that if an error appers multiple times inside a file then this<br/> error will be grouped with all the other appearances of it. The result of this grouping"
+        		+ " is Filename and then the line numbers and then the<br/> error message.</html>");
         labelPeriod.setBounds(0,35,900,90);
         panel5.add(labelPeriod);
         
-        JLabel labelService = new JLabel("<html>1.9 --All about Service Menu--<br/>This menu contains valuable information about the software SK Editor"
-        		+ " as it contains the user manual but it also<br/> contains information about the editor and the production crew.</html>");
+        JLabel labelService = new JLabel("<html>3.2 --All about Group By File--<br/>This option offers the ability of grouping by file. This means that all the errors"
+        		+ " that belong to a file will present one after the other and<br/> then will be presented errors from the next file.</html>");
         labelService.setBounds(0, 120, 900, 70);
         panel5.add(labelService);
         
-        JLabel labelLanguage =  new JLabel("<html>2.0 --All about Language Set--<br/>This menu's options are three languages that can change all"
-        		+ " the text of the items of the editor buttons,menuitems<br/>,etc according to the user's language.The offered languages are three: Greek,"
-        		+ " English and French.The default<br> language is English.</html>");
+        JLabel labelLanguage =  new JLabel("<html>3.3 --All about Spellchecking--<br/>In the Insight Editor all the writen text is getting checked by a spellchecking tool"
+        		+ " that will offer English Language validity. If a word is<br/> spelled incorrectly, then it gets red underline an then the offered options are two: a) <u>a list of"
+        		+ " similar words</u> is given if you want to replace<br/> the misspelled word or b) <u>add this word</u> to the dictionary.</html>");
         labelLanguage.setBounds(0,190,900,90);
         panel5.add(labelLanguage);
         
-        JLabel labelCount = new JLabel("<html>2.1 --All about Words and Characters Count--<br/>Those two labels are changing accordingly on how"
-        		+ " many words and characters you type and exist in the file at any<br/> moment.Of course, if there is none words or characters typed"
-        		+ "in the editor then both counts values are zero.</html>");
+        JLabel labelCount = new JLabel("<html>3.4 --All about Editing Sql Files--<br/>In Insight there are two available ways is order to open an Sql File to edit. The first way"
+        		+ " is throught the small list at the very right of the<br/> Insight which you can right click in any of the Sql file and click the Edit option. The second way to"
+        		+ " accomplish this is by clicking the pencil<br/> icon or typing the combination Ctrl + e at the keyboard again the list of Sql Files will be shown and by right clicking"
+        		+ " the selected file will be<br/> opened up in the Insight Editor.</html>");
         labelCount.setBounds(0,280,900,90);
         panel5.add(labelCount);
         
-        JLabel labelSizeFontColor = new JLabel("<html>2.2 --All about Size Box, Font Box and Color Box<br/>Those three selection boxes are"
-        		+ " responsible of changing the size of the letters of the editor,the font style<br/> and lastly the color of the text."
-        		+ "To use the size box you just press the little arrow on top of it and you select the size.<br/>Then all the contents of the editor"
-        		+ "are adjusted to the chosen size.Second, same as before in order to change the<br/> style of the text you just choose the desirable style text"
-        		+ "and automatically all the contents of the editor<br> are adjusted to the selected style.Lastly, in order to use the color box you must"
-        		+ "first select the desired data that<br/> you want to change color and then you choose the desirable color. </html>");
-        labelSizeFontColor.setBounds(0,370,900,140);
-        panel5.add(labelSizeFontColor);
-        // -----------------------------------------------------------------------------------------------
-        JComponent panel7 = GFactory2.createPanelServiceComplete(4);
-        panel7.setLayout(null);
-        tabbedPane.addTab("User Manual Pt.4", icon, panel7,"This tab contains the user manual of the application.");
-        tabbedPane.setMnemonicAt(3, KeyEvent.VK_4);
-        
-        JLabel labelText4 = new JLabel("User Manual -- All About SK Editor Function and More");
-        labelText4.setHorizontalAlignment(JLabel.CENTER);
-        labelText4.setVerticalAlignment(JLabel.CENTER);
-        labelText4.setBounds(0, 0, 900, 28);
-        panel7.add(labelText4);
-        
-        JLabel labelExit = new JLabel("<html>2.3 --All about exit icon--<br/>This icon to the far right of the software offers a shortcut to exit"
-        		+ " for the editor.Of course a confirmation window<br/> will pop up for safety.After you select yes to exit your file is saved "
-        		+ " automatically.</html>");
-        labelExit.setBounds(0, 35, 900, 80);
-        panel7.add(labelExit);
-        
-        JLabel labelSideBar = new JLabel("<html>2.4 --All about Side Vertical Bar Tools--<br/>The side vertical bar possess some useful tools"
-        		+ " of functions such as print file,make bold text and convert to pdf.In<br/>order to use these three tools you must do the "
-        		+ " following:<br/>1)Print File: This tool prints to physical print the entire file.In order to print your file you only have to"
-        		+ " choose the<br/> print icon and then set your preferences about the print and that's it.<br/>2)Make Bold Text: This tool"
-        		+ " is capable of making the selected text bold text.In order to activate you select some data<br/> for the file and then click the"
-        		+ " Make Bold Icon.<br/>3)Convert To Pdf: This tool can be used to convert your current file to pdf file.Keep in mind that only"
-        		+ " txt files and<br/>odt files can be converted to pdf not tex files.</html>");
-        labelSideBar.setBounds(0, 115, 900, 140);
-        panel7.add(labelSideBar);
                 
         // -----------------------------------------------------------------------------------------------
         JComponent panel8 = GFactory2.createPanelServiceComplete(7);
         panel8.setLayout(null);
-        tabbedPane.addTab("User Manual Pt.5 - Find Function", icon, panel8,"This tab contains the user manual of the application.");
-        tabbedPane.setMnemonicAt(4, KeyEvent.VK_5);
+        tabbedPane.addTab("User Manual Pt.4 - Find Function", icon, panel8,"This tab contains the user manual of the application.");
+        tabbedPane.setMnemonicAt(3, KeyEvent.VK_4);
         
         JLabel labelText8 = new JLabel("User Manual -- All About SK Editor Function and More");
         labelText8.setHorizontalAlignment(JLabel.CENTER);
@@ -188,36 +154,36 @@ public class ServiceMenuWindowCreator {
         labelText8.setBounds(0, 0, 900, 28);
         panel8.add(labelText8);
         
-        JLabel labelFindFunction = new JLabel("<html>2.5 --All about basic Find Function--<br/>This function is triggered by the blue find button"
-        		+ ".In order to find anything you desire you must first type the<br/> keyword in the first text field and then press the find button"
-        		+ " in order to initiate the find function. You must also<br/> select the scope or the direction in order to search your file.</html>");
+        JLabel labelFindFunction = new JLabel("<html>4.1 --Basic Find Function--<br/>This function is triggered by the blue find button"
+        		+ ".In order to find anything you desire you must first type the keyword in the first text field<br/> and then press the find button"
+        		+ " in order to initiate the find function. You must also select the scope or the direction in order to search your<br/> file.</html>");
         labelFindFunction.setBounds(0, 35, 900, 95);
         panel8.add(labelFindFunction);
         
-        JLabel optionsList = new JLabel("<html>2.6 --All about Find Options Choises--<br/>Below there is a list with all the options about the find"
-        		+ " function:<br/>1) Scope -> All: If you select this option the find function will search the whole file for the typed keyword.<br>"
-        		+ "2)Direction -> Forward: If you select this option the find function will search your file from the middle of the <br>contents all the way to the end.<br/>"
-        		+ "3)Direction -> Backward:  If you select this option the find function will search your file from the start of the <br/>contents until the middle of the file.<br/"
-        		+ "4)Options -> Whole Word: This option can be selected at anytime and the find function will search the whole file<br/> for the keyword as a whole word and not part of another word or phrase.<br/>"
-        		+ "5)Options -> Case Sensitive: This option provides to search the keyword amongst both uppercase and lowercase<br/> options.</html>");
+        JLabel optionsList = new JLabel("<html>4.2 --Find Options Choises--<br/>Below there is a list with all the options about the find"
+        		+ " function:<br/>1)<u>Scope -> All:</u> If you select this option the find function will search the whole file for the typed keyword.<br>"
+        		+ "2)<u>Direction -> Forward:</u> If you select this option the find function will search your file from the middle of the contents all the way to the end.<br/>"
+        		+ "3)<u>Direction -> Backward:</u>  If you select this option the find function will search your file from the start until the middle of the file.<br/>"
+        		+ "4)<u>Options -> Whole Word:</u> This option can be selected at anytime and the find function will search the whole file for the keyword as whole<br/> word and not part of another word or phrase.<br/>"
+        		+ "5)<u>Options -> Case Sensitive:</u> This option provides to search the keyword amongst both uppercase and lowercase options.</html>");
         optionsList.setBounds(0,130,900,160);
         panel8.add(optionsList);
         
-        JLabel functionsList = new JLabel("<html>2.7 --All about Replace and Delete Functions--<br>"
+        JLabel functionsList = new JLabel("<html>4.3 --Replace and Delete Functions--<br>"
         		+ "After you typed and searched for a keyword you can do the following actions with it:<br/>"
-        		+ "1) Replace: This function allows to replace one finding of the keyword at a time with the"
-        		+ " typed keyword that in the<br/> Replace With textfield.<br/>"
-        		+ "2) Replace All: This function allows to replace all the findings of the keyword at once with"
-        		+ " the typed keyword in the<br/> Replace With text field.<br/>"
-        		+ "3) Delete All: This function allow to delete All the findings of the keyword at once of the entire file"
-        		+ ".<br/> Saving your file before Delete All is encouraged.</html>");
+        		+ "1)<u>Replace:</u> This function allows to replace one finding of the keyword at a time with the"
+        		+ " typed keyword that in the Replace With textfield.<br/>"
+        		+ "2)<u>Replace All:</u> This function allows to replace all the findings of the keyword at once with"
+        		+ " the typed keyword in the Replace With text field.<br/>"
+        		+ "3)<u>Delete All:</u> This function allow to delete All the findings of the keyword at once of the entire file"
+        		+ " .Saving your file before Delete All is<br/> encouraged.</html>");
         functionsList.setBounds(0, 290, 900, 200);
         panel8.add(functionsList);
         
         // -----------------------------------------------------------------------------------------------
         JComponent panel3 = GFactory2.createPanelServiceComplete(6);
         tabbedPane.addTab("App Info", icon2, panel3,"This tab contains information about the application.");
-        tabbedPane.setMnemonicAt(5, KeyEvent.VK_6);
+        tabbedPane.setMnemonicAt(4, KeyEvent.VK_5);
         
         BufferedImage image3;
 		try {
@@ -248,7 +214,7 @@ public class ServiceMenuWindowCreator {
         JComponent panel6 = GFactory2.createPanelServiceComplete(5);
         panel2.setLayout(null);
         tabbedPane.addTab("Keyboard Shortcuts", icon4, panel6,"This tab contains the keyboard shortcuts of the Insight.");
-        tabbedPane.setMnemonicAt(6, KeyEvent.VK_7);
+        tabbedPane.setMnemonicAt(5, KeyEvent.VK_6);
         
         JLabel labelText5 = new JLabel("Keyboard Shortcuts -- All About Insight Application and More");
         labelText5.setHorizontalAlignment(JLabel.CENTER);
