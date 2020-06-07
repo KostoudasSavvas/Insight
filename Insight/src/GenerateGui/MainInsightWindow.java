@@ -90,7 +90,7 @@ public class MainInsightWindow{
 		mntmNewMenuItem_5.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0));
 		mnNewMenu_5.add(mntmNewMenuItem_5);
 		
-		menuBar.add(Box.createHorizontalStrut(630)); // necessary gap in order the app icon to be at the end of the menu bar
+		menuBar.add(Box.createHorizontalStrut(580)); // necessary gap in order the app icon to be at the end of the menu bar
 		
 		JMenu mnNewMenu_7 = new JMenu("");
 		guiFactory.setImage(mnNewMenu_7, "/32x32.png");
