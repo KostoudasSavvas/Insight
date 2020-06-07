@@ -16,12 +16,13 @@ import GenerateGui.EditWindow;
 import GenerateGui.FindFunctionInsight;
 import GenerateGui.MainEditorWindow;
 import HardDriveManager.FileLoaderController;
+import groupBy.GroupByFileHandler;
 import groupBy.GroupErrorHandler;
 
 
 public class EventHandlerInsight implements ActionListener{
 	private JFrame InsightWindow;
-	private JMenuItem btnPrint,btnFind,groupError,groupFile,btnEdit;
+	private JMenuItem btnPrint,btnFind,groupError,groupFile,btnEdit,btnRestore;
 	private JList<String> schemaList;
 	private JTextPane mainTextArea,secondaryTextArea;
 	private String openDocPath="";
@@ -29,7 +30,7 @@ public class EventHandlerInsight implements ActionListener{
 	private int number;
 	private HashMap<Integer,String> schemaNames;  // this hashMap contains the names of the sql files in the schema
 	
-	public EventHandlerInsight(JFrame InsightWindow,int number,JMenuItem btnPrint,JTextPane mainTArea,JTextPane secondaryArea,JList<String> schemaList,JMenuItem btnFind,JMenuItem groupError,JMenuItem groupFile,JMenuItem btnEdit){
+	public EventHandlerInsight(JFrame InsightWindow,int number,JMenuItem btnPrint,JTextPane mainTArea,JTextPane secondaryArea,JList<String> schemaList,JMenuItem btnFind,JMenuItem groupError,JMenuItem groupFile,JMenuItem btnEdit,JMenuItem btnRestore){
 		this.InsightWindow = InsightWindow;
 		this.btnPrint = btnPrint;
 		this.mainTextArea = mainTArea;
@@ -40,6 +41,7 @@ public class EventHandlerInsight implements ActionListener{
 		this.groupFile = groupFile;
 		this.number = number;
 		this.btnEdit = btnEdit;
+		this.btnRestore = btnRestore;
 	}
 	
 	public void actionPerformed(ActionEvent e) {
@@ -170,10 +172,18 @@ public class EventHandlerInsight implements ActionListener{
 			// group by file
 			groupFile.addActionListener(new ActionListener() {				
 				public void actionPerformed(ActionEvent e) {
-					mainTextArea.setText(initialVersion);
+					GroupByFileHandler errorFileHandle = new GroupByFileHandler();
+					errorFileHandle.handleGroupError(mainTextArea);
 				}
 			});
 			
+			
+			// restore initial log file contents to text panel
+			btnRestore.addActionListener(new ActionListener() {				
+				public void actionPerformed(ActionEvent e) {
+					mainTextArea.setText(initialVersion);
+				}
+			});
 			
 			
 			// printing the main text pane
@@ -195,7 +205,7 @@ public class EventHandlerInsight implements ActionListener{
 			});
 			
 			
-			
+			// finding action
 			btnFind.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
 					FindFunctionInsight ffw = new FindFunctionInsight(mainTextArea);

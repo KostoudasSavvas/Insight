@@ -82,6 +82,10 @@ public class MainInsightWindow{
 		mntmNewMenuItem_4.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_P, InputEvent.CTRL_MASK));
 		mnNewMenu_4.add(mntmNewMenuItem_4);
 		
+		JMenuItem mntmNewMenuItem_8 = new JMenuItem("Restore Initial Log File Contents");
+		mntmNewMenuItem_8.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_R, InputEvent.CTRL_MASK));
+		mnNewMenu_1.add(mntmNewMenuItem_8);
+		
 		JMenu mnNewMenu_5 = new JMenu("");
 		guiFactory.setImage(mnNewMenu_5, "/exit.png");
 		menuBar.add(mnNewMenu_5);
@@ -155,18 +159,18 @@ public class MainInsightWindow{
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		eventListenerGenerate(InsightWindow,mntmNewMenuItem_5,mntmNewMenuItem,mntmNewMenuItem_4,textPane,textPane_1,list,mntmNewMenuItem_3,mntmNewMenuItem_1,mntmNewMenuItem_2,mntmNewMenuItem_6,mnNewMenu_8);
+		eventListenerGenerate(InsightWindow,mntmNewMenuItem_5,mntmNewMenuItem,mntmNewMenuItem_4,textPane,textPane_1,list,mntmNewMenuItem_3,mntmNewMenuItem_1,mntmNewMenuItem_2,mntmNewMenuItem_6,mnNewMenu_8,mntmNewMenuItem_8);
 		makeVisible();
 	}
 	
 	
-	public static void eventListenerGenerate(JFrame InsightWindow,JMenuItem btnCancel,JMenuItem btnLoad,JMenuItem btnPrint,JTextPane mainTArea,JTextPane secondaryArea,JList<String> schemaList,JMenuItem btnFind,JMenuItem groupError,JMenuItem groupFile,JMenuItem btnEdit,JMenu serviceMenu){
+	public static void eventListenerGenerate(JFrame InsightWindow,JMenuItem btnCancel,JMenuItem btnLoad,JMenuItem btnPrint,JTextPane mainTArea,JTextPane secondaryArea,JList<String> schemaList,JMenuItem btnFind,JMenuItem groupError,JMenuItem groupFile,JMenuItem btnEdit,JMenu serviceMenu,JMenuItem restoreItem){
 		int k = 1;     // integer for the event Handling
 		
-		EventHandlerInsight eventHN1 = new EventHandlerInsight(InsightWindow,k,btnPrint,mainTArea,secondaryArea,schemaList,btnFind,groupError,groupFile,btnEdit); //handling for the button load document
+		EventHandlerInsight eventHN1 = new EventHandlerInsight(InsightWindow,k,btnPrint,mainTArea,secondaryArea,schemaList,btnFind,groupError,groupFile,btnEdit,restoreItem); //handling for the button load document
 		btnLoad.addActionListener(eventHN1);
 		
-		EventHandlerInsight eventHN2 = new EventHandlerInsight(InsightWindow,(k+1),btnPrint,mainTArea,secondaryArea,schemaList,btnFind,groupError,groupFile,btnEdit); // handling for the button cancel
+		EventHandlerInsight eventHN2 = new EventHandlerInsight(InsightWindow,(k+1),btnPrint,mainTArea,secondaryArea,schemaList,btnFind,groupError,groupFile,btnEdit,restoreItem); // handling for the button cancel
 		btnCancel.addActionListener(eventHN2);
 		
 		
