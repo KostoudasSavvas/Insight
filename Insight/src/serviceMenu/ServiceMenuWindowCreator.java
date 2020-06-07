@@ -135,7 +135,7 @@ public class ServiceMenuWindowCreator {
         panel5.add(labelLanguage);
         
         JLabel labelCount = new JLabel("<html>3.4 --All about Editing Sql Files--<br/>In Insight there are two available ways is order to open an Sql File to edit. The first way"
-        		+ " is throught the small list at the very right of the<br/> Insight which you can right click in any of the Sql file and click the Edit option. The second way to"
+        		+ " is through the small list at the very right of the<br/> Insight which you can right click in any of the Sql file and click the Edit option. The second way to"
         		+ " accomplish this is by clicking the pencil<br/> icon or typing the combination Ctrl + e at the keyboard again the list of Sql Files will be shown and by right clicking"
         		+ " the selected file will be<br/> opened up in the Insight Editor.</html>");
         labelCount.setBounds(0,280,900,90);

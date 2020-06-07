@@ -1,6 +1,4 @@
 
-Schema Folder: C:\Users\savaf\Documents\SCHEMA_EVO_2019\HaliteChallenge__Halite-II
-
 File: 1499261826.sql Line: 62 Error: The keyword 'NOT' is invalid. Keyword: 'NOT',[minor]
 File: 1499261826.sql Line: 62 Error: The keyword 'NOT' is invalid. Keyword: 'NOT',[minor]
 File: 1507107532.sql Line: 1 Error: The keyword '0' is invalid. Keyword: '0',[minor]

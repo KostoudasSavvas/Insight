@@ -1,6 +1,7 @@
 package HardDriveManager;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -28,30 +29,31 @@ public class FileLoaderController {
 		openFileChooser.setDialogTitle("Please select the log file.");
 		
 		if(openFileChooser.showOpenDialog(null) == JFileChooser.APPROVE_OPTION) {
-			 openDocPath = openFileChooser.getSelectedFile().toString();
-			   	FileReader reader = null;
-				try {
-					reader = new FileReader(openDocPath);
-				} catch (FileNotFoundException e1) {
-					e1.printStackTrace();
-				}
-			    BufferedReader br = new BufferedReader(reader);
-			    DocName =  openFileChooser.getSelectedFile().toString();
-			  
-			    try {
-					textArea.read(br, null);
-				} catch (IOException e1) {
-					
-					e1.printStackTrace();
-				}
-			    
-			    try {
-					br.close();
-				} catch (IOException e1) {
-					e1.printStackTrace();
-				}
-			    textArea.requestFocus();
-			    JOptionPane.showMessageDialog(null, openDocPath, "Directory of chosen log file", JOptionPane.INFORMATION_MESSAGE);
+			openDocPath = openFileChooser.getSelectedFile().toString();
+		   	FileReader reader = null;
+			try {
+				reader = new FileReader(openDocPath);
+			} catch (FileNotFoundException e1) {
+				e1.printStackTrace();
+			}
+		    BufferedReader br = new BufferedReader(reader);
+		    File fileParent = new File(openFileChooser.getSelectedFile().getParent().toString()).getParentFile(); 
+		    DocName =  fileParent.getAbsolutePath();
+		  
+		    try {
+				textArea.read(br, null);
+			} catch (IOException e1) {
+				
+				e1.printStackTrace();
+			}
+		    
+		    try {
+				br.close();
+			} catch (IOException e1) {
+				e1.printStackTrace();
+			}
+		    textArea.requestFocus();
+		    JOptionPane.showMessageDialog(null, openDocPath, "Directory of chosen log file", JOptionPane.INFORMATION_MESSAGE);
 			    
 		}
 		

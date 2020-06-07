@@ -1,6 +1,4 @@
 
-Schema Folder: C:\Users\savaf\Documents\SCHEMA_EVO_2019\etsy__mixer
-
 File: 1442436596.sql Line: 29 Error: The keyword 'KEY_BLOCK_SIZE' is not valid. Perhaps you meant 'KEY_BSIZE' instead. [major] Keyword: 'KEY_BLOCK_SIZE'
 File: 1442436596.sql Line: 48 Error: The keyword 'KEY_BLOCK_SIZE' is not valid. Perhaps you meant 'KEY_BSIZE' instead. [major] Keyword: 'KEY_BLOCK_SIZE'
 File: 1442436596.sql Line: 70 Error: The keyword 'KEY_BLOCK_SIZE' is not valid. Perhaps you meant 'KEY_BSIZE' instead. [major] Keyword: 'KEY_BLOCK_SIZE'

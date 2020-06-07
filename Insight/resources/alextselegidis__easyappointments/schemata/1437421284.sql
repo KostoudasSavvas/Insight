@@ -12,7 +12,6 @@
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
-
 CREATE TABLE IF NOT EXISTS `ea_appointments` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `book_datetime` datetime DEFAULT NULL,
@@ -162,5 +161,4 @@ INSERT INTO `ea_roles` (`id`, `name`, `slug`, `is_admin`, `appointments`, `custo
 (4, 'Secretary', 'secretary', 0, 15, 15, 0, 0, 0, 15);
 
 INSERT INTO `ea_settings` (`name`, `value`) VALUES
-('company_working_plan', '{"monday":{"start":"09:00","end":"18:00","breaks":[{"start":"11:20","end":"11:30"},{"start":"14:30","end":"15:00"}]},"tuesday":{"start":"09:00","end":"18:00","breaks":[{"start":"11:20","end":"11:30"},{"start":"14:30","end":"15:00"}]},"wednesday":{"start":"09:00","end":"18:00","breaks":[{"start":"11:20","end":"11:30"},{"start":"14:30","end":"15:00"}]},"thursday":{"start":"09:00","end":"18:00","breaks":[{"start":"11:20","end":"11:30"},{"start":"14:30","end":"15:00"}]},"friday":{"start":"09:00","end":"18:00","breaks":[{"start":"11:20","end":"11:30"},{"start":"14:30","end":"15:00"}]},"saturday":{"start":"09:00","end":"18:00","breaks":[{"start":"11:20","end":"11:30"},{"start":"14:30","end":"15:00"}]},"sunday":{"start":"09:00","end":"18:00","breaks":[{"start":"11:20","end":"11:30"},{"start":"14:30","end":"15:00"}]}}'),
-('book_advance_timeout', '30');
+('company_working_plan', '{"monday":{"start":"09:00","end":"18:00","breaks":

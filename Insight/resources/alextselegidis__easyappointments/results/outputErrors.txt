@@ -1,6 +1,4 @@
 
-Schema Folder: C:\Users\savaf\Documents\SCHEMA_EVO_2019\alextselegidis__easyappointments
-
 File: 1382108172.sql Line: 189 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
 File: 1382108172.sql Line: 190 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
 File: 1382108172.sql Line: 197 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
@@ -44,21 +42,21 @@ File: 1437421284.sql Line: 130 Error: SQL ALTER command does not accept multiple
 File: 1437421284.sql Line: 136 Error: SQL ALTER command does not accept multiple ADD CONSTRAINT commands. [major] 
 File: 1437421284.sql Line: 145 Error: SQL ALTER command does not accept multiple ADD CONSTRAINT commands. [major] 
 File: 1451742424.sql Line: 14 Error: The keyword 'axaxaxaxax' is invalid. Keyword: 'axaxaxaxax',[minor]
-File: 1451742424.sql Line: 136 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
 File: 1451742424.sql Line: 137 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
-File: 1451742424.sql Line: 142 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
-File: 1451742424.sql Line: 151 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
-File: 1451742424.sql Line: 135 Error: SQL ALTER command does not accept multiple ADD CONSTRAINT commands. [major] 
-File: 1451742424.sql Line: 141 Error: SQL ALTER command does not accept multiple ADD CONSTRAINT commands. [major] 
-File: 1451742424.sql Line: 150 Error: SQL ALTER command does not accept multiple ADD CONSTRAINT commands. [major] 
+File: 1451742424.sql Line: 138 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1451742424.sql Line: 143 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1451742424.sql Line: 152 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1451742424.sql Line: 136 Error: SQL ALTER command does not accept multiple ADD CONSTRAINT commands. [major] 
+File: 1451742424.sql Line: 142 Error: SQL ALTER command does not accept multiple ADD CONSTRAINT commands. [major] 
+File: 1451742424.sql Line: 151 Error: SQL ALTER command does not accept multiple ADD CONSTRAINT commands. [major] 
 File: 1451742424.sql Line: 14 Error: The keyword 'axaxaxaxax' is invalid. Keyword: 'axaxaxaxax',[minor]
-File: 1451742424.sql Line: 136 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
 File: 1451742424.sql Line: 137 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
-File: 1451742424.sql Line: 142 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
-File: 1451742424.sql Line: 151 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
-File: 1451742424.sql Line: 135 Error: SQL ALTER command does not accept multiple ADD CONSTRAINT commands. [major] 
-File: 1451742424.sql Line: 141 Error: SQL ALTER command does not accept multiple ADD CONSTRAINT commands. [major] 
-File: 1451742424.sql Line: 150 Error: SQL ALTER command does not accept multiple ADD CONSTRAINT commands. [major] 
+File: 1451742424.sql Line: 138 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1451742424.sql Line: 143 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1451742424.sql Line: 152 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1451742424.sql Line: 136 Error: SQL ALTER command does not accept multiple ADD CONSTRAINT commands. [major] 
+File: 1451742424.sql Line: 142 Error: SQL ALTER command does not accept multiple ADD CONSTRAINT commands. [major] 
+File: 1451742424.sql Line: 151 Error: SQL ALTER command does not accept multiple ADD CONSTRAINT commands. [major] 
 File: 1451946532.sql Line: 119 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
 File: 1451946532.sql Line: 120 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
 File: 1451946532.sql Line: 125 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','

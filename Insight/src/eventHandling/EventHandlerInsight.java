@@ -27,7 +27,6 @@ public class EventHandlerInsight implements ActionListener{
 	private String openDocPath="";
 	private static String initialVersion = "";    // the contents of the log file that first gets loaded
 	private int number;
-	private String schemaPath = "";
 	private HashMap<Integer,String> schemaNames;  // this hashMap contains the names of the sql files in the schema
 	
 	public EventHandlerInsight(JFrame InsightWindow,int number,JMenuItem btnPrint,JTextPane mainTArea,JTextPane secondaryArea,JList<String> schemaList,JMenuItem btnFind,JMenuItem groupError,JMenuItem groupFile,JMenuItem btnEdit){
@@ -66,16 +65,11 @@ public class EventHandlerInsight implements ActionListener{
 			ArrayList<String> minorContents = new ArrayList<String>();
 			minorContents = ldFile.getMinorContents();
 			
+			
 			try {
 				while( (line = bufReader.readLine()) != null )
 				{
-					int schemaFolderIndex = line.indexOf("Schema Folder: ");
-					String uselessString = "Schema Folder: ";
-					if (schemaFolderIndex != -1) {
-						schemaPath = line.substring(schemaFolderIndex + uselessString.length(),line.length());
-					}
-					
-					
+						
 					int fileIndex  = line.indexOf("File:");
 					int lineIndex  = line.indexOf("Line:");
 					
@@ -146,7 +140,7 @@ public class EventHandlerInsight implements ActionListener{
 	                	 // if this gets selected then the editor opens up with the selected file loaded
 	                	 btnEditItem.addActionListener(new ActionListener() {
 							public void actionPerformed(ActionEvent e) {
-			                	 MainEditorWindow editor = new MainEditorWindow(selected,schemaPath);
+			                	 MainEditorWindow editor = new MainEditorWindow(selected,openDocPath);
 							}
 						});
 	                }
@@ -157,7 +151,7 @@ public class EventHandlerInsight implements ActionListener{
 	        // handle edit button by showing list with the schema files
 			btnEdit.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
-					EditWindow editWindow = new EditWindow(schemaNames,schemaPath);
+					EditWindow editWindow = new EditWindow(schemaNames,openDocPath);
 					editWindow.makeVisible();
 				}
 			});

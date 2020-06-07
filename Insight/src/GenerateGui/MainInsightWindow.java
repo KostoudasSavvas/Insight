@@ -110,6 +110,7 @@ public class MainInsightWindow{
 		
 		JTextPane textPane = new JTextPane();
 		textPane.setFont(new Font("MS UI Gothic", Font.BOLD, 15));
+		textPane.setToolTipText("This text panel will show the major errors that Hecate Found");
 		scrollPane.setViewportView(textPane);
 		textPane.setEditable(false);
 		
