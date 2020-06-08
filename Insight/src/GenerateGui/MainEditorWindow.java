@@ -6,6 +6,8 @@ import eventHandling.SpellCheckInitializer;
 import java.awt.BorderLayout;
 import java.awt.event.KeyEvent;
 import java.awt.Color;
+import java.awt.Font;
+
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import javax.swing.text.Element;
@@ -67,6 +69,7 @@ public class MainEditorWindow{
 		
 		// -------------- the text area of the editor
 		JTextPane textArea = GFactory4.createArea(panel);
+		textArea.setFont(new Font("MS UI Gothic",Font.BOLD, 15));
 		textArea.setText("");
 		JScrollPane scroll = new JScrollPane(textArea);
 		EditorWindow.add(scroll,BorderLayout.CENTER);
@@ -74,6 +77,7 @@ public class MainEditorWindow{
 		 
 		/* Set up line numbers */
 		JTextArea linesArea = new JTextArea("1");
+		linesArea.setFont(new Font("MS UI Gothic", Font.BOLD, 15));
 		linesArea.setBackground(Color.BLUE);
 		linesArea.setForeground(Color.WHITE);
 		linesArea.setEditable(false);
