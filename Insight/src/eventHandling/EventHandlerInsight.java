@@ -18,6 +18,7 @@ import GenerateGui.MainEditorWindow;
 import HardDriveManager.FileLoaderController;
 import groupBy.GroupByFileHandler;
 import groupBy.GroupErrorHandler;
+import groupBy.GroupFactory;
 
 
 public class EventHandlerInsight implements ActionListener{
@@ -57,9 +58,10 @@ public class EventHandlerInsight implements ActionListener{
 			schemaNames = new HashMap<Integer, String>();
 			FileLoaderController ldFile = new FileLoaderController();
 			
-			// necessary objects for grouping
-			GroupByFileHandler groupByFileHandler = new  GroupByFileHandler();
-			GroupErrorHandler groupErrorHandler = new GroupErrorHandler(); 
+			// necessary object for creating grouping handlers
+			GroupFactory groupFactory = new GroupFactory();
+			GroupByFileHandler groupByFileHandler = (GroupByFileHandler) groupFactory.createGroupHandlers("File");
+			GroupErrorHandler groupErrorHandler =  (GroupErrorHandler) groupFactory.createGroupHandlers("Error");
 			
 			mainTextArea.setText(ldFile.load());
 			openDocPath = ldFile.getName();  // this variable contains the path of the chosen log file
