@@ -8,15 +8,15 @@ import javax.swing.JTextPane;
 import javax.swing.text.StyledDocument;
 
 
-public class GroupErrorHandler {
+public class GroupErrorHandler implements GroupBy{
 
 	
 	// this method groups the error in the same file together
-	public void handleGroupError(JTextPane textArea) {
+	public ArrayList<String> handleGroupError(String textArea) {
 		
 		
-		BufferedReader bufReader = new BufferedReader(new StringReader(textArea.getText()));
-		BufferedReader bufReader2 = new BufferedReader(new StringReader(textArea.getText()));
+		BufferedReader bufReader = new BufferedReader(new StringReader(textArea));
+		BufferedReader bufReader2 = new BufferedReader(new StringReader(textArea));
 
 		String line,line2;
 		int errorWordIndex = -1;
@@ -30,14 +30,6 @@ public class GroupErrorHandler {
 		try {
 			while( (line = bufReader.readLine()) != null ){
 				errorWordIndex = line.indexOf("Error: ");
-				
-				
-				int schemaFolderIndex = line.indexOf("Schema Folder: ");
-				if (schemaFolderIndex != -1) {
-					finalTextAreaContents.add(line.substring(schemaFolderIndex));
-					finalTextAreaContents.add("\n");
-				}
-				
 				
 				if (errorWordIndex != -1) {
 					lineIndex = line.indexOf("Line:");
@@ -64,9 +56,11 @@ public class GroupErrorHandler {
 					
 					if (errorMatches.size() > 1) {
 						String allLines = "";
+						int indexLine = -1,indexError = -1;
+						
 						for (String match : errorMatches.keySet()) {
-							int indexLine = match.indexOf("Line: ");
-							int indexError = match.indexOf("Error: ");
+							indexLine = match.indexOf("Line: ");
+							indexError = match.indexOf("Error: ");
 							allLines += match.substring(indexLine + "Line: ".length(),indexError)+",";
 						}
 						StringBuilder builder = new StringBuilder(allLines);
@@ -80,7 +74,7 @@ public class GroupErrorHandler {
 					errorCount = 0;	
 					
 					// reset the buffer to start of String contents
-					bufReader2 = new BufferedReader(new StringReader(textArea.getText()));
+					bufReader2 = new BufferedReader(new StringReader(textArea));
 				}
 				
 			}
@@ -88,11 +82,17 @@ public class GroupErrorHandler {
 			e.printStackTrace();
 		}
 		
+		return finalTextAreaContents;
+	}
+	
+	
+	public void writeGroupOutput(JTextPane textArea, ArrayList<String> groupLines) {
+		
 		// now setting the gathered text into the main text panel
 		textArea.setText("");
 		StyledDocument styledDoc = textArea.getStyledDocument();
 		
-		for (String groupLine : finalTextAreaContents) {
+		for (String groupLine : groupLines) {
 			try {
 				styledDoc.insertString(styledDoc.getLength(),groupLine + "\n\n", null);
 			}catch (Exception ex) {
@@ -100,4 +100,6 @@ public class GroupErrorHandler {
 			}
 		}	
 	}
+	
+	
 }

@@ -56,6 +56,11 @@ public class EventHandlerInsight implements ActionListener{
 			// -------------------------------------------------------------------------------------------------------------------------------- this code loads the file
 			schemaNames = new HashMap<Integer, String>();
 			FileLoaderController ldFile = new FileLoaderController();
+			
+			// necessary objects for grouping
+			GroupByFileHandler groupByFileHandler = new  GroupByFileHandler();
+			GroupErrorHandler groupErrorHandler = new GroupErrorHandler(); 
+			
 			mainTextArea.setText(ldFile.load());
 			openDocPath = ldFile.getName();  // this variable contains the path of the chosen log file
 			initialVersion = mainTextArea.getText();   // contents of initial version after load
@@ -164,16 +169,14 @@ public class EventHandlerInsight implements ActionListener{
 			// grouping by Error
 			groupError.addActionListener(new ActionListener() {				
 				public void actionPerformed(ActionEvent e) {
-					GroupErrorHandler errorHandle = new GroupErrorHandler();
-					errorHandle.handleGroupError(mainTextArea);
+					groupErrorHandler.writeGroupOutput(mainTextArea, groupErrorHandler.handleGroupError(initialVersion));
 				}
 			});
 			
 			// group by file
 			groupFile.addActionListener(new ActionListener() {				
 				public void actionPerformed(ActionEvent e) {
-					GroupByFileHandler errorFileHandle = new GroupByFileHandler();
-					errorFileHandle.handleGroupError(mainTextArea);
+					groupByFileHandler.writeGroupOutput(mainTextArea, groupByFileHandler.handleGroupError(initialVersion));
 				}
 			});
 			
