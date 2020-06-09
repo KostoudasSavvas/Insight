@@ -23,7 +23,8 @@ public class GroupErrorHandler implements GroupBy{
 		int lineIndex = -1;
 		int errorCount = 0;
 		HashMap<String,Integer> errorMatches = new HashMap<String,Integer>();  // this arraylist contains the matching errors
-		HashMap<String, String> linesProcessed = new HashMap<String, String>(); 
+		HashMap<String, String> linesProcessed = new HashMap<String, String>();
+		HashMap<String, Boolean> errorCheck = new HashMap<String, Boolean>();
 		ArrayList<String> finalTextAreaContents = new ArrayList<String>();
 		
 		
@@ -53,12 +54,14 @@ public class GroupErrorHandler implements GroupBy{
 						ex.printStackTrace();
 					}
 					
+					int indexLine = -1,indexError = -1;
 					
 					if (errorMatches.size() > 1) {
 						String allLines = "";
-						int indexLine = -1,indexError = -1;
+						errorCheck.put(line, true);
 						
 						for (String match : errorMatches.keySet()) {
+							errorCheck.put(match, true);
 							indexLine = match.indexOf("Line: ");
 							indexError = match.indexOf("Error: ");
 							allLines += match.substring(indexLine + "Line: ".length(),indexError)+",";
@@ -67,7 +70,14 @@ public class GroupErrorHandler implements GroupBy{
 						builder.setCharAt(allLines.length() - 1, ' ');
 						
 						finalTextAreaContents.add("File: " + fileName + " Lines: "+ builder + " " + errorMessageString);
-					} 
+					}else { // this case catches a one time show error
+						
+						HashMap.Entry<String,Integer> entry = errorMatches.entrySet().iterator().next();
+						
+						if (!finalTextAreaContents.contains(entry.getKey()) && !errorCheck.containsKey(line)) {
+							finalTextAreaContents.add(entry.getKey());
+						}
+					}
 					
 					
 					errorMatches.clear();

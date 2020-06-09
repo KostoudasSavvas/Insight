@@ -23,7 +23,7 @@ public class GroupByFileHandler implements GroupBy {
 		int errorCount = 0;
 		HashMap<String,Integer> errorMatches = new HashMap<String,Integer>();  // this arraylist contains the matching errors
 		HashMap<String, String> linesProcessed = new HashMap<String, String>(); 
-		
+		HashMap<String, Boolean> errorCheck = new HashMap<String, Boolean>();
 		ArrayList<String> finalTextAreaContents = new ArrayList<String>();
 		
 		
@@ -57,8 +57,11 @@ public class GroupByFileHandler implements GroupBy {
 					if (errorMatches.size() > 1) {
 						String allFiles = "";
 						int indexFile= -1, indexLine = -1;
+						errorCheck.put(line, true);
+						
 						
 						for (String match : errorMatches.keySet()) {
+							errorCheck.put(match, true);
 							indexFile = match.indexOf("File: ");
 							indexLine = match.indexOf("Line: ");
 							
@@ -71,8 +74,16 @@ public class GroupByFileHandler implements GroupBy {
 						StringBuilder builder = new StringBuilder(allFiles);
 						builder.setCharAt(allFiles.length() - 1, ' ');							
 						finalTextAreaContents.add("Files: " + builder +  " " + "Error: " + errorMessageString);
-					} 
-					
+						
+					}else { // this case catches a one time show error
+						
+						HashMap.Entry<String,Integer> entry = errorMatches.entrySet().iterator().next();
+						
+						if (!finalTextAreaContents.contains(entry.getKey()) && !errorCheck.containsKey(line)) {
+							finalTextAreaContents.add(entry.getKey());
+						}
+						
+					}
 					
 					errorMatches.clear();
 					errorCount = 0;	

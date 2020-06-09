@@ -111,7 +111,7 @@ public class ServiceMenuWindowCreator {
         tabbedPane.addTab("User Manual Pt.3", icon, panel5,"This tab contains information about the application.");
         tabbedPane.setMnemonicAt(2, KeyEvent.VK_3);
         
-        JLabel labelText3 = new JLabel("User Manual -- All About SK Editor Function and More");
+        JLabel labelText3 = new JLabel("User Manual -- All About Insight Application and More");
         labelText3.setHorizontalAlignment(JLabel.CENTER);
         labelText3.setVerticalAlignment(JLabel.CENTER);
         labelText3.setBounds(0, 0, 900, 28);
@@ -148,7 +148,7 @@ public class ServiceMenuWindowCreator {
         tabbedPane.addTab("User Manual Pt.4 - Find Function", icon, panel8,"This tab contains the user manual of the application.");
         tabbedPane.setMnemonicAt(3, KeyEvent.VK_4);
         
-        JLabel labelText8 = new JLabel("User Manual -- All About SK Editor Function and More");
+        JLabel labelText8 = new JLabel("User Manual -- All About Insight Application and More");
         labelText8.setHorizontalAlignment(JLabel.CENTER);
         labelText8.setVerticalAlignment(JLabel.CENTER);
         labelText8.setBounds(0, 0, 900, 28);
@@ -205,7 +205,7 @@ public class ServiceMenuWindowCreator {
 	     panel3.add(labelIntro2);
 	     
 	     JLabel labelCreate = new JLabel("<html><br/><br/>Insight Created By: Savvas Kostoudas<br/>"
-	     		+ "Date: 2020-6</html>");
+	     		+ "Date: 2020-5</html>");
 	     labelCreate.setBounds(0,530,900,100);
 	     panel3.add(labelCreate);
         
