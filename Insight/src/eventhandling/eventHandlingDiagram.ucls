@@ -64,8 +64,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="8" language="java" name="GenerateGui.MainInsightWindow" project="Insight" 
-    file="/Insight/src/GenerateGui/MainInsightWindow.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="8" language="java" name="generategui.MainInsightWindow" project="Insight" 
+    file="/Insight/src/generategui/MainInsightWindow.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="524" y="132"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -73,8 +73,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="9" language="java" name="GenerateGui.MainEditorWindow" project="Insight" 
-    file="/Insight/src/GenerateGui/MainEditorWindow.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="9" language="java" name="generategui.MainEditorWindow" project="Insight" 
+    file="/Insight/src/generategui/MainEditorWindow.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1300" y="136"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
