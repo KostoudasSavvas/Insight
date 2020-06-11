@@ -16,6 +16,7 @@
     <position height="-1" width="-1" x="732" y="369"/>    
     <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
+<<<<<<< HEAD
   <package id="4" language="java" name="generategui" project="Insight" file="/Insight/src/generategui" binary="false" 
     corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="781" y="111"/>    
@@ -49,9 +50,27 @@
   <dependency id="10">    
     <end type="SOURCE" refId="7"/>    
     <end type="TARGET" refId="6"/>  
+=======
+  <dependency id="7">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="8">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="9">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+>>>>>>> branch 'master' of https://github.com/KostoudasSavvas/Insight.git
+  </dependency>  
+  <dependency id="10">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
   </dependency>  
   <dependency id="11">    
     <end type="SOURCE" refId="1"/>    
+<<<<<<< HEAD
     <end type="TARGET" refId="7"/>  
   </dependency>  
   <dependency id="12">    
@@ -65,6 +84,13 @@
   <dependency id="14">    
     <end type="SOURCE" refId="1"/>    
     <end type="TARGET" refId="5"/>  
+=======
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="12">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+>>>>>>> branch 'master' of https://github.com/KostoudasSavvas/Insight.git
   </dependency>  
   <dependency id="15">    
     <end type="SOURCE" refId="2"/>    
