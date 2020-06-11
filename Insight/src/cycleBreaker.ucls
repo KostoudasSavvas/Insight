@@ -20,7 +20,7 @@
     </display>  
   </class>  
   <class id="3" language="java" name="guitexteditor.EditWindow" project="Insight" 
-    file="/Insight/src/guitexteditor/EditWindow.java" binary="false" corner="BOTTOM_RIGHT">    
+    file="/Insight/src/guicommon/EditWindow.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1778" y="161"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -69,17 +69,17 @@
     <end type="TARGET" refId="2"/>  
   </dependency>  
   <dependency id="9">    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="5"/>  
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
   </dependency>  
   <dependency id="10">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="3"/>  
-  </dependency>  
-  <dependency id="11">    
     <bendpoint x="2064" y="1588"/>    
     <end type="SOURCE" refId="4"/>    
     <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="11">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
   </dependency>  
   <dependency id="12">    
     <end type="SOURCE" refId="4"/>    
@@ -90,8 +90,8 @@
     <end type="TARGET" refId="6"/>  
   </dependency>  
   <dependency id="14">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="7"/>  
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
   </dependency>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
