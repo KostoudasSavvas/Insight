@@ -3,96 +3,96 @@
   realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
   <package id="1" language="java" name="eventhandling" project="Insight" file="/Insight/src/eventhandling" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="850" y="416"/>    
+    <position height="-1" width="-1" x="845" y="376"/>    
     <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
   <package id="2" language="java" name="eventhandlingedit" project="Insight" file="/Insight/src/eventhandlingedit" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="202" y="428"/>    
+    <position height="55" width="153" x="180" y="339"/>    
     <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
   <package id="3" language="java" name="findfunctionality" project="Insight" file="/Insight/src/findfunctionality" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="581" y="433"/>    
+    <position height="-1" width="-1" x="564" y="394"/>    
     <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
   <package id="4" language="java" name="generategui" project="Insight" file="/Insight/src/generategui" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="745" y="216"/>    
+    <position height="55" width="122" x="787" y="172"/>    
     <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
   <package id="5" language="java" name="groupby" project="Insight" file="/Insight/src/groupby" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="55" width="122" x="849" y="566"/>    
+    <position height="55" width="122" x="906" y="551"/>    
     <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
   <package id="6" language="java" name="guicommon" project="Insight" file="/Insight/src/guicommon" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="55" width="122" x="441" y="0"/>    
+    <position height="55" width="122" x="482" y="7"/>    
     <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
   <package id="7" language="java" name="guitexteditor" project="Insight" file="/Insight/src/guitexteditor" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="55" width="122" x="244" y="176"/>    
+    <position height="55" width="122" x="273" y="154"/>    
     <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
   <package id="8" language="java" name="harddrivemanager" project="Insight" file="/Insight/src/harddrivemanager" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="55" width="154" x="262" y="549"/>    
+    <position height="-1" width="-1" x="355" y="578"/>    
     <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
   <package id="9" language="java" name="versionmanager" project="Insight" file="/Insight/src/versionmanager" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="55" width="139" x="59" y="541"/>    
+    <position height="-1" width="-1" x="140" y="579"/>    
     <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
   <dependency id="10">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="8"/>  
-  </dependency>  
-  <dependency id="11">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="7"/>  
-  </dependency>  
-  <dependency id="12">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="7"/>  
-  </dependency>  
-  <dependency id="13">    
     <end type="SOURCE" refId="7"/>    
     <end type="TARGET" refId="2"/>  
   </dependency>  
-  <dependency id="14">    
-    <end type="SOURCE" refId="7"/>    
+  <dependency id="11">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="12">    
+    <end type="SOURCE" refId="4"/>    
     <end type="TARGET" refId="6"/>  
   </dependency>  
-  <dependency id="15">    
+  <dependency id="13">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="14">    
     <end type="SOURCE" refId="1"/>    
     <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="15">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
   </dependency>  
   <dependency id="16">    
     <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="9"/>  
   </dependency>  
   <dependency id="17">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="6"/>  
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="8"/>  
   </dependency>  
   <dependency id="18">    
     <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="1"/>  
+    <end type="TARGET" refId="7"/>  
   </dependency>  
   <dependency id="19">    
     <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="8"/>  
   </dependency>  
   <dependency id="20">    
-    <end type="SOURCE" refId="4"/>    
+    <end type="SOURCE" refId="7"/>    
     <end type="TARGET" refId="3"/>  
   </dependency>  
   <dependency id="21">    
     <end type="SOURCE" refId="7"/>    
-    <end type="TARGET" refId="3"/>  
+    <end type="TARGET" refId="6"/>  
   </dependency>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
     sort-features="false" accessors="true" visibility="true">    

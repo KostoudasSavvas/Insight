@@ -117,7 +117,7 @@ public class MainEditorWindow{
 		FindFunctionWindow ffw = new FindFunctionWindow(textArea);
 		
 		EventHandlerEditor eventHandler = new EventHandlerEditor();
-		eventHandler.handleEdit(schemaPath,fileName,EditorWindow,ffw,btnVolatileStorage,btnClear,btnRollBack,btnSave,btnCancel,textArea,linesArea,labelN,printerMenu,btnFind);		
+		eventHandler.handleEdit(schemaPath,fileName,EditorWindow,ffw.getFindWindow(),btnVolatileStorage,btnClear,btnRollBack,btnSave,btnCancel,textArea,linesArea,labelN,printerMenu,btnFind);		
 		makeVisible();
 	}
 	

@@ -1,4 +1,4 @@
-package generategui;
+package guitexteditor;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -21,8 +21,6 @@ import javax.swing.ListSelectionModel;
 import javax.swing.SwingUtilities;
 import javax.swing.border.EmptyBorder;
 import javax.swing.border.LineBorder;
-
-import guitexteditor.MainEditorWindow;
 
 public class EditWindow {
 

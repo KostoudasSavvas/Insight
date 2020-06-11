@@ -99,6 +99,10 @@ public class FindFunctionWindow{
 		});
 	}
 	
+	public JFrame getFindWindow() {
+		return findWindow;
+	}
+	
 	public void makeVisible(){
 		findWindow.setVisible(true);
 	}

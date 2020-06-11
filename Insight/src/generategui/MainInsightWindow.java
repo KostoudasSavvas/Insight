@@ -6,6 +6,7 @@ import javax.swing.border.LineBorder;
 
 import eventhandling.EventHandlerInsight;
 import guicommon.GuiFactory;
+import guitexteditor.EditWindow;
 
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
@@ -167,12 +168,12 @@ public class MainInsightWindow{
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		eventListenerGenerate(InsightWindow,ffw,edw,mntmNewMenuItem_5,mntmNewMenuItem,mntmNewMenuItem_4,textPane,textPane_1,list,mntmNewMenuItem_3,mntmNewMenuItem_1,mntmNewMenuItem_2,mntmNewMenuItem_6,mnNewMenu_8,mntmNewMenuItem_8);
+		eventListenerGenerate(InsightWindow,ffw.getFindWindow(),edw,mntmNewMenuItem_5,mntmNewMenuItem,mntmNewMenuItem_4,textPane,textPane_1,list,mntmNewMenuItem_3,mntmNewMenuItem_1,mntmNewMenuItem_2,mntmNewMenuItem_6,mnNewMenu_8,mntmNewMenuItem_8);
 		makeVisible();
 	}
 	
 	
-	public static void eventListenerGenerate(JFrame InsightWindow,FindFunctionInsight ffw,EditWindow edw,JMenuItem btnCancel,JMenuItem btnLoad,JMenuItem btnPrint,JTextPane mainTArea,JTextPane secondaryArea,JList<String> schemaList,JMenuItem btnFind,JMenuItem groupError,JMenuItem groupFile,JMenuItem btnEdit,JMenu serviceMenu,JMenuItem restoreItem){
+	public static void eventListenerGenerate(JFrame InsightWindow,JFrame ffw,EditWindow edw,JMenuItem btnCancel,JMenuItem btnLoad,JMenuItem btnPrint,JTextPane mainTArea,JTextPane secondaryArea,JList<String> schemaList,JMenuItem btnFind,JMenuItem groupError,JMenuItem groupFile,JMenuItem btnEdit,JMenu serviceMenu,JMenuItem restoreItem){
 		
 		EventHandlerInsight eventHInsight = new EventHandlerInsight();
 		eventHInsight.handleInsight(InsightWindow,ffw,edw,btnCancel,btnLoad,btnPrint,mainTArea,secondaryArea,schemaList,btnFind,groupError,groupFile,btnEdit,serviceMenu,restoreItem);

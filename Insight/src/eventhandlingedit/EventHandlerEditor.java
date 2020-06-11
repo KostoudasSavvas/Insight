@@ -14,7 +14,7 @@ import javax.swing.event.MenuEvent;
 import javax.swing.event.MenuListener;
 import javax.swing.text.Element;
 
-import guitexteditor.FindFunctionWindow;
+//import guitexteditor.FindFunctionWindow;
 import harddrivemanager.FileLoaderController;
 import versionmanager.Document;
 import versionmanager.VersionsManager;
@@ -34,7 +34,7 @@ public class EventHandlerEditor {
 	
 	
 	// this method handles all the events for the editor
-	public void handleEdit(String schemaPath,String fileName,JFrame newWindow,FindFunctionWindow ffw,JCheckBoxMenuItem checkBox1,JMenuItem buttonClear,JMenuItem buttonRol,JMenuItem buttonSave,JMenuItem btnCancel,JTextPane textArea,JTextArea linesArea,JLabel labelN,JMenu printerMenu,JMenuItem btnFind) {
+	public void handleEdit(String schemaPath,String fileName,JFrame newWindow,JFrame ffw,JCheckBoxMenuItem checkBox1,JMenuItem buttonClear,JMenuItem buttonRol,JMenuItem buttonSave,JMenuItem btnCancel,JTextPane textArea,JTextArea linesArea,JLabel labelN,JMenu printerMenu,JMenuItem btnFind) {
 		VolatileVersionsStrategy vt1 = new VolatileVersionsStrategy();
 		VersionsManager mg2 = new VersionsManager(vt1);
 		ArrayList list = new ArrayList<String>();
@@ -152,7 +152,7 @@ public class EventHandlerEditor {
 		// event Handling for find button
 		btnFind.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				ffw.makeVisible();
+				ffw.setVisible(true);
 			}
 		});
 		

@@ -12,11 +12,10 @@ import java.util.HashMap;
 import javax.swing.*;
 import javax.swing.text.StyledDocument;
 
-import generategui.EditWindow;
-import generategui.FindFunctionInsight;
 import groupby.GroupByFileHandler;
 import groupby.GroupErrorHandler;
 import groupby.GroupFactory;
+import guitexteditor.EditWindow;
 import guitexteditor.MainEditorWindow;
 import harddrivemanager.FileLoaderController;
 
@@ -29,7 +28,7 @@ public class EventHandlerInsight{
 	
 	
 	// this method handles all the events for the Insight Application
-	public void handleInsight(JFrame InsightWindow,FindFunctionInsight ffw,EditWindow edw,JMenuItem btnCancel,JMenuItem btnLoad,JMenuItem btnPrint,JTextPane mainTArea,JTextPane secondaryArea,JList<String> schemaList,JMenuItem btnFind,JMenuItem groupError,JMenuItem groupFile,JMenuItem btnEdit,JMenu serviceMenu,JMenuItem restoreItem) {
+	public void handleInsight(JFrame InsightWindow,JFrame ffw,EditWindow edw,JMenuItem btnCancel,JMenuItem btnLoad,JMenuItem btnPrint,JTextPane mainTArea,JTextPane secondaryArea,JList<String> schemaList,JMenuItem btnFind,JMenuItem groupError,JMenuItem groupFile,JMenuItem btnEdit,JMenu serviceMenu,JMenuItem restoreItem) {
 		btnLoad.addActionListener(new ActionListener() {			
 			public void actionPerformed(ActionEvent e) {
 				
@@ -195,7 +194,7 @@ public class EventHandlerInsight{
 				// finding action
 				btnFind.addActionListener(new ActionListener() {
 					public void actionPerformed(ActionEvent e) {
-						ffw.makeVisible();
+						ffw.setVisible(true);
 					}
 				});
 			}
