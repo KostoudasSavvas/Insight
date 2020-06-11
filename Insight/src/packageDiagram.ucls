@@ -3,157 +3,96 @@
   realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
   <package id="1" language="java" name="eventhandling" project="Insight" file="/Insight/src/eventhandling" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="845" y="376"/>    
+    <position height="-1" width="-1" x="813" y="385"/>    
     <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
   <package id="2" language="java" name="eventhandlingedit" project="Insight" file="/Insight/src/eventhandlingedit" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="55" width="153" x="180" y="339"/>    
+    <position height="-1" width="-1" x="223" y="372"/>    
     <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
   <package id="3" language="java" name="findfunctionality" project="Insight" file="/Insight/src/findfunctionality" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="564" y="394"/>    
+    <position height="-1" width="-1" x="515" y="379"/>    
     <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
   <package id="4" language="java" name="generategui" project="Insight" file="/Insight/src/generategui" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="55" width="122" x="787" y="172"/>    
+    <position height="55" width="122" x="739" y="190"/>    
     <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
   <package id="5" language="java" name="groupby" project="Insight" file="/Insight/src/groupby" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="55" width="122" x="906" y="551"/>    
+    <position height="55" width="122" x="845" y="534"/>    
     <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
   <package id="6" language="java" name="guicommon" project="Insight" file="/Insight/src/guicommon" binary="false" 
     corner="BOTTOM_RIGHT">    
-<<<<<<< HEAD
-    <position height="55" width="122" x="482" y="7"/>    
-=======
-    <position height="-1" width="-1" x="499" y="35"/>    
->>>>>>> branch 'master' of https://github.com/KostoudasSavvas/Insight.git
+    <position height="55" width="122" x="432" y="7"/>    
     <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
   <package id="7" language="java" name="guitexteditor" project="Insight" file="/Insight/src/guitexteditor" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="55" width="122" x="273" y="154"/>    
+    <position height="55" width="122" x="195" y="176"/>    
     <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
   <package id="8" language="java" name="harddrivemanager" project="Insight" file="/Insight/src/harddrivemanager" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="355" y="578"/>    
+    <position height="-1" width="-1" x="302" y="584"/>    
     <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
   <package id="9" language="java" name="versionmanager" project="Insight" file="/Insight/src/versionmanager" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="140" y="579"/>    
+    <position height="-1" width="-1" x="115" y="580"/>    
     <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
   <dependency id="10">    
-<<<<<<< HEAD
-    <end type="SOURCE" refId="7"/>    
-    <end type="TARGET" refId="2"/>  
-  </dependency>  
-  <dependency id="11">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="7"/>  
-  </dependency>  
-  <dependency id="12">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="6"/>  
-  </dependency>  
-  <dependency id="13">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="1"/>  
-  </dependency>  
-  <dependency id="14">    
-=======
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="7"/>  
-  </dependency>  
-  <dependency id="11">    
->>>>>>> branch 'master' of https://github.com/KostoudasSavvas/Insight.git
     <end type="SOURCE" refId="1"/>    
     <end type="TARGET" refId="5"/>  
   </dependency>  
-<<<<<<< HEAD
-  <dependency id="15">    
-    <end type="SOURCE" refId="4"/>    
+  <dependency id="11">    
+    <end type="SOURCE" refId="7"/>    
     <end type="TARGET" refId="3"/>  
   </dependency>  
-  <dependency id="16">    
-=======
   <dependency id="12">    
-    <end type="SOURCE" refId="7"/>    
-    <end type="TARGET" refId="6"/>  
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="8"/>  
   </dependency>  
   <dependency id="13">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="8"/>  
-  </dependency>  
-  <dependency id="14">    
->>>>>>> branch 'master' of https://github.com/KostoudasSavvas/Insight.git
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="9"/>  
-  </dependency>  
-  <dependency id="15">    
-    <end type="SOURCE" refId="7"/>    
-    <end type="TARGET" refId="3"/>  
-  </dependency>  
-  <dependency id="16">    
-    <end type="SOURCE" refId="7"/>    
-    <end type="TARGET" refId="2"/>  
-  </dependency>  
-  <dependency id="17">    
-<<<<<<< HEAD
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="8"/>  
-=======
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="7"/>  
->>>>>>> branch 'master' of https://github.com/KostoudasSavvas/Insight.git
-  </dependency>  
-  <dependency id="18">    
-<<<<<<< HEAD
     <end type="SOURCE" refId="4"/>    
     <end type="TARGET" refId="7"/>  
   </dependency>  
-  <dependency id="19">    
-=======
->>>>>>> branch 'master' of https://github.com/KostoudasSavvas/Insight.git
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="8"/>  
-  </dependency>  
-  <dependency id="19">    
+  <dependency id="14">    
     <end type="SOURCE" refId="4"/>    
     <end type="TARGET" refId="1"/>  
   </dependency>  
-  <dependency id="20">    
-<<<<<<< HEAD
+  <dependency id="15">    
     <end type="SOURCE" refId="7"/>    
-    <end type="TARGET" refId="3"/>  
-=======
-    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="16">    
+    <end type="SOURCE" refId="1"/>    
     <end type="TARGET" refId="7"/>  
->>>>>>> branch 'master' of https://github.com/KostoudasSavvas/Insight.git
+  </dependency>  
+  <dependency id="17">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="18">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="19">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="20">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
   </dependency>  
   <dependency id="21">    
-<<<<<<< HEAD
-    <end type="SOURCE" refId="7"/>    
-    <end type="TARGET" refId="6"/>  
-=======
     <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="4"/>  
-  </dependency>  
-  <dependency id="22">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="6"/>  
-  </dependency>  
-  <dependency id="23">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="3"/>  
->>>>>>> branch 'master' of https://github.com/KostoudasSavvas/Insight.git
+    <end type="TARGET" refId="8"/>  
   </dependency>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
