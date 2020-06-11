@@ -1,4 +1,4 @@
-package generategui;
+package guitexteditor;
 
 import java.awt.Insets;
 import java.awt.event.ActionEvent;
@@ -6,11 +6,11 @@ import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
-import com.inet.jortho.FileUserDictionary;
-import com.inet.jortho.SpellChecker;
-import com.inet.jortho.SpellCheckerOptions;
 
-import eventhandling.WordFinderHighLighter;
+import findfunctionality.WordFinder;
+import findfunctionality.WordFinderHighLighter;
+import guicommon.CustomeBorder;
+import guicommon.GuiFactory;
 
 public class FindFunctionWindow{
 	private GuiFactory GFactory;    // important Factory object in order to create the window elements
@@ -54,11 +54,9 @@ public class FindFunctionWindow{
 		buttonList.add(rdForward);buttonList.add(rdBackward);buttonList.add(rdScopeAll);
 		buttonList.add(optionsCaseSensitive);buttonList.add(optionsWholeWord);
 		//------------------------------------------------
-
-		initializeSpellCheck(textArea,textField_1,textField_2);
 		
 		panel.setLayout(null);
-		findWindow.setVisible(true);
+		//findWindow.setVisible(true);
 		eventListenerGenerate(findWindow,textArea,btnCancel,btnFind,btnReplace,btnReplaceAll,btnDeleteAll,textField_1,textField_2,buttonList);
 	}
 	
@@ -99,20 +97,6 @@ public class FindFunctionWindow{
 				finder.replaceHighlight(textArea,field,field2);
 			}
 		});
-	}
-	
-	public static void initializeSpellCheck(JTextPane textArea,JTextField textField_1,JTextField textField_2) {
-		SpellChecker.setUserDictionaryProvider(new FileUserDictionary());
-        SpellChecker.registerDictionaries(MainEditorWindow.class.getResource("/dictionary"), "en");
-        SpellChecker.register(textArea);
-        SpellChecker.register(textField_1);
-        SpellChecker.register(textField_2);
-        SpellCheckerOptions sco=new SpellCheckerOptions();
-        sco.setCaseSensitive(false);
-        sco.setSuggestionsLimitMenu(15);
-
-        JPopupMenu popup = SpellChecker.createCheckerPopup(sco);
-        textArea.setComponentPopupMenu(popup);
 	}
 	
 	public void makeVisible(){

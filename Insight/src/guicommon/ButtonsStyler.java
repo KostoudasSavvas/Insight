@@ -1,4 +1,4 @@
-package generategui;
+package guicommon;
 
 import java.awt.Dimension;
 import java.awt.Graphics;

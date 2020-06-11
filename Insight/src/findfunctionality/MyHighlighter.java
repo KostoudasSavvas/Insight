@@ -1,4 +1,4 @@
-package highlighter;
+package findfunctionality;
 
 import java.awt.Color;
 import javax.swing.text.DefaultHighlighter;

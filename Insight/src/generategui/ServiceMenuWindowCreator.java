@@ -10,6 +10,8 @@ import java.io.IOException;
 import javax.imageio.ImageIO;
 import javax.swing.*;
 
+import guicommon.GuiFactory;
+
 public class ServiceMenuWindowCreator {
 	static JFrame newWindow;
 	private GuiFactory GFactory2;  // important Factory object in order to create the window elements

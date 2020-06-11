@@ -1,12 +1,10 @@
-package eventhandling;
+package guitexteditor;
 
 import javax.swing.JPopupMenu;
 import javax.swing.JTextPane;
 import com.inet.jortho.FileUserDictionary;
 import com.inet.jortho.SpellChecker;
 import com.inet.jortho.SpellCheckerOptions;
-
-import generategui.MainEditorWindow;
 
 public class SpellCheckInitializer {
 	public void initializeSpellCheck(JTextPane textArea) {

@@ -1,9 +1,7 @@
-package generategui;
+package findfunctionality;
 
 import java.util.ArrayList;
 import javax.swing.*;
-
-import eventhandling.WordFinderHighLighter;
 public class WordFinder {
 	
 	public void find(JTextPane textArea,JTextField field,ArrayList<JRadioButton> buttonList) {

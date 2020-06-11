@@ -7,7 +7,10 @@ import java.util.ArrayList;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 
-import eventhandling.WordFinderHighLighter;
+import findfunctionality.WordFinder;
+import findfunctionality.WordFinderHighLighter;
+import guicommon.CustomeBorder;
+import guicommon.GuiFactory;
 
 public class FindFunctionInsight{
 	private GuiFactory GFactory;    // important Factory object in order to create the window elements
@@ -50,7 +53,6 @@ public class FindFunctionInsight{
 
 		
 		panel.setLayout(null);
-		findWindow.setVisible(true);
 		eventListenerGenerate(findWindow,textArea,btnCancel,btnFind,textField_1,buttonList);
 	}
 	

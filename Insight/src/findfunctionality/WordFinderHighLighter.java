@@ -1,4 +1,4 @@
-package eventhandling;
+package findfunctionality;
 
 import java.awt.Color;
 import java.util.ArrayList;
@@ -7,9 +7,6 @@ import javax.swing.JTextField;
 import javax.swing.text.Document;
 import javax.swing.text.Highlighter;
 import javax.swing.text.JTextComponent;
-
-import highlighter.MyHighlighter;
-
 import javax.swing.*;
 
 public class WordFinderHighLighter {

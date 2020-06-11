@@ -1,4 +1,4 @@
-package generategui;
+package guicommon;
 
 import java.awt.Color;
 import java.awt.Component;

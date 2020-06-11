@@ -5,12 +5,14 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.border.LineBorder;
 
 import eventhandling.EventHandlerInsight;
+import guicommon.GuiFactory;
 
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.io.IOException;
+import java.util.HashMap;
 import java.awt.Color;
 import java.awt.Font;
 
@@ -153,6 +155,10 @@ public class MainInsightWindow{
 		scrollPane_1.setViewportView(textPane_1);
 		textPane_1.setEditable(false);
 		
+		// construct the find window and the edit window
+		FindFunctionInsight ffw = new FindFunctionInsight(textPane);
+		HashMap<Integer, String> schemaNames = new HashMap<Integer, String>();
+		EditWindow edw = new EditWindow(schemaNames,"");
 		
 		// show the intro window
 		StartWindowCreator startWindow = new StartWindowCreator();
@@ -161,20 +167,15 @@ public class MainInsightWindow{
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		eventListenerGenerate(InsightWindow,mntmNewMenuItem_5,mntmNewMenuItem,mntmNewMenuItem_4,textPane,textPane_1,list,mntmNewMenuItem_3,mntmNewMenuItem_1,mntmNewMenuItem_2,mntmNewMenuItem_6,mnNewMenu_8,mntmNewMenuItem_8);
+		eventListenerGenerate(InsightWindow,ffw,edw,mntmNewMenuItem_5,mntmNewMenuItem,mntmNewMenuItem_4,textPane,textPane_1,list,mntmNewMenuItem_3,mntmNewMenuItem_1,mntmNewMenuItem_2,mntmNewMenuItem_6,mnNewMenu_8,mntmNewMenuItem_8);
 		makeVisible();
 	}
 	
 	
-	public static void eventListenerGenerate(JFrame InsightWindow,JMenuItem btnCancel,JMenuItem btnLoad,JMenuItem btnPrint,JTextPane mainTArea,JTextPane secondaryArea,JList<String> schemaList,JMenuItem btnFind,JMenuItem groupError,JMenuItem groupFile,JMenuItem btnEdit,JMenu serviceMenu,JMenuItem restoreItem){
-		int k = 1;     // integer for the event Handling
+	public static void eventListenerGenerate(JFrame InsightWindow,FindFunctionInsight ffw,EditWindow edw,JMenuItem btnCancel,JMenuItem btnLoad,JMenuItem btnPrint,JTextPane mainTArea,JTextPane secondaryArea,JList<String> schemaList,JMenuItem btnFind,JMenuItem groupError,JMenuItem groupFile,JMenuItem btnEdit,JMenu serviceMenu,JMenuItem restoreItem){
 		
-		EventHandlerInsight eventHN1 = new EventHandlerInsight(InsightWindow,k,btnPrint,mainTArea,secondaryArea,schemaList,btnFind,groupError,groupFile,btnEdit,restoreItem); //handling for the button load document
-		btnLoad.addActionListener(eventHN1);
-		
-		EventHandlerInsight eventHN2 = new EventHandlerInsight(InsightWindow,(k+1),btnPrint,mainTArea,secondaryArea,schemaList,btnFind,groupError,groupFile,btnEdit,restoreItem); // handling for the button cancel
-		btnCancel.addActionListener(eventHN2);
-		
+		EventHandlerInsight eventHInsight = new EventHandlerInsight();
+		eventHInsight.handleInsight(InsightWindow,ffw,edw,btnCancel,btnLoad,btnPrint,mainTArea,secondaryArea,schemaList,btnFind,groupError,groupFile,btnEdit,serviceMenu,restoreItem);
 		
 		ServiceMenuHandler serviceMenuHandling = new ServiceMenuHandler();   // this opens and handles the service menu
 		serviceMenuHandling.eventListenerService(serviceMenu);

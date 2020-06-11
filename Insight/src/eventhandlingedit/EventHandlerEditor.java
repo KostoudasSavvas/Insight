@@ -1,4 +1,4 @@
-package eventhandling;
+package eventhandlingedit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.BufferedReader;
@@ -14,7 +14,7 @@ import javax.swing.event.MenuEvent;
 import javax.swing.event.MenuListener;
 import javax.swing.text.Element;
 
-import generategui.FindFunctionWindow;
+import guitexteditor.FindFunctionWindow;
 import harddrivemanager.FileLoaderController;
 import versionmanager.Document;
 import versionmanager.VersionsManager;
@@ -34,7 +34,7 @@ public class EventHandlerEditor {
 	
 	
 	// this method handles all the events for the editor
-	public void handleEdit(String schemaPath,String fileName,JFrame newWindow,JCheckBoxMenuItem checkBox1,JMenuItem buttonClear,JMenuItem buttonRol,JMenuItem buttonSave,JMenuItem btnCancel,JTextPane textArea,JTextArea linesArea,JLabel labelN,JMenu printerMenu,JMenuItem btnFind) {
+	public void handleEdit(String schemaPath,String fileName,JFrame newWindow,FindFunctionWindow ffw,JCheckBoxMenuItem checkBox1,JMenuItem buttonClear,JMenuItem buttonRol,JMenuItem buttonSave,JMenuItem btnCancel,JTextPane textArea,JTextArea linesArea,JLabel labelN,JMenu printerMenu,JMenuItem btnFind) {
 		VolatileVersionsStrategy vt1 = new VolatileVersionsStrategy();
 		VersionsManager mg2 = new VersionsManager(vt1);
 		ArrayList list = new ArrayList<String>();
@@ -102,7 +102,6 @@ public class EventHandlerEditor {
 			openDocPath = schemaPath + File.separator + "schemata" + File.separator + fileName;
 		}else {
 			// something error happened if the control came here, so print error and exit safely
-			
 		    JOptionPane.showMessageDialog(null, "Filepath or Filename is invalid", "Invalid Directory", JOptionPane.ERROR_MESSAGE);
 		    System.exit(-1);			
 		}
@@ -153,7 +152,6 @@ public class EventHandlerEditor {
 		// event Handling for find button
 		btnFind.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				FindFunctionWindow ffw = new FindFunctionWindow(textArea);
 				ffw.makeVisible();
 			}
 		});

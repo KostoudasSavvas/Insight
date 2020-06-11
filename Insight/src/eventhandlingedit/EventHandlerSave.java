@@ -1,4 +1,4 @@
-package eventhandling;
+package eventhandlingedit;
 
 import java.util.ArrayList;
 import javax.swing.JTextPane;

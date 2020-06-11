@@ -1,4 +1,4 @@
-package generategui;
+package guitexteditor;
 
 import javax.swing.*;
 
@@ -11,14 +11,13 @@ import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import javax.swing.text.Element;
 
-import eventhandling.EventHandlerEditor;
-import eventhandling.SpellCheckInitializer;
+import eventhandlingedit.EventHandlerEditor;
+import guicommon.GuiFactory;
  
 
 public class MainEditorWindow{
 	static JFrame EditorWindow;
 	private GuiFactory GFactory4;          // important GuiFactory object to create and initialize window elements
-	private SpellCheckInitializer spellChecker = new SpellCheckInitializer();
 	private String fileName;          // the name of the file that will be edited
 	private String schemaPath;
 	
@@ -75,7 +74,6 @@ public class MainEditorWindow{
 		textArea.setText("");
 		JScrollPane scroll = new JScrollPane(textArea);
 		EditorWindow.add(scroll,BorderLayout.CENTER);
-		spellChecker.initializeSpellCheck(textArea);
 		 
 		/* Set up line numbers */
 		JTextArea linesArea = new JTextArea("1");
@@ -112,12 +110,14 @@ public class MainEditorWindow{
 		});
 		
 		
-		// ------------------------------------------------- SpellCheck and event Listeners
+		// ------------------------------------------------- SpellCheck,Find Window and event Listeners
 		SpellCheckInitializer spellCheck = new SpellCheckInitializer();
 		spellCheck.initializeSpellCheck(textArea);
 		
+		FindFunctionWindow ffw = new FindFunctionWindow(textArea);
+		
 		EventHandlerEditor eventHandler = new EventHandlerEditor();
-		eventHandler.handleEdit(schemaPath,fileName,EditorWindow,btnVolatileStorage,btnClear,btnRollBack,btnSave,btnCancel,textArea,linesArea,labelN,printerMenu,btnFind);		
+		eventHandler.handleEdit(schemaPath,fileName,EditorWindow,ffw,btnVolatileStorage,btnClear,btnRollBack,btnSave,btnCancel,textArea,linesArea,labelN,printerMenu,btnFind);		
 		makeVisible();
 	}
 	

@@ -22,12 +22,21 @@ import javax.swing.SwingUtilities;
 import javax.swing.border.EmptyBorder;
 import javax.swing.border.LineBorder;
 
+import guitexteditor.MainEditorWindow;
+
 public class EditWindow {
 
 	private JFrame editWindow;
 	private JPanel contentPane;
+	private HashMap<Integer, String> schemaNames;
+	private String schemaPath;
+	private JList<String> list_1;
+	private JButton btnNewButton_1;
 	
 	public EditWindow(HashMap<Integer, String> schemaNames,String schemaPath) {
+		this.schemaNames = schemaNames;
+		this.schemaPath = schemaPath;
+		
 		editWindow = new JFrame("Insight Edit File Selector");
 		editWindow.setResizable(false);
 		editWindow.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);		
@@ -44,16 +53,8 @@ public class EditWindow {
 		scrollPane.setBounds(43, 69, 244, 283);
 		contentPane.add(scrollPane);
 		
-		DefaultListModel<String> listModel = new DefaultListModel<>();
 		
-		// fill the list model  with the schema names
-		for (int name: schemaNames.keySet()){
-            String value = schemaNames.get(name);
-            listModel.addElement(value);
-		}
-		
-		
-		JList<String> list_1 = new JList(listModel);
+		list_1 = new JList<String>();
 		list_1.setBorder(new LineBorder(SystemColor.textHighlight));
 		list_1.setSelectionMode(ListSelectionModel.SINGLE_INTERVAL_SELECTION);
 		scrollPane.setViewportView(list_1);
@@ -63,7 +64,7 @@ public class EditWindow {
 		lblNewLabel.setBounds(10, 21, 315, 40);
 		contentPane.add(lblNewLabel);
 		
-		JButton btnNewButton_1 = new JButton("Cancel");
+		btnNewButton_1 = new JButton("Cancel");
 		btnNewButton_1.setFont(new Font("MS UI Gothic", Font.BOLD, 12));
 		btnNewButton_1.setToolTipText("Select this button to return to Insight application");
 		btnNewButton_1.setBounds(161, 381, 89, 23);
@@ -74,7 +75,7 @@ public class EditWindow {
 	}
 	
 	
-	public static void eventListenerGenerate(JFrame editWindow,String schemaPath,JList<String> schemaNames,JButton btnCancel) {
+	public void eventListenerGenerate(JFrame editWindow,String schemaPath,JList<String> schemaNames,JButton btnCancel) {
 		// handle right click on a file in the schema list, show pop up menu
         schemaNames.addMouseListener(new MouseAdapter() {
             
@@ -107,6 +108,35 @@ public class EditWindow {
 				editWindow.setVisible(false);
 			}
 		});
+	}
+	
+	public void setSchemaNames(HashMap<Integer, String> schemaNames) {
+		DefaultListModel<String> listModel = new DefaultListModel<>();
+		
+		// fill the list model  with the schema names
+		for (int name: schemaNames.keySet()){
+            String value = schemaNames.get(name);
+            listModel.addElement(value);
+		}
+		
+		list_1.setModel(listModel);
+	}
+	
+	public void setSchemaPath(String schemaP) {
+		this.schemaPath = schemaP;
+	}
+	
+	
+	public JFrame getEditWindow() {
+		return editWindow;
+	}
+	
+	public JList<String> getNames(){
+		return list_1;
+	}
+	
+	public JButton getCancelB() {
+		return btnNewButton_1;
 	}
 	
 	
