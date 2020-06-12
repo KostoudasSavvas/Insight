@@ -1,4 +1,4 @@
-package generategui;
+package guimainconsole;
 
 import java.awt.Insets;
 import java.awt.event.ActionEvent;

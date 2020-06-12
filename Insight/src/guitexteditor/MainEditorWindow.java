@@ -11,7 +11,7 @@ import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import javax.swing.text.Element;
 
-import eventhandlingedit.EventHandlerEditor;
+import eventhandlertexteditor.EventHandlerEditor;
 import guicommon.GuiFactory;
  
 

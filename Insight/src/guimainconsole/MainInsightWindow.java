@@ -1,10 +1,9 @@
-package generategui;
+package guimainconsole;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import javax.swing.border.LineBorder;
 
-import eventhandling.EventHandlerInsight;
 import guicommon.GuiFactory;
 import guitexteditor.EditWindow;
 

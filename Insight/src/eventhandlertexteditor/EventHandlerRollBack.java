@@ -1,4 +1,4 @@
-package eventhandlingedit;
+package eventhandlertexteditor;
 
 import javax.swing.JCheckBoxMenuItem;
 import javax.swing.JOptionPane;

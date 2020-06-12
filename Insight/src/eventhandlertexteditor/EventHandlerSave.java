@@ -1,4 +1,4 @@
-package eventhandlingedit;
+package eventhandlertexteditor;
 
 import java.util.ArrayList;
 import javax.swing.JTextPane;

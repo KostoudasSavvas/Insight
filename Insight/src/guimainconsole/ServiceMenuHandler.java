@@ -1,4 +1,4 @@
-package generategui;
+package guimainconsole;
 
 import javax.swing.JMenu;
 import javax.swing.event.MenuEvent;

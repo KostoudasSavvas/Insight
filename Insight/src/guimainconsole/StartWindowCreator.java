@@ -1,4 +1,4 @@
-package generategui;
+package guimainconsole;
 
 import java.awt.*;
 import java.io.*;

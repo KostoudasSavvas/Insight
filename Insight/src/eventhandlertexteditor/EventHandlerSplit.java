@@ -1,4 +1,4 @@
-package eventhandlingedit;
+package eventhandlertexteditor;
 
 public class EventHandlerSplit {
 	// just a helper class that splits the inputs in necessary parts
