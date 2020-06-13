@@ -8,7 +8,7 @@ listing the files to which the errors point, embedded editor to fix the errors s
 
 
 ## Installation
-- Install Java (jdk-14 used). The folder `lib` comes with all the necessary jar libraries for the software to work.
+- Install `Java` (jdk-14 used). The folder `lib` comes with all the necessary jar libraries for the software to work.
 
 ## Usage
 Use the Insight jar of the `Insight Runnable` folder. Specifically:
