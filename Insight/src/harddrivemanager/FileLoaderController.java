@@ -12,6 +12,15 @@ import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import javax.swing.text.StyledDocument;
 
+
+/**
+ * This class is responsible of loading the contents of the selected log file
+ * into the main and secondary text panels.
+ * @author savaf
+ *
+ */
+
+
 public class FileLoaderController {
 	String DocName="";
 	ArrayList<String> areaMinorContents = new ArrayList<String>();
@@ -79,11 +88,7 @@ public class FileLoaderController {
 		
 		for (String lineMajor : areaContents) {
 			try {
-				if (lineMajor.contains("Schema Folder:")) {
-					styledDoc.insertString(styledDoc.getLength(),lineMajor + "\n\n", null);
-				}else {
-					styledDoc.insertString(styledDoc.getLength(),lineMajor + "\n\n", null);
-				}
+				styledDoc.insertString(styledDoc.getLength(),lineMajor + "\n\n", null);
 			}catch (Exception ex) {
 				System.out.println(ex);
 			}
@@ -92,10 +97,22 @@ public class FileLoaderController {
 		return textArea.getText();
 	}
 	
+	/**
+	 * This method returns the absolute path of the folder which
+	 * the log file is in.
+	 * @return the absolute path of the folder of the log file
+	 */
+	
 	public String getName(){
 		return DocName;
 	}
 	
+	
+	/**
+	 * This method returns an arraylist which contains the minor errors of the
+	 * log file such as syntactic errors.
+	 * @return
+	 */
 	public ArrayList<String> getMinorContents(){
 		return areaMinorContents;
 	}

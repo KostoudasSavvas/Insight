@@ -12,6 +12,15 @@ import findfunctionality.WordFinderHighLighter;
 import guicommon.CustomeBorder;
 import guicommon.GuiFactory;
 
+/**
+ * This class constructs the findfunction window which is used
+ * inside eventhandlerEditor class and provides the find/replace/delete
+ * words abilities.
+ * @author savaf
+ *
+ */
+
+
 public class FindFunctionWindow{
 	private GuiFactory GFactory;    // important Factory object in order to create the window elements
 	static JFrame findWindow;

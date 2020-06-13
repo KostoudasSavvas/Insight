@@ -8,6 +8,13 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
  
+/**
+ * This class constructs and shows the initial startup window
+ * which is shown for three  seconds.
+ * @author savaf
+ *
+ */
+
 public class StartWindowCreator{
 	static JProgressBar b; 
 	

@@ -15,12 +15,29 @@ import eventhandlertexteditor.EventHandlerEditor;
 import guicommon.GuiFactory;
  
 
+/**
+ * This class constructs the editor window that when gets opened
+ * the contents of the selected sql file are already loaded. 
+ * @author savaf
+ *
+ */
+
+
 public class MainEditorWindow{
 	static JFrame EditorWindow;
 	private GuiFactory GFactory4;          // important GuiFactory object to create and initialize window elements
 	private String fileName;          // the name of the file that will be edited
 	private String schemaPath;
 	
+	
+	/**
+	 * The constructor of the MainEditorWindow class 
+	 * takes two parameters: 
+	 * a) the filename of the selected sql file to open for edit
+	 * b) the path of the folder which the log file is located and hence the sql schema files.
+	 * @param fileName
+	 * @param schemaPath
+	 */
 	public MainEditorWindow(String fileName,String schemaPath) {
 		this.fileName = fileName;
 		this.schemaPath = schemaPath;
@@ -121,7 +138,9 @@ public class MainEditorWindow{
 		makeVisible();
 	}
 	
-	
+	/**
+	 * This class makes visible the Editor Window.
+	 */
 	public static void makeVisible() {
 		EditorWindow.setVisible(true);
 	}

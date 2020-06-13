@@ -20,6 +20,14 @@ import versionmanager.Document;
 import versionmanager.VersionsManager;
 import versionmanager.VolatileVersionsStrategy;
 
+/**
+ * This class is responsible of handling all the events that will happen
+ * inside the editor window. These events consist of loading the contents of the sql file,
+ * printing the sql file, finding any word with find function as well as saving the contents
+ * and undo typing. 
+ * @author savaf
+ *
+ */
 
 public class EventHandlerEditor {
 	static JFrame newWindow;

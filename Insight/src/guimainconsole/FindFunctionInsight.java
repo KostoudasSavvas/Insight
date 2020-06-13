@@ -12,6 +12,13 @@ import findfunctionality.WordFinderHighLighter;
 import guicommon.CustomeBorder;
 import guicommon.GuiFactory;
 
+/**
+ * This class constructs the find function window
+ * of the Insight application.
+ * @author savaf
+ *
+ */
+
 public class FindFunctionInsight{
 	private GuiFactory GFactory;    // important Factory object in order to create the window elements
 	static JFrame findWindow;
@@ -56,6 +63,18 @@ public class FindFunctionInsight{
 		eventListenerGenerate(findWindow,textArea,btnCancel,btnFind,textField_1,buttonList);
 	}
 	
+	/**
+	 * This function constructs the necessary objects of the classes WordFinder and
+	 * WordFinderHighlighter in order to handle the events that will happen in the find function
+	 * 
+	 * @param findWindow
+	 * @param textArea
+	 * @param btnCancel
+	 * @param btnFind
+	 * @param field
+	 * @param buttonList
+	 */
+	
 	public static void eventListenerGenerate(JFrame findWindow,JTextPane textArea,JButton btnCancel,JButton btnFind,JTextField field,ArrayList<JRadioButton> buttonList) {
 		
 		btnFind.addActionListener(new ActionListener() {
@@ -74,10 +93,22 @@ public class FindFunctionInsight{
 		});
 	}
 	
+	/**
+	 * This function returns the constructed frame window to the 
+	 * MainInsightWindow class.
+	 * 
+	 * @return FindFunction frame window
+	 */
+	
 	public JFrame getFindWindow() {
 		return findWindow;
 	}
 	
+	
+	/**
+	 * This function makes visible the constructed
+	 * find function window
+	 */
 	public void makeVisible(){
 		findWindow.setVisible(true);
 	}

@@ -8,6 +8,15 @@ import java.util.HashMap;
 import javax.swing.JTextPane;
 import javax.swing.text.StyledDocument;
 
+/**
+ * This class is responsible of grouping together the errors of the log file that exist in one or many
+ * sql file together. If an error exists in only one sql file then that too will be showed because
+ * a group of one element is also a group.
+ * @author savaf
+ *
+ */
+
+
 public class GroupByFileHandler implements GroupBy {
 	
 	// this method groups an error that exist in different files together
@@ -101,6 +110,9 @@ public class GroupByFileHandler implements GroupBy {
 	}
 	
 		
+	/** 
+	 * This method writes to the text panel the groups that were assembled in the handleGroupError method.
+	 */
 	public void writeGroupOutput(JTextPane textArea, ArrayList<String> groupLines) {
 			
 			// now setting the gathered text into the main text panel

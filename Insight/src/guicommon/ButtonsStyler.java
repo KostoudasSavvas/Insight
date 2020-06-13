@@ -9,6 +9,12 @@ import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import javax.swing.plaf.basic.BasicButtonUI;
 
+/** 
+ * This class provides style to the buttons of the find function window
+ * @author savaf
+ *
+ */
+
 class StyledButtonUI extends BasicButtonUI {
 
     @Override

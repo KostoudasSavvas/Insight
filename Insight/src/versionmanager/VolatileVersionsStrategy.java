@@ -1,8 +1,15 @@
 package versionmanager;
 
+/**
+ * This class implements the VersionsStrategy interface and handles 
+ * all the actions about the Documents.
+ * @author savaf
+ *
+ */
+
 public class VolatileVersionsStrategy implements VersionsStrategy{
 
-	private Document[] DocList = new Document[100];         // the list of versions in history
+	private Document[] DocList = new Document[300];         // the list of versions in history
 	private int NumberOfVersions = 0;
 		
 	public void putVersion(Document version) {

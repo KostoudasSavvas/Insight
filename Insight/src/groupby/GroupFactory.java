@@ -1,7 +1,11 @@
 package groupby;
 
-// this class is responsible of creating the objects for Grouping By
-
+/**
+ * This class is a factory class. The sole purpose of this class is to generate the
+ * necessary objects for grouping by actions.
+ * @author savaf
+ *
+ */
 public class GroupFactory {
 	
 	public GroupBy createGroupHandlers(String handlerType) {

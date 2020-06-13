@@ -20,6 +20,14 @@ import guitexteditor.MainEditorWindow;
 import harddrivemanager.FileLoaderController;
 
 
+/**
+ * This class handles all the events that will happen in 
+ * Insight application such as loading the contents of a log file, opening an editor
+ * to edit a sql file, group by and find function.
+ * @author savaf
+ *
+ */
+
 public class EventHandlerInsight{
 	private String openDocPath="";
 	private static String initialVersion = "";    // the contents of the log file that first gets loaded

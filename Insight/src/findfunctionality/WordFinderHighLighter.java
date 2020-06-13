@@ -9,10 +9,26 @@ import javax.swing.text.Highlighter;
 import javax.swing.text.JTextComponent;
 import javax.swing.*;
 
+/**
+ * This class is responsible of handling all the actions that will take place
+ * inside the find function window such as find/replace/replace all/delete all.
+ * @author savaf
+ *
+ */
+
+
 public class WordFinderHighLighter {
 	
 	
 	Highlighter.HighlightPainter MyHighlightPainter = new MyHighlighter(Color.RED); 
+	
+	/**
+	 * This methods finds and highlights all the instances of the searched word
+	 * inside the text panel of the editor.
+	 * @param textArea
+	 * @param pattern
+	 * @param buttonList
+	 */
 	
 	public void highLight(JTextComponent textArea,String pattern,ArrayList<JRadioButton> buttonList) {
 		// first remove any previous highlights
@@ -134,6 +150,10 @@ public class WordFinderHighLighter {
 		}catch (Exception e) {}
 	}
 	
+	/**
+	 * This method removes all the highlighted words before every new find.
+	 * @param Tcomp
+	 */
 	public void removeHighlights(JTextComponent Tcomp) {
 		Highlighter hilite = Tcomp.getHighlighter();
 		Highlighter.Highlight[] hilites = hilite.getHighlights();
@@ -145,6 +165,12 @@ public class WordFinderHighLighter {
 		}
 	}
 	
+	/**
+	 * This method deletes all the instances of the searched word inside the text panel of 
+	 * the editor.
+	 * @param Tcomp
+	 * @param field
+	 */
 	public void deleteAllHighlights(JTextComponent Tcomp,JTextField field) {
 		
 		Highlighter hilite = Tcomp.getHighlighter();
@@ -162,6 +188,14 @@ public class WordFinderHighLighter {
 		Tcomp.setText(result);
 	}
 	
+	/**
+	 * This method replaces just the first instance of the searched word with the 
+	 * input that user gave inside the Replace With text field.
+	 * @param Tcomp
+	 * @param fieldFind
+	 * @param fieldReplace
+	 */
+	
 	public void replaceHighlight(JTextComponent Tcomp,JTextField fieldFind,JTextField fieldReplace) {
 		String contents = Tcomp.getText();
 		String result="";
@@ -173,6 +207,13 @@ public class WordFinderHighLighter {
 		}
 	}
 	
+	/** 
+	 * This method replaces all the instances of the searched word with the input that the user gave
+	 * inside the Replace With text field.
+	 * @param Tcomp
+	 * @param fieldFind
+	 * @param fieldReplace
+	 */
 	public void replaceAllHighlights(JTextComponent Tcomp,JTextField fieldFind,JTextField fieldReplace) {
 		
 		Highlighter hilite = Tcomp.getHighlighter();

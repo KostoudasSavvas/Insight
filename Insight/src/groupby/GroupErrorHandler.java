@@ -7,6 +7,12 @@ import java.util.HashMap;
 import javax.swing.JTextPane;
 import javax.swing.text.StyledDocument;
 
+/**
+ * This class is responsible of grouping the instances of the same error inside each sql file together.
+ * 
+ * @author savaf
+ *
+ */
 
 public class GroupErrorHandler implements GroupBy{
 
@@ -95,6 +101,10 @@ public class GroupErrorHandler implements GroupBy{
 		return finalTextAreaContents;
 	}
 	
+	/**
+	 * This method writes to the main text panel the groups that were assembled 
+	 * by the method handleGroupError
+	 */
 	
 	public void writeGroupOutput(JTextPane textArea, ArrayList<String> groupLines) {
 		

@@ -22,6 +22,14 @@ import javax.swing.SwingUtilities;
 import javax.swing.border.EmptyBorder;
 import javax.swing.border.LineBorder;
 
+/**
+ * this class constructs the Edit window which is the window that contains
+ * all the sql file that exist in the schemata folder.
+ * @author savaf
+ *
+ */
+
+
 public class EditWindow {
 
 	private JFrame editWindow;

@@ -5,6 +5,11 @@ import java.io.FileWriter;
 import java.io.IOException;
 import javax.swing.*;
 
+/**
+ * This class is saving the contents of the text panel of the editor into the current opened
+ * file that is getting edited.
+ * @author savaf
+ */
 
 public class FileSavingController {
 	// default constructor

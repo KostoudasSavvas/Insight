@@ -12,6 +12,14 @@ import javax.swing.*;
 
 import guicommon.GuiFactory;
 
+/**
+ * This class constructs the service and information
+ * window.
+ * @author savaf
+ *
+ */
+
+
 public class ServiceMenuWindowCreator {
 	static JFrame newWindow;
 	private GuiFactory GFactory2;  // important Factory object in order to create the window elements

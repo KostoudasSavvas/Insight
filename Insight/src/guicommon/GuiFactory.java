@@ -6,11 +6,17 @@ import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.Rectangle;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
-
 import javax.imageio.ImageIO;
 import javax.swing.*;
+
+/**
+ * This class contains methods that all other classes that construct a window use. Classes
+ * such as MainInsightWindow,ServiceMenuWindowCreator,FindFunctionWindow, MainEditorWindow
+ * and others use this class to manufacture the windows.
+ * @author savaf
+ *
+ */
+
 
 public class GuiFactory {
 	

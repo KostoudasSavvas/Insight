@@ -6,6 +6,13 @@ import javax.swing.JTextPane;
 
 import versionmanager.Document;
 
+/**
+ * This class is responsible to roll back to a previous saved version of the sql file
+ * if a version exists.
+ * @author savaf
+ *
+ */
+
 public class EventHandlerRollBack {
 	private EventHandlerSplit splitter = new EventHandlerSplit();
 	// default constructor

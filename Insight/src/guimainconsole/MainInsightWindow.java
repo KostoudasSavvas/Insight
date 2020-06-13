@@ -17,8 +17,23 @@ import java.awt.Color;
 import java.awt.Font;
 
 
+/**
+ * This class constructs the main function for Insight
+ *  Application.
+ * @author savaf
+ * @version 1.0
+ *
+ */
+
+
 public class MainInsightWindow{
 	static JFrame InsightWindow;
+	
+	
+	/**
+	 * Creates and shows the main Insight window.
+	 * @param args
+	 */
 	
 	public static void main(String args[]){
 		
@@ -171,6 +186,27 @@ public class MainInsightWindow{
 		makeVisible();
 	}
 	
+	/**
+	 * This method constructs two objects that needed in Insight. First object handles all the events that
+	 * will ocur which is eventHInsight of the class EventHandlerInsight and the second will construct the
+	 * service and info window. 
+	 * 
+	 * @param InsightWindow
+	 * @param ffw
+	 * @param edw
+	 * @param btnCancel
+	 * @param btnLoad
+	 * @param btnPrint
+	 * @param mainTArea
+	 * @param secondaryArea
+	 * @param schemaList
+	 * @param btnFind
+	 * @param groupError
+	 * @param groupFile
+	 * @param btnEdit
+	 * @param serviceMenu
+	 * @param restoreItem
+	 */
 	
 	public static void eventListenerGenerate(JFrame InsightWindow,JFrame ffw,EditWindow edw,JMenuItem btnCancel,JMenuItem btnLoad,JMenuItem btnPrint,JTextPane mainTArea,JTextPane secondaryArea,JList<String> schemaList,JMenuItem btnFind,JMenuItem groupError,JMenuItem groupFile,JMenuItem btnEdit,JMenu serviceMenu,JMenuItem restoreItem){
 		
