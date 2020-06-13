@@ -14,10 +14,8 @@ listing the files to which the errors point, embedded editor to fix the errors s
 
 
 ## Licence
-See the copyright file.
+See the [copyright](https://github.com/KostoudasSavvas/Insight/blob/master/Insight/copyright.md) file.
 
-
-
-
-Developed By: Kostoudas Savvas
-Date: 2020-5
+## Credits and history
+### v.01 [2020-05]
+- Savvas Kostoudas creates the first version of Insight.
