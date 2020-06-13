@@ -187,7 +187,7 @@ public class ServiceMenuWindowCreator {
         
         BufferedImage image3;
 		try {
-			image3 = ImageIO.read(new File("./Icons/pngLoading.png"));
+			image3 = ImageIO.read(getClass().getResource("/pngLoading.png"));
 		    JLabel labelIm = new JLabel(new ImageIcon(image3));
 		    panel3.add(labelIm);
 		} catch (IOException e) {
@@ -245,7 +245,7 @@ public class ServiceMenuWindowCreator {
 
         BufferedImage image;
 		try {
-			image = ImageIO.read(new File("./Icons/pngLoadingFixed.png"));
+			image = ImageIO.read(getClass().getResource("/pngLoadingFixed.png"));
 		    JLabel labelIm = new JLabel(new ImageIcon(image));
 		    panel6.add(labelIm);
 		} catch (IOException e) {
