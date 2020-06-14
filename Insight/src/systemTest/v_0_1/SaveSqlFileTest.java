@@ -15,7 +15,7 @@ import harddrivemanager.FileSavingController;
 
 class SaveSqlFileTest {
 
-	// this par contains the relative path of the log file
+	// this par contains the relative path of the sql file
 	public static String sqlFilePath = "resources/HaliteChallenge__Halite-II/schemata/1508275975.sql";
 	
 	
@@ -24,6 +24,11 @@ class SaveSqlFileTest {
 		File sqlFile = new File(sqlFilePath);
 		System.out.println("File found at: " + sqlFile.getPath());
 	}
+	
+	/**
+	 * Tests the saving ability of the Insight application
+	 * by adding current date and author at the end of the tested file
+	 */
 
 	@Test
 	void test() {

@@ -196,7 +196,7 @@ public class EventHandlerEditor {
 	    				sv.save(textArea, openDocPath, list);
 	    				JOptionPane.showMessageDialog(null, "Current document saved","Saving Action Successfull", JOptionPane.INFORMATION_MESSAGE);
 	    				
-						// finally after successfull save close the editor
+						// finally after succesfull save close the editor
 						newWindow.setVisible(false);
 					}else{
 	    				JOptionPane.showMessageDialog(null, "Select the volatile checkbox in order to save your file.","No storage type selected", JOptionPane.INFORMATION_MESSAGE);
