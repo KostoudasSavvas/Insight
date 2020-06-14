@@ -14,7 +14,7 @@ import javax.swing.*;
 public class FileSavingController {
 	// default constructor
 	
-	public void save(String FileName,String contents,JTextPane textArea){
+	public void save(String FileName,String contents){
 		FileWriter fw = null;
 		
 		if (FileName.contains(".sql")) {
@@ -44,7 +44,7 @@ public class FileSavingController {
 				e.printStackTrace();
 			}
 		}else {
-			JOptionPane.showMessageDialog(null, "Pleas select only .sql files to edit","Invalid type of File", JOptionPane.ERROR_MESSAGE);
+			JOptionPane.showMessageDialog(null, "Please select only .sql files to edit","Invalid type of File", JOptionPane.ERROR_MESSAGE);
 		}
 		
 		

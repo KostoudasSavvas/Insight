@@ -54,7 +54,7 @@ public class EventHandlerInsight{
 				openDocPath = ldFile.getName();  // this variable contains the path of the chosen log file
 				initialVersion = mainTArea.getText();   // contents of initial version after load
 				
-				// filling schema Names into a JList -----------------------------------------------------------------------------s
+				// filling schema Names into a JList -----------------------------------------------------------------------------
 				BufferedReader bufReader = new BufferedReader(new StringReader(mainTArea.getText()));
 				String line;
 				int schNumber = 1;  // counting the schema sql files

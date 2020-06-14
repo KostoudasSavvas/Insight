@@ -24,7 +24,7 @@ import javax.swing.text.StyledDocument;
 public class FileLoaderController {
 	String DocName="";
 	ArrayList<String> areaMinorContents = new ArrayList<String>();
-
+	
 	// default constructor
 	
 	public String load(){
@@ -34,7 +34,7 @@ public class FileLoaderController {
 		JTextPane textArea = new JTextPane();
 		FileNameExtensionFilter xmlfilter = new FileNameExtensionFilter( "txt files (*.txt)", "txt");
 		openFileChooser.setFileFilter(xmlfilter);
-		openFileChooser.setCurrentDirectory(new java.io.File("."));
+		//openFileChooser.setCurrentDirectory(new java.io.File("."));
 		openFileChooser.setDialogTitle("Please select the log file.");
 		
 		if(openFileChooser.showOpenDialog(null) == JFileChooser.APPROVE_OPTION) {

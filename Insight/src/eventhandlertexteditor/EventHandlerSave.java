@@ -17,6 +17,6 @@ public class EventHandlerSave {
 			textArea.setText(" ");
 		}
 		
-		svFile.save(openDocPath, textArea.getText(),textArea);
+		svFile.save(openDocPath, textArea.getText());
 	}
 }

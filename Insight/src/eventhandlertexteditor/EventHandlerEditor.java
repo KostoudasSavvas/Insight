@@ -45,7 +45,6 @@ public class EventHandlerEditor {
 	public void handleEdit(String schemaPath,String fileName,JFrame newWindow,JFrame ffw,JCheckBoxMenuItem checkBox1,JMenuItem buttonClear,JMenuItem buttonRol,JMenuItem buttonSave,JMenuItem btnCancel,JTextPane textArea,JTextArea linesArea,JLabel labelN,JMenu printerMenu,JMenuItem btnFind) {
 		VolatileVersionsStrategy vt1 = new VolatileVersionsStrategy();
 		VersionsManager mg2 = new VersionsManager(vt1);
-		ArrayList list = new ArrayList<String>();
 		FileLoaderController ldFile = new FileLoaderController();
 
 		// -------------------------------------------------------------------------------------------------------------------------------- this code loads the file
@@ -138,13 +137,12 @@ public class EventHandlerEditor {
 		    public void actionPerformed(ActionEvent e){
 		    	Document[] docList = vt1.getEntireHistory(splitter.splitText(ldFile.getName()));    // a list with all the volatile strategy versions
 		    	if (checkBox1.isSelected() && Number > 0){
-			    	rb.rollBack(Number,textArea, splitter.splitText(ldFile.getName()), checkBox1, docList);
-			    	if (Number <= 0){
-						JOptionPane.showMessageDialog(null,"Initial contents were loaded.","Undo Manager", JOptionPane.INFORMATION_MESSAGE);
-			    	}else{
-			    		Number--;
-			    	}
-		    	}	
+			    	textArea.setText(rb.rollBack(Number,textArea, splitter.splitText(ldFile.getName()), checkBox1, docList));
+			    	Number--;
+		    	}else if (checkBox1.isSelected() && Number == 0) {
+					JOptionPane.showMessageDialog(null,"Initial contents were loaded.","Undo Manager", JOptionPane.INFORMATION_MESSAGE);
+					textArea.setText(initialVersion);
+		    	}
 		    }
 		});
 		

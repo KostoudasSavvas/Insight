@@ -293,4 +293,3 @@ ALTER TABLE game_bot_stat ADD CONSTRAINT game_bot_stat_ibfk_1 FOREIGN KEY(game_i
 ALTER TABLE game_participant ADD CONSTRAINT game_participant_ibfk_4 FOREIGN KEY(game_id) REFERENCES game (id) ON DELETE CASCADE;
 
 UPDATE alembic_version SET version_num='33de9025cc63' WHERE alembic_version.version_num = '7f0054256cf5';
-
