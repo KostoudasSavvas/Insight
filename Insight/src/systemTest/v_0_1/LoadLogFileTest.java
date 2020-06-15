@@ -1,9 +1,11 @@
 package systemTest.v_0_1;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
 import java.util.ArrayList;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.Test;
@@ -29,16 +31,22 @@ public class LoadLogFileTest {
 	
 	@Test
 	public void test() throws IOException{
+		File logFile = new File(logFilePath);
 		FileLoaderController ldFileLoad = new FileLoaderController();
-		String contents = ldFileLoad.load();
-		ArrayList<String> minorContents = ldFileLoad.getMinorContents(); 
+		String logContents = ldFileLoad.load();
 		
+		String logFileContentsWithTestLoad = "";
+		
+	    try
+        {
+	    	logFileContentsWithTestLoad = new String (Files.readAllBytes(logFile.toPath()));
+        } 
+        catch (IOException e) 
+        {
+            e.printStackTrace();
+        }		
 				
-		for (String line: minorContents) {
-			contents += line + "\n";
-		}
 		
-		System.out.println("Loader log file contents\n" + contents);
-		assertNotNull(contents);
+		assertEquals(logContents,logFileContentsWithTestLoad);
 	}
 }

@@ -7,11 +7,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.StringReader;
 import java.util.ArrayList;
-
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
-import javax.swing.text.StyledDocument;
-
 
 /**
  * This class is responsible of loading the contents of the selected log file
@@ -82,17 +79,6 @@ public class FileLoaderController {
 		} catch (IOException e1) {
 			e1.printStackTrace();
 		}
-		
-		StyledDocument styledDoc = textArea.getStyledDocument();
-		textArea.setText("");
-		
-		for (String lineMajor : areaContents) {
-			try {
-				styledDoc.insertString(styledDoc.getLength(),lineMajor + "\n\n", null);
-			}catch (Exception ex) {
-				System.out.println(ex);
-			}
-		}	
 		
 		return textArea.getText();
 	}

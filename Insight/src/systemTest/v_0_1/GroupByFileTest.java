@@ -6,16 +6,17 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.util.ArrayList;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import groupby.GroupByFileHandler;
 
-class GroupByFileTest {
+public class GroupByFileTest {
 
 	public static String logFilePath = "resources/HaliteChallenge__Halite-II/results/outputErrors.txt";
 
 	
 	@BeforeAll
-	static void setUpBeforeClass() throws Exception {
+	public static void setUpBeforeClass() throws Exception {
+		System.out.println("Tests starts for Group by File \n");
 		File logFile = new File(logFilePath);
 		System.out.println("File found at: " + logFile.getPath());
 	}
@@ -26,7 +27,7 @@ class GroupByFileTest {
 	 */
 	
 	@Test
-	void test() throws IOException{
+	public void test() throws IOException{
 		
 		File logFile = new File(logFilePath);
 		String initialLogFileContents = "";
@@ -40,19 +41,12 @@ class GroupByFileTest {
         {
             e.printStackTrace();
         }
-		
-		
-		System.out.println("Initial log file contents\n" + initialLogFileContents);
-		
+				
 		
 		GroupByFileHandler gpErrorHandler = new GroupByFileHandler();
 		ArrayList<String> outputResult = gpErrorHandler.handleGroupError(initialLogFileContents);
-
-		System.out.println("Output grouped by file result\n");
-		for (String line : outputResult) {
-			System.out.println(line);
-		}		
 		
+		assertNotNull(outputResult);
 	}
 
 }

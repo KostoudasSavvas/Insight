@@ -7,18 +7,17 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.util.ArrayList;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import groupby.GroupErrorHandler;
-import harddrivemanager.FileLoaderController;
 
-class GroupByErrorTest {
+public class GroupByErrorTest {
 	
 	// this par contains the relative path of the log file
 	public static String logFilePath = "resources/HaliteChallenge__Halite-II/results/outputErrors.txt";
 
 	@BeforeAll
-	static void setUpBeforeClass() throws Exception {
-		
+	public static void setUpBeforeClass() throws Exception {
+		System.out.println("Test starts for Group by Error \n");
 		File logFile = new File(logFilePath);
 		System.out.println("File found at: " + logFile.getPath());
 	}
@@ -28,7 +27,7 @@ class GroupByErrorTest {
 	 * @throws IOException
 	 */
 	@Test
-	void test() throws IOException {
+	public void test() throws IOException {
 		File logFile = new File(logFilePath);
 		String initialLogFileContents = "";
 		
@@ -40,19 +39,13 @@ class GroupByErrorTest {
         catch (IOException e) 
         {
             e.printStackTrace();
-        }
-		
-		
-		System.out.println("Initial log file contents\n" + initialLogFileContents);
-		
+        }		
 		
 		GroupErrorHandler gpErrorHandler = new GroupErrorHandler();
 		ArrayList<String> outputResult = gpErrorHandler.handleGroupError(initialLogFileContents);
 
-		System.out.println("Output grouped by error result\n");
-		for (String line : outputResult) {
-			System.out.println(line);
-		}		
+		
+		assertNotNull(outputResult);
 	}
 
 }

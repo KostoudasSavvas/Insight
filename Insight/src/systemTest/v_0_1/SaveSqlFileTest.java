@@ -9,18 +9,19 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import harddrivemanager.FileSavingController;
 
-class SaveSqlFileTest {
+public class SaveSqlFileTest {
 
 	// this par contains the relative path of the sql file
 	public static String sqlFilePath = "resources/HaliteChallenge__Halite-II/schemata/1508275975.sql";
 	
 	
 	@BeforeAll
-	static void setUpBeforeClass() throws Exception {
+	public static void setUpBeforeClass() throws Exception {
+		System.out.println("Tests Starts for Save Sql File \n");
 		File sqlFile = new File(sqlFilePath);
 		System.out.println("File found at: " + sqlFile.getPath());
 	}
@@ -31,7 +32,7 @@ class SaveSqlFileTest {
 	 */
 
 	@Test
-	void test() {
+	public void test() {
 		File sqlFile = new File(sqlFilePath);
 		String sqlFileContents = "";
 		
@@ -53,16 +54,14 @@ class SaveSqlFileTest {
 	    FileSavingController fileSavingManager = new FileSavingController();
 	    fileSavingManager.save(sqlFilePath, sqlFileContents);
 	    
-	    try
-        {
-            sqlFileContents = new String (Files.readAllBytes(sqlFile.toPath()));
-        } 
-        catch (IOException e) 
-        {
-            e.printStackTrace();
-        }
 	    
-	    System.out.println(sqlFileContents);
+	    String savedFileContents = "";  // the contents of the saved sql file  
+	    try {
+	    	savedFileContents = new String(Files.readAllBytes(sqlFile.toPath()));
+	    }catch (Exception e) {
+	    	e.printStackTrace();
+		}
+	     assertEquals(sqlFileContents, savedFileContents);
 	}
 
 }

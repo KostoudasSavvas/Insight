@@ -49,16 +49,17 @@ public class EventHandlerInsight{
 				GroupFactory groupFactory = new GroupFactory();
 				GroupByFileHandler groupByFileHandler = (GroupByFileHandler) groupFactory.createGroupHandlers("File");
 				GroupErrorHandler groupErrorHandler =  (GroupErrorHandler) groupFactory.createGroupHandlers("Error");
-				
-				mainTArea.setText(ldFile.load());
-				openDocPath = ldFile.getName();  // this variable contains the path of the chosen log file
-				initialVersion = mainTArea.getText();   // contents of initial version after load
+								
 				
 				// filling schema Names into a JList -----------------------------------------------------------------------------
-				BufferedReader bufReader = new BufferedReader(new StringReader(mainTArea.getText()));
+				BufferedReader bufReader = new BufferedReader(new StringReader(ldFile.load()));
+				openDocPath = ldFile.getName();  // this variable contains the path of the chosen log file
+				
+				
 				String line;
 				int schNumber = 1;  // counting the schema sql files
 				ArrayList<String> minorContents = new ArrayList<String>();
+				ArrayList<String> majorContents = new ArrayList<String>();
 				minorContents = ldFile.getMinorContents();
 				
 				
@@ -87,6 +88,10 @@ public class EventHandlerInsight{
 							}
 							
 							flag = false;
+							
+							if (line.contains("major")) {
+								majorContents.add(line);
+							}
 						}
 					}
 				} catch (IOException e1) {
@@ -101,14 +106,25 @@ public class EventHandlerInsight{
 				}
 				
 				schemaList.setModel(listModel);
-				// -------------------------------------------------------------------------------------------------------------------	Right Text Pane Load With Minor Errors	
+				// -------------------------------------------------------------------------------------------------------------------	Text Pane Load With Minor and Major Errors	
+				StyledDocument styledDoc = mainTArea.getStyledDocument();
+				mainTArea.setText("");
 				
-				StyledDocument styledDoc = secondaryArea.getStyledDocument();
+				for (String lineMajor : majorContents) {
+					try {
+						styledDoc.insertString(styledDoc.getLength(),lineMajor + "\n\n", null);
+					}catch (Exception ex) {
+						System.out.println(ex);
+					}
+				}
+				
+				initialVersion = mainTArea.getText();   // contents of initial version after load
+				StyledDocument styledDocSecond = secondaryArea.getStyledDocument();
 				
 				for (String lineMinor : minorContents) {
 					try {
-						styledDoc.insertString(styledDoc.getLength(),lineMinor + "\n", null);
-						styledDoc.insertString(styledDoc.getLength(),"----------------------------------" + "\n", null);
+						styledDocSecond.insertString(styledDocSecond.getLength(),lineMinor + "\n", null);
+						styledDocSecond.insertString(styledDocSecond.getLength(),"----------------------------------" + "\n", null);
 					}catch (Exception ex) {
 						System.out.println(ex);
 					}

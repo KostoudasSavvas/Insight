@@ -15,6 +15,6 @@ public class TestSuiteRunner {
         }
  
          
-        System.out.println("Test successful? " + result.wasSuccessful());
+        System.out.println("All tests successful: " + result.wasSuccessful());
     }
 }
