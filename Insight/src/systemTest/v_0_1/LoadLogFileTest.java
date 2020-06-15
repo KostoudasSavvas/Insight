@@ -1,20 +1,22 @@
 package systemTest.v_0_1;
 
+import static org.junit.Assert.assertNotNull;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import harddrivemanager.FileLoaderController;
 
-class LoadLogFileTest {
+public class LoadLogFileTest {
 	
 	// this par contains the relative path of the log file
 	public static String logFilePath = "resources/HaliteChallenge__Halite-II/results/outputErrors.txt";
 
 
 	@BeforeAll
-	static void setUpBeforeClass() throws Exception {
+	public static void setUpBeforeClass() throws Exception {
 		File logFile = new File(logFilePath);
 		System.out.println("File found at: " + logFile.getPath());
 	}
@@ -26,7 +28,7 @@ class LoadLogFileTest {
 	 */
 	
 	@Test
-	void test() throws IOException{
+	public void test() throws IOException{
 		FileLoaderController ldFileLoad = new FileLoaderController();
 		String contents = ldFileLoad.load();
 		ArrayList<String> minorContents = ldFileLoad.getMinorContents(); 
@@ -37,6 +39,6 @@ class LoadLogFileTest {
 		}
 		
 		System.out.println("Loader log file contents\n" + contents);
-
+		assertNotNull(contents);
 	}
 }
