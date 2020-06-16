@@ -40,8 +40,24 @@ public class EventHandlerEditor {
 	
 	
 	
+	/**
+	 * This method handles all the events of the Insight Editor.
+	 * @param schemaPath
+	 * @param fileName
+	 * @param newWindow
+	 * @param ffw
+	 * @param checkBox1
+	 * @param buttonClear
+	 * @param buttonRol
+	 * @param buttonSave
+	 * @param btnCancel
+	 * @param textArea
+	 * @param linesArea
+	 * @param labelN
+	 * @param printerMenu
+	 * @param btnFind
+	 */
 	
-	// this method handles all the events for the editor
 	public void handleEdit(String schemaPath,String fileName,JFrame newWindow,JFrame ffw,JCheckBoxMenuItem checkBox1,JMenuItem buttonClear,JMenuItem buttonRol,JMenuItem buttonSave,JMenuItem btnCancel,JTextPane textArea,JTextArea linesArea,JLabel labelN,JMenu printerMenu,JMenuItem btnFind) {
 		VolatileVersionsStrategy vt1 = new VolatileVersionsStrategy();
 		VersionsManager mg2 = new VersionsManager(vt1);
@@ -115,6 +131,7 @@ public class EventHandlerEditor {
 			
 		// -------------------------------------------------------------------------------------------------------------------- -------------------- end of load code
 		    
+		// event handling for the save button
 		buttonSave.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent e){
 				if (checkBox1.isSelected()){         // volatile storage
@@ -132,7 +149,7 @@ public class EventHandlerEditor {
 		});
 		    
 		    
-		// event handling for the rollback button in order to rollback to a previous version
+		// event handling for the roll back button in order to roll back to a previous version
 		buttonRol.addActionListener(new ActionListener(){
 		    public void actionPerformed(ActionEvent e){
 		    	Document[] docList = vt1.getEntireHistory(splitter.splitText(ldFile.getName()));    // a list with all the volatile strategy versions

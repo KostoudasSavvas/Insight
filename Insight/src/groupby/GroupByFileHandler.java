@@ -18,8 +18,11 @@ import javax.swing.text.StyledDocument;
 
 
 public class GroupByFileHandler implements GroupBy {
-	
-	// this method groups an error that exist in different files together
+
+	/**
+	 * This method handles the grouping by file. This means that any errors that are the same across many files
+	 * they are grouped together and presented as one line.
+	 */
 	public ArrayList<String> handleGroupError(String textArea) {
 		
 		

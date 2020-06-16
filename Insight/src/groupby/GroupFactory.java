@@ -8,6 +8,14 @@ package groupby;
  */
 public class GroupFactory {
 	
+	/**
+	 * This method creates the two group by objects. If the handlerType is equal
+	 * to 'Error' then a GroupErrorHandler is created or if the handlerType is 
+	 * equal to 'File' then a GroupFileHandler is created.
+	 * @param handlerType
+	 * @return
+	 */
+	
 	public GroupBy createGroupHandlers(String handlerType) {
 		
 		if (handlerType.equals("Error")) {

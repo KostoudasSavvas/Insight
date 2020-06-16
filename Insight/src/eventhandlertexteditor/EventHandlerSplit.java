@@ -1,7 +1,13 @@
 package eventhandlertexteditor;
 
+/**
+ * This is a helper class which provies the functionality
+ * of splitting the given text with a number of ways.
+ * @author savaf
+ *
+ */
+
 public class EventHandlerSplit {
-	// just a helper class that splits the inputs in necessary parts
 	
 	public String splitText(String text){
 		String[] arrayS = text.split("[.]");

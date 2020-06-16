@@ -92,6 +92,7 @@ public class MainEditorWindow{
 		JScrollPane scroll = new JScrollPane(textArea);
 		EditorWindow.add(scroll,BorderLayout.CENTER);
 		 
+		
 		/* Set up line numbers */
 		JTextArea linesArea = new JTextArea("1");
 		linesArea.setFont(new Font("MS UI Gothic", Font.BOLD, 14));

@@ -34,8 +34,25 @@ public class EventHandlerInsight{
 	private HashMap<Integer,String> schemaNames;  // this hashMap contains the names of the sql files in the schema
 	
 	
+	/**
+	 * This method handles all the events of the Insight Application.
+	 * @param InsightWindow
+	 * @param ffw
+	 * @param edw
+	 * @param btnCancel
+	 * @param btnLoad
+	 * @param btnPrint
+	 * @param mainTArea
+	 * @param secondaryArea
+	 * @param schemaList
+	 * @param btnFind
+	 * @param groupError
+	 * @param groupFile
+	 * @param btnEdit
+	 * @param serviceMenu
+	 * @param restoreItem
+	 */
 	
-	// this method handles all the events for the Insight Application
 	public void handleInsight(JFrame InsightWindow,JFrame ffw,EditWindow edw,JMenuItem btnCancel,JMenuItem btnLoad,JMenuItem btnPrint,JTextPane mainTArea,JTextPane secondaryArea,JList<String> schemaList,JMenuItem btnFind,JMenuItem groupError,JMenuItem groupFile,JMenuItem btnEdit,JMenu serviceMenu,JMenuItem restoreItem) {
 		btnLoad.addActionListener(new ActionListener() {			
 			public void actionPerformed(ActionEvent e) {

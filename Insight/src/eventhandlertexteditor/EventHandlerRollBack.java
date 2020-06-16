@@ -15,7 +15,6 @@ import versionmanager.Document;
 
 public class EventHandlerRollBack {
 	private EventHandlerSplit splitter = new EventHandlerSplit();
-	// default constructor
 	
 	public String rollBack(int Number,JTextPane textArea,String name,JCheckBoxMenuItem checkBox1,Document[] VolatileVersionsList){
 		if (checkIfEmpty(VolatileVersionsList)){
@@ -32,7 +31,13 @@ public class EventHandlerRollBack {
 		return "";
 	}
 	
-	// this method checks if the document list with the versions is empty
+	/**
+	 * This method checks if the Document List is not empty which means a saved version of the file
+	 * exists and so allows to roll back to that version.
+	 * @param list
+	 * @return boolean
+	 */
+	
 	public static Boolean checkIfEmpty(Document[] list){
 		if (list[1] == null){
 			return true;

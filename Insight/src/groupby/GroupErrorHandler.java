@@ -16,8 +16,11 @@ import javax.swing.text.StyledDocument;
 
 public class GroupErrorHandler implements GroupBy{
 
+	/**
+	 * This method handles the grouping by error in the same file. This means that all the same errors
+	 * in the same file they are grouped and presented as one line in Insight.
+	 */
 	
-	// this method groups the error in the same file together
 	public ArrayList<String> handleGroupError(String textArea) {
 		
 		

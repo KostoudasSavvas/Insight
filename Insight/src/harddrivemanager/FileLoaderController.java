@@ -21,9 +21,14 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 public class FileLoaderController {
 	String DocName="";
 	ArrayList<String> areaMinorContents = new ArrayList<String>();
+		
 	
-	// default constructor
-	
+	/**
+	 * This method loads the contents of the log file and returns as string contents. Furthermore
+	 * the method finds the minor errors such as syntax errors which saves them in the arrayList area
+	 * minorContents.
+	 * @return log file contents
+	 */
 	public String load(){
 		JFileChooser openFileChooser = new JFileChooser();
 		String openDocPath="";

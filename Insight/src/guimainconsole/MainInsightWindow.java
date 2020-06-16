@@ -225,6 +225,10 @@ public class MainInsightWindow{
 		});
 	}
 	
+	/**
+	 * This method makes visible the main console window which is
+	 * the InsightWindow.
+	 */
 	
 	public static void makeVisible() {
 		InsightWindow.setVisible(true);

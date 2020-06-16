@@ -26,6 +26,12 @@ public class FindFunctionWindow{
 	static JFrame findWindow;
 	private JTextPane textArea;
 	
+	
+	/**
+	 * This method constructs the FindFunctionWindow of the Editor which it contains more tools
+	 * than the FindFunctionInsight window such as Replace/Replace All/Delete All.
+	 * @param textArea
+	 */
 	public FindFunctionWindow(JTextPane textArea) {
 		GFactory  = new GuiFactory();
 		findWindow = GFactory.createFrame("Find/Replace", 600, 150, 370, 458);
@@ -65,9 +71,9 @@ public class FindFunctionWindow{
 		//------------------------------------------------
 		
 		panel.setLayout(null);
-		//findWindow.setVisible(true);
 		eventListenerGenerate(findWindow,textArea,btnCancel,btnFind,btnReplace,btnReplaceAll,btnDeleteAll,textField_1,textField_2,buttonList);
 	}
+	
 	
 	public static void eventListenerGenerate(JFrame findWindow,JTextPane textArea,JButton btnCancel,JButton btnFind,JButton btnReplace,JButton btnReplaceAll,JButton btnDeleteAll,JTextField field,JTextField field2,ArrayList<JRadioButton> buttonList) {
 		

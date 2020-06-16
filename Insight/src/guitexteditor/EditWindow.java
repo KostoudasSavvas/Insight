@@ -39,6 +39,13 @@ public class EditWindow {
 	private JList<String> list_1;
 	private JButton btnNewButton_1;
 	
+	/**
+	 * This method constructs the EditWindow which later on will be filled with the schema
+	 * sql files.
+	 * @param schemaNames
+	 * @param schemaPath
+	 */
+	
 	public EditWindow(HashMap<Integer, String> schemaNames,String schemaPath) {
 		this.schemaNames = schemaNames;
 		this.schemaPath = schemaPath;
@@ -80,6 +87,14 @@ public class EditWindow {
 		
 	}
 	
+	/**
+	 * This method handles the right click on each schema sql file to open the editor
+	 * to edit each file.s
+	 * @param editWindow
+	 * @param schemaPath
+	 * @param schemaNames
+	 * @param btnCancel
+	 */
 	
 	public void eventListenerGenerate(JFrame editWindow,String schemaPath,JList<String> schemaNames,JButton btnCancel) {
 		// handle right click on a file in the schema list, show pop up menu
@@ -115,6 +130,12 @@ public class EditWindow {
 			}
 		});
 	}
+	
+	/**
+	 * This method fills the JList of the EditWindow
+	 * with the schema sql file names which the errors exist to.
+	 * @param schemaNames
+	 */
 	
 	public void setSchemaNames(HashMap<Integer, String> schemaNames) {
 		DefaultListModel<String> listModel = new DefaultListModel<>();

@@ -201,14 +201,18 @@ public class GuiFactory {
 	}
 	
 	public JTextPane createArea(JPanel panel){
-		JTextPane area = new JTextPane();
-		area.setSize(700, 800);
-		area.setAutoscrolls(true);           // lines of
-		area.setEditable(true);             // to change line if writing reaches the size of window
+		JTextPane tp = new JTextPane() {
+		    @Override
+		    public boolean getScrollableTracksViewportWidth() {
+		        return getUI().getPreferredSize(this).width
+		                        <= getParent().getSize().width;
+		    }
+		};
+		tp.setSize(700, 800);
 		Font f = new Font("Plain",Font.PLAIN,14);
-        area.setFont(f);
-		panel.add(area);
-		return area;
+        tp.setFont(f);
+		panel.add(tp);
+		return tp;
 	}
 	
 	
