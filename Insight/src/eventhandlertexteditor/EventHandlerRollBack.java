@@ -39,7 +39,7 @@ public class EventHandlerRollBack {
 	 */
 	
 	public static Boolean checkIfEmpty(Document[] list){
-		if (list[1] == null){
+		if (list.length == 0){
 			return true;
 		}else{
 			return false;
