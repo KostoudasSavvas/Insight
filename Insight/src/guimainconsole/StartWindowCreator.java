@@ -23,7 +23,7 @@ public class StartWindowCreator{
 	    JPanel panel = new JPanel();
 	    JLabel label = new JLabel();
 	    try {
-			   Image img = ImageIO.read(getClass().getResource("/pngLoading.png"));
+			   Image img = ImageIO.read(getClass().getResource("/edited by the master.png"));
 			   label.setIcon(new ImageIcon(img));
 			 } catch (Exception ex) {
 			   System.out.println(ex);
