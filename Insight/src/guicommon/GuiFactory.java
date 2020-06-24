@@ -25,7 +25,6 @@ public class GuiFactory {
 		JFrame LPMainWindow = new JFrame(name);
 		LPMainWindow.setResizable(true);
 		LPMainWindow.setBounds(x1,x2,y1,y2);
-		//LPMainWindow.setVisible(true);
 		return LPMainWindow;
 	}
 	
