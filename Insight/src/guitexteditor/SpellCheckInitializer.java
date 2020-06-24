@@ -7,9 +7,9 @@ import com.inet.jortho.SpellChecker;
 import com.inet.jortho.SpellCheckerOptions;
 
 /**
- * This class initializes all the necessary parts of the Spellchecking 
+ * This class initializes all the necessary parts of the Spell checking 
  * function such as constructing the pop up menu and registers as a 
- * dictionary, the english dict which is located at the resources folder.
+ * dictionary, the english dictionary which is located at the resources folder.
  * @author savaf
  *
  */
@@ -18,7 +18,7 @@ import com.inet.jortho.SpellCheckerOptions;
 public class SpellCheckInitializer {
 	public void initializeSpellCheck(JTextPane textArea) {
 		SpellChecker.setUserDictionaryProvider(new FileUserDictionary());
-        SpellChecker.registerDictionaries(MainEditorWindow.class.getResource("/dictionary"), "en");
+        SpellChecker.registerDictionaries(SpellCheckInitializer.class.getResource("/dictionary"), "en");
         SpellChecker.register(textArea);
         SpellCheckerOptions sco=new SpellCheckerOptions();
         sco.setCaseSensitive(true);
@@ -28,3 +28,5 @@ public class SpellCheckInitializer {
         textArea.setComponentPopupMenu(popup);
 	}
 }
+
+
