@@ -20,13 +20,8 @@ public class EventHandlerRollBack {
 		if (checkIfEmpty(VolatileVersionsList)){
 			JOptionPane.showMessageDialog(null,"You must save a version first in order to load it.","You haven't store any versions yet.", JOptionPane.INFORMATION_MESSAGE);
 		}else if(checkBox1.isSelected() && Number > 0){         // volatile storage
-			if (Number <= 0){
-				textArea.setText(null);
-				return "";
-			}else{
-				Number--;
-				return splitter.splitArrayList(VolatileVersionsList[Number].getContents());	
-			}	
+			Number--;
+			return splitter.splitArrayList(VolatileVersionsList[Number].getContents());	
 		}
 		return "";
 	}

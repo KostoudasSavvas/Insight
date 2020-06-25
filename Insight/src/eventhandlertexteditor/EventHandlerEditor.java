@@ -15,7 +15,6 @@ import javax.swing.event.MenuListener;
 import javax.swing.text.Element;
 
 //import guitexteditor.FindFunctionWindow;
-import harddrivemanager.FileLoaderController;
 import versionmanager.Document;
 import versionmanager.VersionsManager;
 import versionmanager.VolatileVersionsStrategy;
@@ -61,7 +60,6 @@ public class EventHandlerEditor {
 	public void handleEdit(String schemaPath,String fileName,JFrame newWindow,JFrame ffw,JCheckBoxMenuItem checkBox1,JMenuItem buttonClear,JMenuItem buttonRol,JMenuItem buttonSave,JMenuItem btnCancel,JTextPane textArea,JTextArea linesArea,JLabel labelN,JMenu printerMenu,JMenuItem btnFind) {
 		VolatileVersionsStrategy vt1 = new VolatileVersionsStrategy();
 		VersionsManager mg2 = new VersionsManager(vt1);
-		FileLoaderController ldFile = new FileLoaderController();
 
 		// -------------------------------------------------------------------------------------------------------------------------------- this code loads the file
 		
@@ -137,7 +135,7 @@ public class EventHandlerEditor {
 				if (checkBox1.isSelected()){         // volatile storage
 					ArrayList<String> list = new ArrayList<String>();
 					list.add(textArea.getText());
-					Document doc1 = new Document(Number,"savvas","21-5-2020",list,splitter.splitText(ldFile.getName())+"Log"+Number+".txt");
+					Document doc1 = new Document(Number,"savvas","21-5-2020",list,splitter.splitText(fileName+"Log"+Number+".txt"));
 					vt1.putVersion(doc1);
 					Number++;
     				sv.save(textArea, openDocPath, list);
@@ -148,13 +146,13 @@ public class EventHandlerEditor {
 			}
 		});
 		    
-		    
+		   
 		// event handling for the roll back button in order to roll back to a previous version
 		buttonRol.addActionListener(new ActionListener(){
 		    public void actionPerformed(ActionEvent e){
-		    	Document[] docList = vt1.getEntireHistory(splitter.splitText(ldFile.getName()));    // a list with all the volatile strategy versions
+		    	Document[] docList = vt1.getEntireHistory(splitter.splitText(fileName));    // a list with all the volatile strategy versions
 		    	if (checkBox1.isSelected() && Number > 0){
-			    	textArea.setText(rb.rollBack(Number,textArea, splitter.splitText(ldFile.getName()), checkBox1, docList));
+			    	textArea.setText(rb.rollBack(Number,textArea, splitter.splitText(fileName), checkBox1, docList));
 			    	Number--;
 		    	}else if (checkBox1.isSelected() && Number == 0) {
 					JOptionPane.showMessageDialog(null,"Initial contents were loaded.","Undo Manager", JOptionPane.INFORMATION_MESSAGE);
@@ -207,7 +205,7 @@ public class EventHandlerEditor {
 					if (checkBox1.isSelected()){         // volatile storage
 						ArrayList<String> list = new ArrayList<String>();
 						list.add(textArea.getText());
-						Document doc1 = new Document(Number,"savvas","21-5-2020",list,splitter.splitText(ldFile.getName())+"Log"+Number+".txt");
+						Document doc1 = new Document(Number,"savvas","21-5-2020",list,splitter.splitText(fileName)+"Log"+Number+".txt");
 						vt1.putVersion(doc1);
 						Number++;
 	    				sv.save(textArea, openDocPath, list);

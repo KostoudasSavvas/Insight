@@ -75,7 +75,7 @@ public class FileLoaderController {
 		
 		try {
 			while( (line = bufReader.readLine()) != null ){	
-				if (line.contains("[major]") || line.contains("Schema Folder:")) {
+				if (line.contains("[major]")) {
 					areaContents.add(line);
 				}else if (line.contains("[minor]")) {
 					areaMinorContents.add(line);
