@@ -1,1 +1,5 @@
 client_min_messages
+game_id
+InnoDB
+verification_code
+utf8
