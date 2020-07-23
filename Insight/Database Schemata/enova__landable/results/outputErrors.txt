@@ -1,0 +1,1021 @@
+
+File: 1399486716.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1399486716.sql Line: 7 Keyword: 'on'
+File: 1399486716.sql Line: 29 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1399486716.sql Line: 36 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1399486716.sql Line: 43 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1399486716.sql Line: 50 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1399486716.sql Line: 57 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1399486716.sql Line: 64 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1399486716.sql Line: 71 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1399486716.sql Line: 78 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1399486716.sql Line: 81 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1399486716.sql Line: 3737 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1399486716.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1399486716.sql Line: 7 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1399486716.sql Line: 29 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399486716.sql Line: 43 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399486716.sql Line: 57 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399486716.sql Line: 71 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399486716.sql Line: 87 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399486716.sql Line: 87 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399662584.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1399662584.sql Line: 7 Keyword: 'on'
+File: 1399662584.sql Line: 29 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1399662584.sql Line: 36 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1399662584.sql Line: 43 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1399662584.sql Line: 50 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1399662584.sql Line: 57 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1399662584.sql Line: 64 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1399662584.sql Line: 71 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1399662584.sql Line: 78 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1399662584.sql Line: 81 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1399662584.sql Line: 3838 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1399662584.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1399662584.sql Line: 7 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1399662584.sql Line: 29 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399662584.sql Line: 43 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399662584.sql Line: 57 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399662584.sql Line: 71 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399662584.sql Line: 87 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399662584.sql Line: 87 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399662584.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1399662584.sql Line: 7 Keyword: 'on'
+File: 1399662584.sql Line: 29 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1399662584.sql Line: 36 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1399662584.sql Line: 43 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1399662584.sql Line: 50 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1399662584.sql Line: 57 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1399662584.sql Line: 64 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1399662584.sql Line: 71 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1399662584.sql Line: 78 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1399662584.sql Line: 81 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1399662584.sql Line: 3838 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1399662584.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1399662584.sql Line: 7 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1399662584.sql Line: 29 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399662584.sql Line: 43 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399662584.sql Line: 57 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399662584.sql Line: 71 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399662584.sql Line: 87 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399662584.sql Line: 87 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399664074.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1399664074.sql Line: 7 Keyword: 'on'
+File: 1399664074.sql Line: 29 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1399664074.sql Line: 36 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1399664074.sql Line: 43 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1399664074.sql Line: 50 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1399664074.sql Line: 57 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1399664074.sql Line: 64 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1399664074.sql Line: 71 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1399664074.sql Line: 78 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1399664074.sql Line: 81 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1399664074.sql Line: 3793 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1399664074.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1399664074.sql Line: 7 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1399664074.sql Line: 29 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399664074.sql Line: 43 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399664074.sql Line: 57 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399664074.sql Line: 71 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399664074.sql Line: 87 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399664074.sql Line: 87 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399664074.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1399664074.sql Line: 7 Keyword: 'on'
+File: 1399664074.sql Line: 29 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1399664074.sql Line: 36 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1399664074.sql Line: 43 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1399664074.sql Line: 50 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1399664074.sql Line: 57 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1399664074.sql Line: 64 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1399664074.sql Line: 71 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1399664074.sql Line: 78 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1399664074.sql Line: 81 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1399664074.sql Line: 3793 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1399664074.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1399664074.sql Line: 7 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1399664074.sql Line: 29 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399664074.sql Line: 43 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399664074.sql Line: 57 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399664074.sql Line: 71 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399664074.sql Line: 87 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399664074.sql Line: 87 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399928152.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1399928152.sql Line: 7 Keyword: 'on'
+File: 1399928152.sql Line: 29 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1399928152.sql Line: 36 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1399928152.sql Line: 43 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1399928152.sql Line: 50 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1399928152.sql Line: 57 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1399928152.sql Line: 64 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1399928152.sql Line: 71 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1399928152.sql Line: 78 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1399928152.sql Line: 81 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1399928152.sql Line: 3793 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1399928152.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1399928152.sql Line: 7 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1399928152.sql Line: 29 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399928152.sql Line: 43 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399928152.sql Line: 57 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399928152.sql Line: 71 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399928152.sql Line: 87 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399928152.sql Line: 87 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399928152.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1399928152.sql Line: 7 Keyword: 'on'
+File: 1399928152.sql Line: 29 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1399928152.sql Line: 36 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1399928152.sql Line: 43 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1399928152.sql Line: 50 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1399928152.sql Line: 57 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1399928152.sql Line: 64 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1399928152.sql Line: 71 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1399928152.sql Line: 78 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1399928152.sql Line: 81 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1399928152.sql Line: 3793 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1399928152.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1399928152.sql Line: 7 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1399928152.sql Line: 29 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399928152.sql Line: 43 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399928152.sql Line: 57 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399928152.sql Line: 71 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399928152.sql Line: 87 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399928152.sql Line: 87 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400182760.sql Line: 1 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1400182760.sql Line: 1 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1400183684.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1400183684.sql Line: 7 Keyword: 'on'
+File: 1400183684.sql Line: 29 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1400183684.sql Line: 36 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1400183684.sql Line: 43 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1400183684.sql Line: 50 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1400183684.sql Line: 57 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1400183684.sql Line: 64 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1400183684.sql Line: 71 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1400183684.sql Line: 78 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1400183684.sql Line: 81 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1400183684.sql Line: 3838 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1400183684.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1400183684.sql Line: 7 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1400183684.sql Line: 29 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400183684.sql Line: 43 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400183684.sql Line: 57 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400183684.sql Line: 71 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400183684.sql Line: 87 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400183684.sql Line: 87 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400183684.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1400183684.sql Line: 7 Keyword: 'on'
+File: 1400183684.sql Line: 29 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1400183684.sql Line: 36 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1400183684.sql Line: 43 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1400183684.sql Line: 50 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1400183684.sql Line: 57 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1400183684.sql Line: 64 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1400183684.sql Line: 71 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1400183684.sql Line: 78 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1400183684.sql Line: 81 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1400183684.sql Line: 3838 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1400183684.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1400183684.sql Line: 7 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1400183684.sql Line: 29 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400183684.sql Line: 43 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400183684.sql Line: 57 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400183684.sql Line: 71 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400183684.sql Line: 87 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400183684.sql Line: 87 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400185242.sql Line: 1 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1400185242.sql Line: 1 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1400274472.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1400274472.sql Line: 7 Keyword: 'on'
+File: 1400274472.sql Line: 29 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1400274472.sql Line: 36 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1400274472.sql Line: 43 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1400274472.sql Line: 50 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1400274472.sql Line: 57 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1400274472.sql Line: 64 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1400274472.sql Line: 71 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1400274472.sql Line: 78 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1400274472.sql Line: 81 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1400274472.sql Line: 3891 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1400274472.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1400274472.sql Line: 7 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1400274472.sql Line: 29 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400274472.sql Line: 43 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400274472.sql Line: 57 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400274472.sql Line: 71 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400274472.sql Line: 87 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400274472.sql Line: 87 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400274472.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1400274472.sql Line: 7 Keyword: 'on'
+File: 1400274472.sql Line: 29 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1400274472.sql Line: 36 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1400274472.sql Line: 43 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1400274472.sql Line: 50 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1400274472.sql Line: 57 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1400274472.sql Line: 64 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1400274472.sql Line: 71 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1400274472.sql Line: 78 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1400274472.sql Line: 81 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1400274472.sql Line: 3891 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1400274472.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1400274472.sql Line: 7 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1400274472.sql Line: 29 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400274472.sql Line: 43 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400274472.sql Line: 57 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400274472.sql Line: 71 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400274472.sql Line: 87 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400274472.sql Line: 87 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400623262.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1400623262.sql Line: 7 Keyword: 'on'
+File: 1400623262.sql Line: 29 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1400623262.sql Line: 36 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1400623262.sql Line: 43 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1400623262.sql Line: 50 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1400623262.sql Line: 57 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1400623262.sql Line: 64 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1400623262.sql Line: 71 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1400623262.sql Line: 78 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1400623262.sql Line: 81 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1400623262.sql Line: 3894 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1400623262.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1400623262.sql Line: 7 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1400623262.sql Line: 29 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400623262.sql Line: 43 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400623262.sql Line: 57 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400623262.sql Line: 71 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400623262.sql Line: 87 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400623262.sql Line: 87 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400623262.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1400623262.sql Line: 7 Keyword: 'on'
+File: 1400623262.sql Line: 29 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1400623262.sql Line: 36 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1400623262.sql Line: 43 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1400623262.sql Line: 50 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1400623262.sql Line: 57 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1400623262.sql Line: 64 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1400623262.sql Line: 71 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1400623262.sql Line: 78 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1400623262.sql Line: 81 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1400623262.sql Line: 3894 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1400623262.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1400623262.sql Line: 7 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1400623262.sql Line: 29 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400623262.sql Line: 43 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400623262.sql Line: 57 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400623262.sql Line: 71 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400623262.sql Line: 87 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400623262.sql Line: 87 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400792264.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1400792264.sql Line: 7 Keyword: 'on'
+File: 1400792264.sql Line: 29 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1400792264.sql Line: 36 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1400792264.sql Line: 43 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1400792264.sql Line: 50 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1400792264.sql Line: 57 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1400792264.sql Line: 64 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1400792264.sql Line: 71 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1400792264.sql Line: 78 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1400792264.sql Line: 81 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1400792264.sql Line: 3915 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1400792264.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1400792264.sql Line: 7 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1400792264.sql Line: 29 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400792264.sql Line: 43 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400792264.sql Line: 57 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400792264.sql Line: 71 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400792264.sql Line: 87 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400792264.sql Line: 87 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400792264.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1400792264.sql Line: 7 Keyword: 'on'
+File: 1400792264.sql Line: 29 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1400792264.sql Line: 36 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1400792264.sql Line: 43 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1400792264.sql Line: 50 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1400792264.sql Line: 57 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1400792264.sql Line: 64 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1400792264.sql Line: 71 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1400792264.sql Line: 78 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1400792264.sql Line: 81 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1400792264.sql Line: 3915 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1400792264.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1400792264.sql Line: 7 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1400792264.sql Line: 29 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400792264.sql Line: 43 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400792264.sql Line: 57 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400792264.sql Line: 71 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400792264.sql Line: 87 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1400792264.sql Line: 87 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1401296863.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1401296863.sql Line: 7 Keyword: 'on'
+File: 1401296863.sql Line: 29 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1401296863.sql Line: 36 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1401296863.sql Line: 43 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1401296863.sql Line: 50 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1401296863.sql Line: 57 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1401296863.sql Line: 64 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1401296863.sql Line: 71 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1401296863.sql Line: 78 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1401296863.sql Line: 81 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1401296863.sql Line: 3930 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1401296863.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1401296863.sql Line: 7 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1401296863.sql Line: 29 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1401296863.sql Line: 43 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1401296863.sql Line: 57 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1401296863.sql Line: 71 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1401296863.sql Line: 87 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1401296863.sql Line: 87 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1401296863.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1401296863.sql Line: 7 Keyword: 'on'
+File: 1401296863.sql Line: 29 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1401296863.sql Line: 36 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1401296863.sql Line: 43 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1401296863.sql Line: 50 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1401296863.sql Line: 57 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1401296863.sql Line: 64 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1401296863.sql Line: 71 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1401296863.sql Line: 78 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1401296863.sql Line: 81 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1401296863.sql Line: 3930 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1401296863.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1401296863.sql Line: 7 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1401296863.sql Line: 29 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1401296863.sql Line: 43 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1401296863.sql Line: 57 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1401296863.sql Line: 71 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1401296863.sql Line: 87 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1401296863.sql Line: 87 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1402590554.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1402590554.sql Line: 7 Keyword: 'on'
+File: 1402590554.sql Line: 29 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1402590554.sql Line: 36 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1402590554.sql Line: 43 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1402590554.sql Line: 50 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1402590554.sql Line: 57 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1402590554.sql Line: 64 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1402590554.sql Line: 71 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1402590554.sql Line: 78 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1402590554.sql Line: 81 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1402590554.sql Line: 3947 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1402590554.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1402590554.sql Line: 7 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1402590554.sql Line: 29 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1402590554.sql Line: 43 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1402590554.sql Line: 57 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1402590554.sql Line: 71 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1402590554.sql Line: 87 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1402590554.sql Line: 87 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1402590554.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1402590554.sql Line: 7 Keyword: 'on'
+File: 1402590554.sql Line: 29 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1402590554.sql Line: 36 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1402590554.sql Line: 43 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1402590554.sql Line: 50 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1402590554.sql Line: 57 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1402590554.sql Line: 64 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1402590554.sql Line: 71 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1402590554.sql Line: 78 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1402590554.sql Line: 81 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1402590554.sql Line: 3947 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1402590554.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1402590554.sql Line: 7 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1402590554.sql Line: 29 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1402590554.sql Line: 43 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1402590554.sql Line: 57 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1402590554.sql Line: 71 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1402590554.sql Line: 87 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1402590554.sql Line: 87 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1406306059.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1406306059.sql Line: 6 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1406306059.sql Line: 8 Keyword: 'on'
+File: 1406306059.sql Line: 30 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1406306059.sql Line: 37 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1406306059.sql Line: 44 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1406306059.sql Line: 51 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1406306059.sql Line: 58 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1406306059.sql Line: 65 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1406306059.sql Line: 72 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1406306059.sql Line: 79 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1406306059.sql Line: 82 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1406306059.sql Line: 3958 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1406306059.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1406306059.sql Line: 6 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1406306059.sql Line: 8 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1406306059.sql Line: 30 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1406306059.sql Line: 44 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1406306059.sql Line: 58 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1406306059.sql Line: 72 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1406306059.sql Line: 88 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1406306059.sql Line: 88 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1406306059.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1406306059.sql Line: 6 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1406306059.sql Line: 8 Keyword: 'on'
+File: 1406306059.sql Line: 30 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1406306059.sql Line: 37 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1406306059.sql Line: 44 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1406306059.sql Line: 51 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1406306059.sql Line: 58 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1406306059.sql Line: 65 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1406306059.sql Line: 72 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1406306059.sql Line: 79 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1406306059.sql Line: 82 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1406306059.sql Line: 3958 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1406306059.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1406306059.sql Line: 6 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1406306059.sql Line: 8 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1406306059.sql Line: 30 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1406306059.sql Line: 44 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1406306059.sql Line: 58 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1406306059.sql Line: 72 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1406306059.sql Line: 88 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1406306059.sql Line: 88 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1407266680.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1407266680.sql Line: 6 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1407266680.sql Line: 8 Keyword: 'on'
+File: 1407266680.sql Line: 30 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1407266680.sql Line: 37 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1407266680.sql Line: 44 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1407266680.sql Line: 51 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1407266680.sql Line: 58 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1407266680.sql Line: 65 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1407266680.sql Line: 72 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1407266680.sql Line: 79 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1407266680.sql Line: 82 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1407266680.sql Line: 3958 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1407266680.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1407266680.sql Line: 6 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1407266680.sql Line: 8 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1407266680.sql Line: 30 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1407266680.sql Line: 44 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1407266680.sql Line: 58 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1407266680.sql Line: 72 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1407266680.sql Line: 88 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1407266680.sql Line: 88 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1407266680.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1407266680.sql Line: 6 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1407266680.sql Line: 8 Keyword: 'on'
+File: 1407266680.sql Line: 30 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1407266680.sql Line: 37 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1407266680.sql Line: 44 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1407266680.sql Line: 51 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1407266680.sql Line: 58 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1407266680.sql Line: 65 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1407266680.sql Line: 72 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1407266680.sql Line: 79 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1407266680.sql Line: 82 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1407266680.sql Line: 3958 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1407266680.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1407266680.sql Line: 6 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1407266680.sql Line: 8 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1407266680.sql Line: 30 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1407266680.sql Line: 44 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1407266680.sql Line: 58 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1407266680.sql Line: 72 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1407266680.sql Line: 88 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1407266680.sql Line: 88 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1418329921.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1418329921.sql Line: 6 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1418329921.sql Line: 8 Keyword: 'on'
+File: 1418329921.sql Line: 30 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1418329921.sql Line: 37 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1418329921.sql Line: 44 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1418329921.sql Line: 51 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1418329921.sql Line: 58 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1418329921.sql Line: 65 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1418329921.sql Line: 72 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1418329921.sql Line: 79 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1418329921.sql Line: 82 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1418329921.sql Line: 3961 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1418329921.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1418329921.sql Line: 6 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1418329921.sql Line: 8 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1418329921.sql Line: 30 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1418329921.sql Line: 44 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1418329921.sql Line: 58 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1418329921.sql Line: 72 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1418329921.sql Line: 88 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1418329921.sql Line: 88 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1418329921.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1418329921.sql Line: 6 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1418329921.sql Line: 8 Keyword: 'on'
+File: 1418329921.sql Line: 30 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1418329921.sql Line: 37 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1418329921.sql Line: 44 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1418329921.sql Line: 51 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1418329921.sql Line: 58 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1418329921.sql Line: 65 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1418329921.sql Line: 72 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1418329921.sql Line: 79 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1418329921.sql Line: 82 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1418329921.sql Line: 3961 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1418329921.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1418329921.sql Line: 6 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1418329921.sql Line: 8 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1418329921.sql Line: 30 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1418329921.sql Line: 44 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1418329921.sql Line: 58 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1418329921.sql Line: 72 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1418329921.sql Line: 88 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1418329921.sql Line: 88 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1418846809.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1418846809.sql Line: 6 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1418846809.sql Line: 8 Keyword: 'on'
+File: 1418846809.sql Line: 30 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1418846809.sql Line: 37 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1418846809.sql Line: 44 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1418846809.sql Line: 51 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1418846809.sql Line: 58 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1418846809.sql Line: 65 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1418846809.sql Line: 72 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1418846809.sql Line: 79 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1418846809.sql Line: 82 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1418846809.sql Line: 3961 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1418846809.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1418846809.sql Line: 6 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1418846809.sql Line: 8 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1418846809.sql Line: 30 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1418846809.sql Line: 44 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1418846809.sql Line: 58 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1418846809.sql Line: 72 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1418846809.sql Line: 88 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1418846809.sql Line: 88 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1418846809.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1418846809.sql Line: 6 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1418846809.sql Line: 8 Keyword: 'on'
+File: 1418846809.sql Line: 30 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1418846809.sql Line: 37 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1418846809.sql Line: 44 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1418846809.sql Line: 51 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1418846809.sql Line: 58 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1418846809.sql Line: 65 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1418846809.sql Line: 72 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1418846809.sql Line: 79 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1418846809.sql Line: 82 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1418846809.sql Line: 3961 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1418846809.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1418846809.sql Line: 6 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1418846809.sql Line: 8 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1418846809.sql Line: 30 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1418846809.sql Line: 44 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1418846809.sql Line: 58 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1418846809.sql Line: 72 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1418846809.sql Line: 88 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1418846809.sql Line: 88 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1421167132.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1421167132.sql Line: 6 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1421167132.sql Line: 8 Keyword: 'on'
+File: 1421167132.sql Line: 30 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1421167132.sql Line: 37 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1421167132.sql Line: 44 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1421167132.sql Line: 51 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1421167132.sql Line: 58 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1421167132.sql Line: 65 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1421167132.sql Line: 72 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1421167132.sql Line: 79 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1421167132.sql Line: 82 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1421167132.sql Line: 3962 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1421167132.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1421167132.sql Line: 6 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1421167132.sql Line: 8 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1421167132.sql Line: 30 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1421167132.sql Line: 44 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1421167132.sql Line: 58 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1421167132.sql Line: 72 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1421167132.sql Line: 88 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1421167132.sql Line: 88 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1421167132.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1421167132.sql Line: 6 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1421167132.sql Line: 8 Keyword: 'on'
+File: 1421167132.sql Line: 30 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1421167132.sql Line: 37 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1421167132.sql Line: 44 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1421167132.sql Line: 51 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1421167132.sql Line: 58 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1421167132.sql Line: 65 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1421167132.sql Line: 72 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1421167132.sql Line: 79 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1421167132.sql Line: 82 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1421167132.sql Line: 3962 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1421167132.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1421167132.sql Line: 6 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1421167132.sql Line: 8 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1421167132.sql Line: 30 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1421167132.sql Line: 44 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1421167132.sql Line: 58 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1421167132.sql Line: 72 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1421167132.sql Line: 88 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1421167132.sql Line: 88 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1421276188.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1421276188.sql Line: 6 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1421276188.sql Line: 8 Keyword: 'on'
+File: 1421276188.sql Line: 30 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1421276188.sql Line: 37 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1421276188.sql Line: 44 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1421276188.sql Line: 51 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1421276188.sql Line: 58 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1421276188.sql Line: 65 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1421276188.sql Line: 72 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1421276188.sql Line: 79 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1421276188.sql Line: 82 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1421276188.sql Line: 3964 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1421276188.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1421276188.sql Line: 6 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1421276188.sql Line: 8 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1421276188.sql Line: 30 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1421276188.sql Line: 44 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1421276188.sql Line: 58 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1421276188.sql Line: 72 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1421276188.sql Line: 88 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1421276188.sql Line: 88 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1421276188.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1421276188.sql Line: 6 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1421276188.sql Line: 8 Keyword: 'on'
+File: 1421276188.sql Line: 30 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1421276188.sql Line: 37 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1421276188.sql Line: 44 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1421276188.sql Line: 51 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1421276188.sql Line: 58 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1421276188.sql Line: 65 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1421276188.sql Line: 72 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1421276188.sql Line: 79 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1421276188.sql Line: 82 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1421276188.sql Line: 3964 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1421276188.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1421276188.sql Line: 6 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1421276188.sql Line: 8 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1421276188.sql Line: 30 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1421276188.sql Line: 44 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1421276188.sql Line: 58 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1421276188.sql Line: 72 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1421276188.sql Line: 88 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1421276188.sql Line: 88 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1430262809.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1430262809.sql Line: 6 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1430262809.sql Line: 8 Keyword: 'on'
+File: 1430262809.sql Line: 30 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1430262809.sql Line: 37 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1430262809.sql Line: 44 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1430262809.sql Line: 51 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1430262809.sql Line: 58 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1430262809.sql Line: 65 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1430262809.sql Line: 72 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1430262809.sql Line: 79 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1430262809.sql Line: 82 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1430262809.sql Line: 3965 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1430262809.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1430262809.sql Line: 6 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1430262809.sql Line: 8 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1430262809.sql Line: 30 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1430262809.sql Line: 44 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1430262809.sql Line: 58 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1430262809.sql Line: 72 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1430262809.sql Line: 88 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1430262809.sql Line: 88 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1430262809.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1430262809.sql Line: 6 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1430262809.sql Line: 8 Keyword: 'on'
+File: 1430262809.sql Line: 30 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1430262809.sql Line: 37 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1430262809.sql Line: 44 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1430262809.sql Line: 51 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1430262809.sql Line: 58 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1430262809.sql Line: 65 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1430262809.sql Line: 72 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1430262809.sql Line: 79 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1430262809.sql Line: 82 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1430262809.sql Line: 3965 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1430262809.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1430262809.sql Line: 6 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1430262809.sql Line: 8 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1430262809.sql Line: 30 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1430262809.sql Line: 44 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1430262809.sql Line: 58 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1430262809.sql Line: 72 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1430262809.sql Line: 88 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1430262809.sql Line: 88 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433529832.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1433529832.sql Line: 6 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1433529832.sql Line: 8 Keyword: 'on'
+File: 1433529832.sql Line: 30 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1433529832.sql Line: 37 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1433529832.sql Line: 44 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1433529832.sql Line: 51 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1433529832.sql Line: 58 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1433529832.sql Line: 65 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1433529832.sql Line: 72 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1433529832.sql Line: 79 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1433529832.sql Line: 82 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1433529832.sql Line: 3970 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1433529832.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1433529832.sql Line: 6 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1433529832.sql Line: 8 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1433529832.sql Line: 30 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433529832.sql Line: 44 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433529832.sql Line: 58 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433529832.sql Line: 72 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433529832.sql Line: 88 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433529832.sql Line: 88 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433529832.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1433529832.sql Line: 6 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1433529832.sql Line: 8 Keyword: 'on'
+File: 1433529832.sql Line: 30 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1433529832.sql Line: 37 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1433529832.sql Line: 44 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1433529832.sql Line: 51 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1433529832.sql Line: 58 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1433529832.sql Line: 65 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1433529832.sql Line: 72 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1433529832.sql Line: 79 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1433529832.sql Line: 82 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1433529832.sql Line: 3970 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1433529832.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1433529832.sql Line: 6 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1433529832.sql Line: 8 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1433529832.sql Line: 30 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433529832.sql Line: 44 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433529832.sql Line: 58 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433529832.sql Line: 72 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433529832.sql Line: 88 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433529832.sql Line: 88 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433530896.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1433530896.sql Line: 6 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1433530896.sql Line: 8 Keyword: 'on'
+File: 1433530896.sql Line: 30 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1433530896.sql Line: 37 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1433530896.sql Line: 44 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1433530896.sql Line: 51 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1433530896.sql Line: 58 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1433530896.sql Line: 65 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1433530896.sql Line: 72 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1433530896.sql Line: 79 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1433530896.sql Line: 82 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1433530896.sql Line: 3970 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1433530896.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1433530896.sql Line: 6 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1433530896.sql Line: 8 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1433530896.sql Line: 30 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433530896.sql Line: 44 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433530896.sql Line: 58 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433530896.sql Line: 72 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433530896.sql Line: 88 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433530896.sql Line: 88 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433530896.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1433530896.sql Line: 6 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1433530896.sql Line: 8 Keyword: 'on'
+File: 1433530896.sql Line: 30 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1433530896.sql Line: 37 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1433530896.sql Line: 44 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1433530896.sql Line: 51 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1433530896.sql Line: 58 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1433530896.sql Line: 65 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1433530896.sql Line: 72 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1433530896.sql Line: 79 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1433530896.sql Line: 82 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1433530896.sql Line: 3970 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1433530896.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1433530896.sql Line: 6 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1433530896.sql Line: 8 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1433530896.sql Line: 30 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433530896.sql Line: 44 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433530896.sql Line: 58 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433530896.sql Line: 72 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433530896.sql Line: 88 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433530896.sql Line: 88 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433963469.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1433963469.sql Line: 6 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1433963469.sql Line: 8 Keyword: 'on'
+File: 1433963469.sql Line: 30 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1433963469.sql Line: 37 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1433963469.sql Line: 44 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1433963469.sql Line: 51 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1433963469.sql Line: 58 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1433963469.sql Line: 65 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1433963469.sql Line: 72 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1433963469.sql Line: 79 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1433963469.sql Line: 82 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1433963469.sql Line: 3968 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1433963469.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1433963469.sql Line: 6 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1433963469.sql Line: 8 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1433963469.sql Line: 30 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433963469.sql Line: 44 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433963469.sql Line: 58 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433963469.sql Line: 72 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433963469.sql Line: 88 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433963469.sql Line: 88 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433963469.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1433963469.sql Line: 6 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1433963469.sql Line: 8 Keyword: 'on'
+File: 1433963469.sql Line: 30 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1433963469.sql Line: 37 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1433963469.sql Line: 44 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1433963469.sql Line: 51 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1433963469.sql Line: 58 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1433963469.sql Line: 65 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1433963469.sql Line: 72 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1433963469.sql Line: 79 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1433963469.sql Line: 82 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1433963469.sql Line: 3968 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1433963469.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1433963469.sql Line: 6 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1433963469.sql Line: 8 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1433963469.sql Line: 30 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433963469.sql Line: 44 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433963469.sql Line: 58 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433963469.sql Line: 72 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433963469.sql Line: 88 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433963469.sql Line: 88 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433964023.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1433964023.sql Line: 6 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1433964023.sql Line: 8 Keyword: 'on'
+File: 1433964023.sql Line: 30 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1433964023.sql Line: 37 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1433964023.sql Line: 44 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1433964023.sql Line: 51 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1433964023.sql Line: 58 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1433964023.sql Line: 65 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1433964023.sql Line: 72 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1433964023.sql Line: 79 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1433964023.sql Line: 82 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1433964023.sql Line: 3968 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1433964023.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1433964023.sql Line: 6 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1433964023.sql Line: 8 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1433964023.sql Line: 30 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433964023.sql Line: 44 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433964023.sql Line: 58 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433964023.sql Line: 72 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433964023.sql Line: 88 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433964023.sql Line: 88 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433964023.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1433964023.sql Line: 6 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1433964023.sql Line: 8 Keyword: 'on'
+File: 1433964023.sql Line: 30 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1433964023.sql Line: 37 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1433964023.sql Line: 44 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1433964023.sql Line: 51 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1433964023.sql Line: 58 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1433964023.sql Line: 65 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1433964023.sql Line: 72 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1433964023.sql Line: 79 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1433964023.sql Line: 82 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1433964023.sql Line: 3968 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1433964023.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1433964023.sql Line: 6 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1433964023.sql Line: 8 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1433964023.sql Line: 30 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433964023.sql Line: 44 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433964023.sql Line: 58 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433964023.sql Line: 72 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433964023.sql Line: 88 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1433964023.sql Line: 88 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1438359809.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1438359809.sql Line: 6 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1438359809.sql Line: 8 Keyword: 'on'
+File: 1438359809.sql Line: 30 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1438359809.sql Line: 37 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1438359809.sql Line: 44 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1438359809.sql Line: 51 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1438359809.sql Line: 58 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1438359809.sql Line: 65 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1438359809.sql Line: 72 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1438359809.sql Line: 79 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1438359809.sql Line: 82 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1438359809.sql Line: 3968 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1438359809.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1438359809.sql Line: 6 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1438359809.sql Line: 8 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1438359809.sql Line: 30 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1438359809.sql Line: 44 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1438359809.sql Line: 58 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1438359809.sql Line: 72 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1438359809.sql Line: 88 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1438359809.sql Line: 88 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1438359809.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1438359809.sql Line: 6 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1438359809.sql Line: 8 Keyword: 'on'
+File: 1438359809.sql Line: 30 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1438359809.sql Line: 37 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1438359809.sql Line: 44 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1438359809.sql Line: 51 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1438359809.sql Line: 58 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1438359809.sql Line: 65 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1438359809.sql Line: 72 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1438359809.sql Line: 79 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1438359809.sql Line: 82 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1438359809.sql Line: 3968 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1438359809.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1438359809.sql Line: 6 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1438359809.sql Line: 8 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1438359809.sql Line: 30 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1438359809.sql Line: 44 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1438359809.sql Line: 58 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1438359809.sql Line: 72 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1438359809.sql Line: 88 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1438359809.sql Line: 88 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1438961454.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1438961454.sql Line: 6 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1438961454.sql Line: 8 Keyword: 'on'
+File: 1438961454.sql Line: 30 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1438961454.sql Line: 37 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1438961454.sql Line: 44 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1438961454.sql Line: 51 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1438961454.sql Line: 58 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1438961454.sql Line: 65 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1438961454.sql Line: 72 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1438961454.sql Line: 79 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1438961454.sql Line: 82 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1438961454.sql Line: 3987 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1438961454.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1438961454.sql Line: 6 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1438961454.sql Line: 8 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1438961454.sql Line: 30 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1438961454.sql Line: 44 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1438961454.sql Line: 58 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1438961454.sql Line: 72 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1438961454.sql Line: 88 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1438961454.sql Line: 88 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1438961454.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1438961454.sql Line: 6 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1438961454.sql Line: 8 Keyword: 'on'
+File: 1438961454.sql Line: 30 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1438961454.sql Line: 37 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1438961454.sql Line: 44 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1438961454.sql Line: 51 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1438961454.sql Line: 58 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1438961454.sql Line: 65 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1438961454.sql Line: 72 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1438961454.sql Line: 79 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1438961454.sql Line: 82 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1438961454.sql Line: 3987 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1438961454.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1438961454.sql Line: 6 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1438961454.sql Line: 8 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1438961454.sql Line: 30 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1438961454.sql Line: 44 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1438961454.sql Line: 58 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1438961454.sql Line: 72 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1438961454.sql Line: 88 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1438961454.sql Line: 88 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1444151245.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1444151245.sql Line: 6 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1444151245.sql Line: 8 Keyword: 'on'
+File: 1444151245.sql Line: 30 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1444151245.sql Line: 37 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1444151245.sql Line: 44 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1444151245.sql Line: 51 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1444151245.sql Line: 58 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1444151245.sql Line: 65 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1444151245.sql Line: 72 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1444151245.sql Line: 79 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1444151245.sql Line: 82 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1444151245.sql Line: 3990 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1444151245.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1444151245.sql Line: 6 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1444151245.sql Line: 8 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1444151245.sql Line: 30 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1444151245.sql Line: 44 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1444151245.sql Line: 58 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1444151245.sql Line: 72 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1444151245.sql Line: 88 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1444151245.sql Line: 88 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399486716.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1399486716.sql Line: 7 Keyword: 'on'
+File: 1399486716.sql Line: 29 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1399486716.sql Line: 36 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1399486716.sql Line: 43 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1399486716.sql Line: 50 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1399486716.sql Line: 57 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1399486716.sql Line: 64 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1399486716.sql Line: 71 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1399486716.sql Line: 78 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1399486716.sql Line: 81 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1399486716.sql Line: 3737 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1399486716.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1399486716.sql Line: 7 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1399486716.sql Line: 29 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399486716.sql Line: 43 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399486716.sql Line: 57 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399486716.sql Line: 71 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399486716.sql Line: 87 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1399486716.sql Line: 87 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1444151245.sql Line: 5 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1444151245.sql Line: 6 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1444151245.sql Line: 8 Keyword: 'on'
+File: 1444151245.sql Line: 30 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1444151245.sql Line: 37 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1444151245.sql Line: 44 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1444151245.sql Line: 51 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1444151245.sql Line: 58 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1444151245.sql Line: 65 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1444151245.sql Line: 72 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'EXTENSION'
+File: 1444151245.sql Line: 79 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1444151245.sql Line: 82 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1444151245.sql Line: 3990 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1444151245.sql Line: 5 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1444151245.sql Line: 6 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1444151245.sql Line: 8 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1444151245.sql Line: 30 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1444151245.sql Line: 44 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1444151245.sql Line: 58 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1444151245.sql Line: 72 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1444151245.sql Line: 88 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1444151245.sql Line: 88 Error: Command CREATE does not support action PROCEDURE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 

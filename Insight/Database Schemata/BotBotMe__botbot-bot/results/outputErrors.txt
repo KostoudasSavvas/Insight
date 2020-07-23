@@ -1,0 +1,129 @@
+
+File: 1390155282.sql Line: 1 Error: This command is not allowed in the Hecate Tool. [major] Keyword: 'BEGIN'
+File: 1496250274.sql Line: 9 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1496250274.sql Line: 10 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1496250274.sql Line: 11 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1496250274.sql Line: 13 Keyword: 'on'
+File: 1496250274.sql Line: 18 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1496250274.sql Line: 50 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'SEQUENCE'
+File: 1496250274.sql Line: 62 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'SEQUENCE'
+File: 1496250274.sql Line: 62 Error: The keyword 'bots_channel_id_seq' is invalid. Keyword: 'bots_channel_id_seq',[minor]
+File: 1496250274.sql Line: 87 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'SEQUENCE'
+File: 1496250274.sql Line: 110 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: '['
+File: 1496250274.sql Line: 119 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'SEQUENCE'
+File: 1496250274.sql Line: 138 Error: The keyword 'bots_channel' is invalid. Keyword: 'bots_channel',[minor]
+File: 1496250274.sql Line: 138 Error: The keyword 'COLUMN' is invalid. Keyword: 'COLUMN',[minor]
+File: 1496250274.sql Line: 138 Error: The keyword 'id' is invalid. Keyword: 'id',[minor]
+File: 1496250274.sql Line: 138 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1496250274.sql Line: 145 Error: The keyword 'bots_chatbot' is invalid. Keyword: 'bots_chatbot',[minor]
+File: 1496250274.sql Line: 145 Error: The keyword 'COLUMN' is invalid. Keyword: 'COLUMN',[minor]
+File: 1496250274.sql Line: 145 Error: The keyword 'id' is invalid. Keyword: 'id',[minor]
+File: 1496250274.sql Line: 145 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1496250274.sql Line: 152 Error: The keyword 'bots_usercount' is invalid. Keyword: 'bots_usercount',[minor]
+File: 1496250274.sql Line: 152 Error: The keyword 'COLUMN' is invalid. Keyword: 'COLUMN',[minor]
+File: 1496250274.sql Line: 152 Error: The keyword 'id' is invalid. Keyword: 'id',[minor]
+File: 1496250274.sql Line: 152 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1496250274.sql Line: 159 Error: The keyword 'bots_channel' is invalid. Keyword: 'bots_channel',[minor]
+File: 1496250274.sql Line: 167 Error: The keyword 'bots_channel' is invalid. Keyword: 'bots_channel',[minor]
+File: 1496250274.sql Line: 175 Error: The keyword 'bots_channel' is invalid. Keyword: 'bots_channel',[minor]
+File: 1496250274.sql Line: 183 Error: The keyword 'bots_channel' is invalid. Keyword: 'bots_channel',[minor]
+File: 1496250274.sql Line: 191 Error: The keyword 'bots_chatbot' is invalid. Keyword: 'bots_chatbot',[minor]
+File: 1496250274.sql Line: 199 Error: The keyword 'bots_usercount' is invalid. Keyword: 'bots_usercount',[minor]
+File: 1496250274.sql Line: 207 Keyword: 'USING'
+File: 1496250274.sql Line: 214 Keyword: 'USING'
+File: 1496250274.sql Line: 221 Keyword: 'USING'
+File: 1496250274.sql Line: 228 Keyword: 'USING'
+File: 1496250274.sql Line: 235 Keyword: 'USING'
+File: 1496250274.sql Line: 242 Keyword: 'USING'
+File: 1496250274.sql Line: 249 Keyword: 'USING'
+File: 1496250274.sql Line: 9 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1496250274.sql Line: 10 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1496250274.sql Line: 11 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1496250274.sql Line: 13 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1496250274.sql Line: 50 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1496250274.sql Line: 50 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1496250274.sql Line: 62 Error: SQL ALTER command does not support packages in the table name. [major] 
+File: 1496250274.sql Line: 87 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1496250274.sql Line: 87 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1496250274.sql Line: 119 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1496250274.sql Line: 119 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1496250274.sql Line: 138 Error: Keyword 'ONLY' is not allowed after the command 'ALTER'. ALTERTABLEONLYbots_channel [major] 
+File: 1496250274.sql Line: 145 Error: Keyword 'ONLY' is not allowed after the command 'ALTER'. ALTERTABLEONLYbots_chatbot [major] 
+File: 1496250274.sql Line: 152 Error: Keyword 'ONLY' is not allowed after the command 'ALTER'. ALTERTABLEONLYbots_usercount [major] 
+File: 1496250274.sql Line: 159 Error: Keyword 'ONLY' is not allowed after the command 'ALTER'. ALTERTABLEONLYbots_channelADDCONSTRAINTbots_channel_name_2eb90853f7a0f4bc_uniqUNIQUE(name,chatbot_id) [major] 
+File: 1496250274.sql Line: 167 Error: Keyword 'ONLY' is not allowed after the command 'ALTER'. ALTERTABLEONLYbots_channelADDCONSTRAINTbots_channel_pkeyPRIMARYKEY(id) [major] 
+File: 1496250274.sql Line: 175 Error: Keyword 'ONLY' is not allowed after the command 'ALTER'. ALTERTABLEONLYbots_channelADDCONSTRAINTbots_channel_private_slug_keyUNIQUE(private_slug) [major] 
+File: 1496250274.sql Line: 183 Error: Keyword 'ONLY' is not allowed after the command 'ALTER'. ALTERTABLEONLYbots_channelADDCONSTRAINTbots_channel_slug_7ed9a1a261704004_uniqUNIQUE(slug,chatbot_id) [major] 
+File: 1496250274.sql Line: 191 Error: Keyword 'ONLY' is not allowed after the command 'ALTER'. ALTERTABLEONLYbots_chatbotADDCONSTRAINTbots_chatbot_pkeyPRIMARYKEY(id) [major] 
+File: 1496250274.sql Line: 199 Error: Keyword 'ONLY' is not allowed after the command 'ALTER'. ALTERTABLEONLYbots_usercountADDCONSTRAINTbots_usercount_pkeyPRIMARYKEY(id) [major] 
+File: 1496250274.sql Line: 207 Error: USING option is not spelled correctly. The right syntax is this: (USING(BTREE|HASH)), [major] 
+File: 1496250274.sql Line: 214 Error: USING option is not spelled correctly. The right syntax is this: (USING(BTREE|HASH)), [major] 
+File: 1496250274.sql Line: 221 Error: USING option is not spelled correctly. The right syntax is this: (USING(BTREE|HASH)), [major] 
+File: 1496250274.sql Line: 228 Error: USING option is not spelled correctly. The right syntax is this: (USING(BTREE|HASH)), [major] 
+File: 1496250274.sql Line: 235 Error: USING option is not spelled correctly. The right syntax is this: (USING(BTREE|HASH)), [major] 
+File: 1496250274.sql Line: 242 Error: USING option is not spelled correctly. The right syntax is this: (USING(BTREE|HASH)), [major] 
+File: 1496250274.sql Line: 249 Error: USING option is not spelled correctly. The right syntax is this: (USING(BTREE|HASH)), [major] 
+File: 1390155282.sql Line: 1 Error: This command is not allowed in the Hecate Tool. [major] Keyword: 'BEGIN'
+File: 1496250274.sql Line: 9 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1496250274.sql Line: 10 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1496250274.sql Line: 11 Error: The keyword '0' is invalid. Keyword: '0',[minor]
+File: 1496250274.sql Line: 13 Keyword: 'on'
+File: 1496250274.sql Line: 18 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1496250274.sql Line: 50 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'SEQUENCE'
+File: 1496250274.sql Line: 62 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'SEQUENCE'
+File: 1496250274.sql Line: 62 Error: The keyword 'bots_channel_id_seq' is invalid. Keyword: 'bots_channel_id_seq',[minor]
+File: 1496250274.sql Line: 87 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'SEQUENCE'
+File: 1496250274.sql Line: 110 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: '['
+File: 1496250274.sql Line: 119 Error: Commands 'CREATE' and 'ALTER' do not accept this keyword. [major] Keyword: 'SEQUENCE'
+File: 1496250274.sql Line: 138 Error: The keyword 'bots_channel' is invalid. Keyword: 'bots_channel',[minor]
+File: 1496250274.sql Line: 138 Error: The keyword 'COLUMN' is invalid. Keyword: 'COLUMN',[minor]
+File: 1496250274.sql Line: 138 Error: The keyword 'id' is invalid. Keyword: 'id',[minor]
+File: 1496250274.sql Line: 138 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1496250274.sql Line: 145 Error: The keyword 'bots_chatbot' is invalid. Keyword: 'bots_chatbot',[minor]
+File: 1496250274.sql Line: 145 Error: The keyword 'COLUMN' is invalid. Keyword: 'COLUMN',[minor]
+File: 1496250274.sql Line: 145 Error: The keyword 'id' is invalid. Keyword: 'id',[minor]
+File: 1496250274.sql Line: 145 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1496250274.sql Line: 152 Error: The keyword 'bots_usercount' is invalid. Keyword: 'bots_usercount',[minor]
+File: 1496250274.sql Line: 152 Error: The keyword 'COLUMN' is invalid. Keyword: 'COLUMN',[minor]
+File: 1496250274.sql Line: 152 Error: The keyword 'id' is invalid. Keyword: 'id',[minor]
+File: 1496250274.sql Line: 152 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1496250274.sql Line: 159 Error: The keyword 'bots_channel' is invalid. Keyword: 'bots_channel',[minor]
+File: 1496250274.sql Line: 167 Error: The keyword 'bots_channel' is invalid. Keyword: 'bots_channel',[minor]
+File: 1496250274.sql Line: 175 Error: The keyword 'bots_channel' is invalid. Keyword: 'bots_channel',[minor]
+File: 1496250274.sql Line: 183 Error: The keyword 'bots_channel' is invalid. Keyword: 'bots_channel',[minor]
+File: 1496250274.sql Line: 191 Error: The keyword 'bots_chatbot' is invalid. Keyword: 'bots_chatbot',[minor]
+File: 1496250274.sql Line: 199 Error: The keyword 'bots_usercount' is invalid. Keyword: 'bots_usercount',[minor]
+File: 1496250274.sql Line: 207 Keyword: 'USING'
+File: 1496250274.sql Line: 214 Keyword: 'USING'
+File: 1496250274.sql Line: 221 Keyword: 'USING'
+File: 1496250274.sql Line: 228 Keyword: 'USING'
+File: 1496250274.sql Line: 235 Keyword: 'USING'
+File: 1496250274.sql Line: 242 Keyword: 'USING'
+File: 1496250274.sql Line: 249 Keyword: 'USING'
+File: 1496250274.sql Line: 9 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1496250274.sql Line: 10 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1496250274.sql Line: 11 Error: Keyword '0'.Digits outside quotes are not allowed in a 'SET' command. [major] 
+File: 1496250274.sql Line: 13 Error: Keyword 'on'.The keyword 'ON' is not allowed in a 'SET' command. [minor] 
+File: 1496250274.sql Line: 50 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1496250274.sql Line: 50 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1496250274.sql Line: 62 Error: SQL ALTER command does not support packages in the table name. [major] 
+File: 1496250274.sql Line: 87 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1496250274.sql Line: 87 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1496250274.sql Line: 119 Error: Command CREATE does not support action SEQUENCE, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1496250274.sql Line: 119 Error: Command CREATE does not support this action, only {'TABLE','DATABASE','VIEW','TRIGGER','INDEX','pl_sql'}. [major] 
+File: 1496250274.sql Line: 138 Error: Keyword 'ONLY' is not allowed after the command 'ALTER'. ALTERTABLEONLYbots_channel [major] 
+File: 1496250274.sql Line: 145 Error: Keyword 'ONLY' is not allowed after the command 'ALTER'. ALTERTABLEONLYbots_chatbot [major] 
+File: 1496250274.sql Line: 152 Error: Keyword 'ONLY' is not allowed after the command 'ALTER'. ALTERTABLEONLYbots_usercount [major] 
+File: 1496250274.sql Line: 159 Error: Keyword 'ONLY' is not allowed after the command 'ALTER'. ALTERTABLEONLYbots_channelADDCONSTRAINTbots_channel_name_2eb90853f7a0f4bc_uniqUNIQUE(name,chatbot_id) [major] 
+File: 1496250274.sql Line: 167 Error: Keyword 'ONLY' is not allowed after the command 'ALTER'. ALTERTABLEONLYbots_channelADDCONSTRAINTbots_channel_pkeyPRIMARYKEY(id) [major] 
+File: 1496250274.sql Line: 175 Error: Keyword 'ONLY' is not allowed after the command 'ALTER'. ALTERTABLEONLYbots_channelADDCONSTRAINTbots_channel_private_slug_keyUNIQUE(private_slug) [major] 
+File: 1496250274.sql Line: 183 Error: Keyword 'ONLY' is not allowed after the command 'ALTER'. ALTERTABLEONLYbots_channelADDCONSTRAINTbots_channel_slug_7ed9a1a261704004_uniqUNIQUE(slug,chatbot_id) [major] 
+File: 1496250274.sql Line: 191 Error: Keyword 'ONLY' is not allowed after the command 'ALTER'. ALTERTABLEONLYbots_chatbotADDCONSTRAINTbots_chatbot_pkeyPRIMARYKEY(id) [major] 
+File: 1496250274.sql Line: 199 Error: Keyword 'ONLY' is not allowed after the command 'ALTER'. ALTERTABLEONLYbots_usercountADDCONSTRAINTbots_usercount_pkeyPRIMARYKEY(id) [major] 
+File: 1496250274.sql Line: 207 Error: USING option is not spelled correctly. The right syntax is this: (USING(BTREE|HASH)), [major] 
+File: 1496250274.sql Line: 214 Error: USING option is not spelled correctly. The right syntax is this: (USING(BTREE|HASH)), [major] 
+File: 1496250274.sql Line: 221 Error: USING option is not spelled correctly. The right syntax is this: (USING(BTREE|HASH)), [major] 
+File: 1496250274.sql Line: 228 Error: USING option is not spelled correctly. The right syntax is this: (USING(BTREE|HASH)), [major] 
+File: 1496250274.sql Line: 235 Error: USING option is not spelled correctly. The right syntax is this: (USING(BTREE|HASH)), [major] 
+File: 1496250274.sql Line: 242 Error: USING option is not spelled correctly. The right syntax is this: (USING(BTREE|HASH)), [major] 
+File: 1496250274.sql Line: 249 Error: USING option is not spelled correctly. The right syntax is this: (USING(BTREE|HASH)), [major] 

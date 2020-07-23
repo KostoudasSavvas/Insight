@@ -1,0 +1,1519 @@
+
+File: 1477651676.sql Line: 35 Keyword: 'MODIFY'
+File: 1477651676.sql Line: 36 Error: The keyword 'ASC' is invalid. Keyword: 'ASC',[minor]
+File: 1477651676.sql Line: 85 Keyword: 'MODIFY'
+File: 1477651676.sql Line: 152 Keyword: 'MODIFY'
+File: 1477651676.sql Line: 153 Keyword: 'MODIFY'
+File: 1477651676.sql Line: 154 Keyword: 'MODIFY'
+File: 1477651676.sql Line: 155 Keyword: 'MODIFY'
+File: 1477651676.sql Line: 156 Keyword: 'MODIFY'
+File: 1477651676.sql Line: 157 Keyword: 'MODIFY'
+File: 1477651676.sql Line: 158 Keyword: 'MODIFY'
+File: 1477651676.sql Line: 237 Keyword: 'MODIFY'
+File: 1477651676.sql Line: 35 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1477651676.sql Line: 36 Error: USING option is not spelled correctly. The right syntax is this: (USING(BTREE|HASH)), [major] 
+File: 1477651676.sql Line: 85 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1477651676.sql Line: 152 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1477651676.sql Line: 153 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1477651676.sql Line: 154 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1477651676.sql Line: 155 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1477651676.sql Line: 156 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1477651676.sql Line: 157 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1477651676.sql Line: 158 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1477651676.sql Line: 237 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1478089666.sql Line: 1 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478089666.sql Line: 2 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478089666.sql Line: 3 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478089666.sql Line: 9 Keyword: '.'
+File: 1478089666.sql Line: 23 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478089666.sql Line: 29 Keyword: '.'
+File: 1478089666.sql Line: 42 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478089666.sql Line: 45 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478089666.sql Line: 51 Keyword: '.'
+File: 1478089666.sql Line: 60 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478089666.sql Line: 66 Keyword: '.'
+File: 1478089666.sql Line: 75 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478089666.sql Line: 82 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478089666.sql Line: 88 Keyword: '.'
+File: 1478089666.sql Line: 91 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478089666.sql Line: 100 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478089666.sql Line: 103 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478089666.sql Line: 109 Keyword: '.'
+File: 1478089666.sql Line: 125 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478089666.sql Line: 133 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478089666.sql Line: 139 Keyword: '.'
+File: 1478089666.sql Line: 148 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478089666.sql Line: 155 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478089666.sql Line: 161 Keyword: '.'
+File: 1478089666.sql Line: 164 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478089666.sql Line: 173 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478089666.sql Line: 176 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478089666.sql Line: 182 Keyword: '.'
+File: 1478089666.sql Line: 190 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478089666.sql Line: 196 Keyword: '.'
+File: 1478089666.sql Line: 226 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478089666.sql Line: 234 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478089666.sql Line: 240 Keyword: '.'
+File: 1478089666.sql Line: 281 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478089666.sql Line: 289 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478089666.sql Line: 295 Keyword: '.'
+File: 1478089666.sql Line: 304 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478089666.sql Line: 311 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478089666.sql Line: 317 Keyword: '.'
+File: 1478089666.sql Line: 326 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478089666.sql Line: 333 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478089666.sql Line: 339 Keyword: '.'
+File: 1478089666.sql Line: 342 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478089666.sql Line: 351 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478089666.sql Line: 354 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478089666.sql Line: 360 Keyword: '.'
+File: 1478089666.sql Line: 369 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478089666.sql Line: 376 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478089666.sql Line: 382 Keyword: '.'
+File: 1478089666.sql Line: 385 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478089666.sql Line: 394 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478089666.sql Line: 397 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478089666.sql Line: 9 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478089666.sql Line: 29 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478089666.sql Line: 51 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478089666.sql Line: 66 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478089666.sql Line: 88 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478089666.sql Line: 109 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478089666.sql Line: 139 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478089666.sql Line: 161 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478089666.sql Line: 182 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478089666.sql Line: 196 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478089666.sql Line: 240 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478089666.sql Line: 295 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478089666.sql Line: 317 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478089666.sql Line: 339 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478089666.sql Line: 360 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478089666.sql Line: 382 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478089666.sql Line: 1 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478089666.sql Line: 2 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478089666.sql Line: 3 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478089666.sql Line: 9 Keyword: '.'
+File: 1478089666.sql Line: 23 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478089666.sql Line: 29 Keyword: '.'
+File: 1478089666.sql Line: 42 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478089666.sql Line: 45 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478089666.sql Line: 51 Keyword: '.'
+File: 1478089666.sql Line: 60 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478089666.sql Line: 66 Keyword: '.'
+File: 1478089666.sql Line: 75 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478089666.sql Line: 82 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478089666.sql Line: 88 Keyword: '.'
+File: 1478089666.sql Line: 91 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478089666.sql Line: 100 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478089666.sql Line: 103 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478089666.sql Line: 109 Keyword: '.'
+File: 1478089666.sql Line: 125 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478089666.sql Line: 133 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478089666.sql Line: 139 Keyword: '.'
+File: 1478089666.sql Line: 148 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478089666.sql Line: 155 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478089666.sql Line: 161 Keyword: '.'
+File: 1478089666.sql Line: 164 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478089666.sql Line: 173 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478089666.sql Line: 176 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478089666.sql Line: 182 Keyword: '.'
+File: 1478089666.sql Line: 190 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478089666.sql Line: 196 Keyword: '.'
+File: 1478089666.sql Line: 226 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478089666.sql Line: 234 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478089666.sql Line: 240 Keyword: '.'
+File: 1478089666.sql Line: 281 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478089666.sql Line: 289 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478089666.sql Line: 295 Keyword: '.'
+File: 1478089666.sql Line: 304 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478089666.sql Line: 311 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478089666.sql Line: 317 Keyword: '.'
+File: 1478089666.sql Line: 326 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478089666.sql Line: 333 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478089666.sql Line: 339 Keyword: '.'
+File: 1478089666.sql Line: 342 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478089666.sql Line: 351 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478089666.sql Line: 354 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478089666.sql Line: 360 Keyword: '.'
+File: 1478089666.sql Line: 369 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478089666.sql Line: 376 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478089666.sql Line: 382 Keyword: '.'
+File: 1478089666.sql Line: 385 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478089666.sql Line: 394 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478089666.sql Line: 397 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478089666.sql Line: 9 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478089666.sql Line: 29 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478089666.sql Line: 51 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478089666.sql Line: 66 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478089666.sql Line: 88 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478089666.sql Line: 109 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478089666.sql Line: 139 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478089666.sql Line: 161 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478089666.sql Line: 182 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478089666.sql Line: 196 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478089666.sql Line: 240 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478089666.sql Line: 295 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478089666.sql Line: 317 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478089666.sql Line: 339 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478089666.sql Line: 360 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478089666.sql Line: 382 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478102429.sql Line: 1 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478102429.sql Line: 2 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478102429.sql Line: 3 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478102429.sql Line: 9 Keyword: '.'
+File: 1478102429.sql Line: 23 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478102429.sql Line: 29 Keyword: '.'
+File: 1478102429.sql Line: 42 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478102429.sql Line: 45 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478102429.sql Line: 51 Keyword: '.'
+File: 1478102429.sql Line: 60 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478102429.sql Line: 66 Keyword: '.'
+File: 1478102429.sql Line: 75 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478102429.sql Line: 82 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478102429.sql Line: 88 Keyword: '.'
+File: 1478102429.sql Line: 91 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478102429.sql Line: 100 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478102429.sql Line: 103 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478102429.sql Line: 109 Keyword: '.'
+File: 1478102429.sql Line: 125 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478102429.sql Line: 133 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478102429.sql Line: 139 Keyword: '.'
+File: 1478102429.sql Line: 148 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478102429.sql Line: 155 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478102429.sql Line: 161 Keyword: '.'
+File: 1478102429.sql Line: 164 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478102429.sql Line: 173 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478102429.sql Line: 176 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478102429.sql Line: 182 Keyword: '.'
+File: 1478102429.sql Line: 190 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478102429.sql Line: 196 Keyword: '.'
+File: 1478102429.sql Line: 226 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478102429.sql Line: 234 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478102429.sql Line: 240 Keyword: '.'
+File: 1478102429.sql Line: 282 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478102429.sql Line: 290 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478102429.sql Line: 296 Keyword: '.'
+File: 1478102429.sql Line: 305 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478102429.sql Line: 312 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478102429.sql Line: 318 Keyword: '.'
+File: 1478102429.sql Line: 327 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478102429.sql Line: 334 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478102429.sql Line: 340 Keyword: '.'
+File: 1478102429.sql Line: 343 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478102429.sql Line: 352 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478102429.sql Line: 355 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478102429.sql Line: 361 Keyword: '.'
+File: 1478102429.sql Line: 370 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478102429.sql Line: 377 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478102429.sql Line: 383 Keyword: '.'
+File: 1478102429.sql Line: 386 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478102429.sql Line: 395 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478102429.sql Line: 398 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478102429.sql Line: 9 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478102429.sql Line: 29 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478102429.sql Line: 51 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478102429.sql Line: 66 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478102429.sql Line: 88 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478102429.sql Line: 109 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478102429.sql Line: 139 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478102429.sql Line: 161 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478102429.sql Line: 182 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478102429.sql Line: 196 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478102429.sql Line: 240 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478102429.sql Line: 296 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478102429.sql Line: 318 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478102429.sql Line: 340 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478102429.sql Line: 361 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478102429.sql Line: 383 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478102429.sql Line: 1 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478102429.sql Line: 2 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478102429.sql Line: 3 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478102429.sql Line: 9 Keyword: '.'
+File: 1478102429.sql Line: 23 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478102429.sql Line: 29 Keyword: '.'
+File: 1478102429.sql Line: 42 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478102429.sql Line: 45 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478102429.sql Line: 51 Keyword: '.'
+File: 1478102429.sql Line: 60 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478102429.sql Line: 66 Keyword: '.'
+File: 1478102429.sql Line: 75 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478102429.sql Line: 82 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478102429.sql Line: 88 Keyword: '.'
+File: 1478102429.sql Line: 91 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478102429.sql Line: 100 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478102429.sql Line: 103 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478102429.sql Line: 109 Keyword: '.'
+File: 1478102429.sql Line: 125 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478102429.sql Line: 133 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478102429.sql Line: 139 Keyword: '.'
+File: 1478102429.sql Line: 148 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478102429.sql Line: 155 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478102429.sql Line: 161 Keyword: '.'
+File: 1478102429.sql Line: 164 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478102429.sql Line: 173 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478102429.sql Line: 176 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478102429.sql Line: 182 Keyword: '.'
+File: 1478102429.sql Line: 190 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478102429.sql Line: 196 Keyword: '.'
+File: 1478102429.sql Line: 226 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478102429.sql Line: 234 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478102429.sql Line: 240 Keyword: '.'
+File: 1478102429.sql Line: 282 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478102429.sql Line: 290 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478102429.sql Line: 296 Keyword: '.'
+File: 1478102429.sql Line: 305 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478102429.sql Line: 312 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478102429.sql Line: 318 Keyword: '.'
+File: 1478102429.sql Line: 327 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478102429.sql Line: 334 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478102429.sql Line: 340 Keyword: '.'
+File: 1478102429.sql Line: 343 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478102429.sql Line: 352 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478102429.sql Line: 355 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478102429.sql Line: 361 Keyword: '.'
+File: 1478102429.sql Line: 370 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478102429.sql Line: 377 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478102429.sql Line: 383 Keyword: '.'
+File: 1478102429.sql Line: 386 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478102429.sql Line: 395 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478102429.sql Line: 398 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478102429.sql Line: 9 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478102429.sql Line: 29 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478102429.sql Line: 51 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478102429.sql Line: 66 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478102429.sql Line: 88 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478102429.sql Line: 109 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478102429.sql Line: 139 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478102429.sql Line: 161 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478102429.sql Line: 182 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478102429.sql Line: 196 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478102429.sql Line: 240 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478102429.sql Line: 296 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478102429.sql Line: 318 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478102429.sql Line: 340 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478102429.sql Line: 361 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478102429.sql Line: 383 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478166553.sql Line: 1 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478166553.sql Line: 2 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478166553.sql Line: 3 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478166553.sql Line: 9 Keyword: '.'
+File: 1478166553.sql Line: 23 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478166553.sql Line: 29 Keyword: '.'
+File: 1478166553.sql Line: 42 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478166553.sql Line: 45 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478166553.sql Line: 51 Keyword: '.'
+File: 1478166553.sql Line: 60 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478166553.sql Line: 66 Keyword: '.'
+File: 1478166553.sql Line: 75 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478166553.sql Line: 82 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478166553.sql Line: 88 Keyword: '.'
+File: 1478166553.sql Line: 91 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478166553.sql Line: 100 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478166553.sql Line: 103 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478166553.sql Line: 109 Keyword: '.'
+File: 1478166553.sql Line: 126 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478166553.sql Line: 134 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478166553.sql Line: 140 Keyword: '.'
+File: 1478166553.sql Line: 149 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478166553.sql Line: 156 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478166553.sql Line: 162 Keyword: '.'
+File: 1478166553.sql Line: 165 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478166553.sql Line: 174 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478166553.sql Line: 177 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478166553.sql Line: 183 Keyword: '.'
+File: 1478166553.sql Line: 191 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478166553.sql Line: 197 Keyword: '.'
+File: 1478166553.sql Line: 228 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478166553.sql Line: 236 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478166553.sql Line: 242 Keyword: '.'
+File: 1478166553.sql Line: 284 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478166553.sql Line: 292 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478166553.sql Line: 298 Keyword: '.'
+File: 1478166553.sql Line: 307 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478166553.sql Line: 314 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478166553.sql Line: 320 Keyword: '.'
+File: 1478166553.sql Line: 329 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478166553.sql Line: 336 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478166553.sql Line: 342 Keyword: '.'
+File: 1478166553.sql Line: 345 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478166553.sql Line: 354 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478166553.sql Line: 357 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478166553.sql Line: 363 Keyword: '.'
+File: 1478166553.sql Line: 372 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478166553.sql Line: 379 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478166553.sql Line: 385 Keyword: '.'
+File: 1478166553.sql Line: 388 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478166553.sql Line: 397 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478166553.sql Line: 400 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478166553.sql Line: 9 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478166553.sql Line: 29 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478166553.sql Line: 51 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478166553.sql Line: 66 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478166553.sql Line: 88 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478166553.sql Line: 109 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478166553.sql Line: 140 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478166553.sql Line: 162 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478166553.sql Line: 183 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478166553.sql Line: 197 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478166553.sql Line: 242 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478166553.sql Line: 298 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478166553.sql Line: 320 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478166553.sql Line: 342 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478166553.sql Line: 363 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478166553.sql Line: 385 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478166553.sql Line: 1 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478166553.sql Line: 2 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478166553.sql Line: 3 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478166553.sql Line: 9 Keyword: '.'
+File: 1478166553.sql Line: 23 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478166553.sql Line: 29 Keyword: '.'
+File: 1478166553.sql Line: 42 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478166553.sql Line: 45 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478166553.sql Line: 51 Keyword: '.'
+File: 1478166553.sql Line: 60 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478166553.sql Line: 66 Keyword: '.'
+File: 1478166553.sql Line: 75 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478166553.sql Line: 82 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478166553.sql Line: 88 Keyword: '.'
+File: 1478166553.sql Line: 91 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478166553.sql Line: 100 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478166553.sql Line: 103 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478166553.sql Line: 109 Keyword: '.'
+File: 1478166553.sql Line: 126 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478166553.sql Line: 134 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478166553.sql Line: 140 Keyword: '.'
+File: 1478166553.sql Line: 149 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478166553.sql Line: 156 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478166553.sql Line: 162 Keyword: '.'
+File: 1478166553.sql Line: 165 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478166553.sql Line: 174 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478166553.sql Line: 177 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478166553.sql Line: 183 Keyword: '.'
+File: 1478166553.sql Line: 191 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478166553.sql Line: 197 Keyword: '.'
+File: 1478166553.sql Line: 228 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478166553.sql Line: 236 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478166553.sql Line: 242 Keyword: '.'
+File: 1478166553.sql Line: 284 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478166553.sql Line: 292 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478166553.sql Line: 298 Keyword: '.'
+File: 1478166553.sql Line: 307 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478166553.sql Line: 314 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478166553.sql Line: 320 Keyword: '.'
+File: 1478166553.sql Line: 329 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478166553.sql Line: 336 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478166553.sql Line: 342 Keyword: '.'
+File: 1478166553.sql Line: 345 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478166553.sql Line: 354 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478166553.sql Line: 357 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478166553.sql Line: 363 Keyword: '.'
+File: 1478166553.sql Line: 372 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478166553.sql Line: 379 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478166553.sql Line: 385 Keyword: '.'
+File: 1478166553.sql Line: 388 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478166553.sql Line: 397 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478166553.sql Line: 400 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478166553.sql Line: 9 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478166553.sql Line: 29 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478166553.sql Line: 51 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478166553.sql Line: 66 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478166553.sql Line: 88 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478166553.sql Line: 109 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478166553.sql Line: 140 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478166553.sql Line: 162 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478166553.sql Line: 183 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478166553.sql Line: 197 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478166553.sql Line: 242 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478166553.sql Line: 298 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478166553.sql Line: 320 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478166553.sql Line: 342 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478166553.sql Line: 363 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478166553.sql Line: 385 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478855373.sql Line: 1 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478855373.sql Line: 2 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478855373.sql Line: 3 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478855373.sql Line: 9 Keyword: '.'
+File: 1478855373.sql Line: 23 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478855373.sql Line: 29 Keyword: '.'
+File: 1478855373.sql Line: 42 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478855373.sql Line: 45 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478855373.sql Line: 51 Keyword: '.'
+File: 1478855373.sql Line: 60 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478855373.sql Line: 66 Keyword: '.'
+File: 1478855373.sql Line: 75 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478855373.sql Line: 82 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478855373.sql Line: 88 Keyword: '.'
+File: 1478855373.sql Line: 91 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478855373.sql Line: 100 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478855373.sql Line: 103 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478855373.sql Line: 109 Keyword: '.'
+File: 1478855373.sql Line: 126 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478855373.sql Line: 134 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478855373.sql Line: 140 Keyword: '.'
+File: 1478855373.sql Line: 149 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478855373.sql Line: 156 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478855373.sql Line: 162 Keyword: '.'
+File: 1478855373.sql Line: 165 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478855373.sql Line: 174 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478855373.sql Line: 177 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478855373.sql Line: 183 Keyword: '.'
+File: 1478855373.sql Line: 191 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478855373.sql Line: 197 Keyword: '.'
+File: 1478855373.sql Line: 228 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478855373.sql Line: 236 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478855373.sql Line: 242 Keyword: '.'
+File: 1478855373.sql Line: 284 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478855373.sql Line: 292 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478855373.sql Line: 298 Keyword: '.'
+File: 1478855373.sql Line: 307 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478855373.sql Line: 314 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478855373.sql Line: 320 Keyword: '.'
+File: 1478855373.sql Line: 329 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478855373.sql Line: 336 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478855373.sql Line: 342 Keyword: '.'
+File: 1478855373.sql Line: 345 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478855373.sql Line: 354 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478855373.sql Line: 357 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478855373.sql Line: 363 Keyword: '.'
+File: 1478855373.sql Line: 372 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478855373.sql Line: 379 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478855373.sql Line: 385 Keyword: '.'
+File: 1478855373.sql Line: 388 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478855373.sql Line: 397 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478855373.sql Line: 400 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478855373.sql Line: 9 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478855373.sql Line: 29 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478855373.sql Line: 51 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478855373.sql Line: 66 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478855373.sql Line: 88 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478855373.sql Line: 109 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478855373.sql Line: 140 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478855373.sql Line: 162 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478855373.sql Line: 183 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478855373.sql Line: 197 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478855373.sql Line: 242 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478855373.sql Line: 298 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478855373.sql Line: 320 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478855373.sql Line: 342 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478855373.sql Line: 363 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478855373.sql Line: 385 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478855373.sql Line: 1 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478855373.sql Line: 2 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478855373.sql Line: 3 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478855373.sql Line: 9 Keyword: '.'
+File: 1478855373.sql Line: 23 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478855373.sql Line: 29 Keyword: '.'
+File: 1478855373.sql Line: 42 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478855373.sql Line: 45 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478855373.sql Line: 51 Keyword: '.'
+File: 1478855373.sql Line: 60 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478855373.sql Line: 66 Keyword: '.'
+File: 1478855373.sql Line: 75 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478855373.sql Line: 82 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478855373.sql Line: 88 Keyword: '.'
+File: 1478855373.sql Line: 91 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478855373.sql Line: 100 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478855373.sql Line: 103 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478855373.sql Line: 109 Keyword: '.'
+File: 1478855373.sql Line: 126 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478855373.sql Line: 134 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478855373.sql Line: 140 Keyword: '.'
+File: 1478855373.sql Line: 149 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478855373.sql Line: 156 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478855373.sql Line: 162 Keyword: '.'
+File: 1478855373.sql Line: 165 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478855373.sql Line: 174 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478855373.sql Line: 177 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478855373.sql Line: 183 Keyword: '.'
+File: 1478855373.sql Line: 191 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478855373.sql Line: 197 Keyword: '.'
+File: 1478855373.sql Line: 228 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478855373.sql Line: 236 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478855373.sql Line: 242 Keyword: '.'
+File: 1478855373.sql Line: 284 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478855373.sql Line: 292 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478855373.sql Line: 298 Keyword: '.'
+File: 1478855373.sql Line: 307 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478855373.sql Line: 314 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478855373.sql Line: 320 Keyword: '.'
+File: 1478855373.sql Line: 329 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478855373.sql Line: 336 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478855373.sql Line: 342 Keyword: '.'
+File: 1478855373.sql Line: 345 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478855373.sql Line: 354 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478855373.sql Line: 357 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478855373.sql Line: 363 Keyword: '.'
+File: 1478855373.sql Line: 372 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478855373.sql Line: 379 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478855373.sql Line: 385 Keyword: '.'
+File: 1478855373.sql Line: 388 Error: The keyword ',' is not allowed inside the command. [minor] Keyword: ','
+File: 1478855373.sql Line: 397 Error: The keyword 'NO' is invalid. Keyword: 'NO',[minor]
+File: 1478855373.sql Line: 400 Error: The keyword '=' is not allowed with 'DEFAULT' and 'SET' keywords inside a command. [major] Keyword: '='
+File: 1478855373.sql Line: 9 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478855373.sql Line: 29 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478855373.sql Line: 51 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478855373.sql Line: 66 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478855373.sql Line: 88 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478855373.sql Line: 109 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478855373.sql Line: 140 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478855373.sql Line: 162 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478855373.sql Line: 183 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478855373.sql Line: 197 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478855373.sql Line: 242 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478855373.sql Line: 298 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478855373.sql Line: 320 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478855373.sql Line: 342 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478855373.sql Line: 363 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1478855373.sql Line: 385 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1479128830.sql Line: 103 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 104 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 105 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 106 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 107 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 108 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 109 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 111 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 113 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 114 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 115 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 119 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1479128830.sql Line: 156 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 157 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 158 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 159 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 160 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 161 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 162 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 164 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 165 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 167 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 168 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 169 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 170 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 171 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 172 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 173 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 174 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 175 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 176 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 177 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 178 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 179 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 180 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 181 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 182 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 186 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1479128830.sql Line: 103 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 104 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 105 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 106 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 107 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 108 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 109 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 111 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 113 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 114 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 115 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 119 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1479128830.sql Line: 156 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 157 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 158 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 159 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 160 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 161 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 162 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 164 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 165 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 167 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 168 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 169 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 170 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 171 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 172 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 173 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 174 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 175 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 176 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 177 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 178 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 179 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 180 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 181 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 182 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1479128830.sql Line: 186 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1502284578.sql Line: 102 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 103 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 104 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 107 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 108 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 109 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 110 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 111 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 112 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 114 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 116 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 117 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 118 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 122 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1502284578.sql Line: 158 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 159 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 160 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 161 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 162 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 163 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 164 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 166 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 167 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 169 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 170 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 171 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 172 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 173 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 174 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 175 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 176 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 177 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 178 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 179 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 180 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 181 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 182 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 183 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 187 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1502284578.sql Line: 102 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 103 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 104 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 107 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 108 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 109 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 110 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 111 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 112 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 114 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 116 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 117 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 118 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 122 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1502284578.sql Line: 158 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 159 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 160 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 161 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 162 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 163 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 164 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 166 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 167 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 169 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 170 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 171 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 172 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 173 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 174 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 175 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 176 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 177 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 178 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 179 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 180 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 181 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 182 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 183 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502284578.sql Line: 187 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1502974374.sql Line: 102 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 103 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 104 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 107 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 108 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 109 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 110 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 111 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 112 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 114 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 116 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 117 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 118 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 122 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1502974374.sql Line: 158 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 159 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 160 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 161 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 162 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 163 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 164 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 166 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 167 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 169 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 170 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 171 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 172 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 173 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 174 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 175 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 176 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 177 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 178 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 179 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 180 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 181 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 182 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 183 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 187 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1502974374.sql Line: 102 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 103 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 104 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 107 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 108 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 109 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 110 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 111 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 112 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 114 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 116 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 117 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 118 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 122 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1502974374.sql Line: 158 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 159 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 160 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 161 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 162 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 163 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 164 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 166 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 167 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 169 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 170 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 171 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 172 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 173 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 174 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 175 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 176 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 177 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 178 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 179 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 180 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 181 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 182 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 183 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1502974374.sql Line: 187 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1504689758.sql Line: 102 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 103 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 104 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 107 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 108 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 109 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 110 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 111 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 112 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 114 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 116 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 117 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 118 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 122 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1504689758.sql Line: 158 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 159 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 160 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 161 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 162 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 163 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 164 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 166 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 167 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 169 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 170 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 171 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 172 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 173 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 174 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 175 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 176 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 177 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 178 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 179 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 180 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 181 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 182 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 183 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 184 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 188 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1504689758.sql Line: 102 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 103 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 104 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 107 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 108 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 109 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 110 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 111 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 112 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 114 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 116 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 117 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 118 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 122 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1504689758.sql Line: 158 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 159 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 160 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 161 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 162 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 163 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 164 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 166 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 167 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 169 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 170 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 171 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 172 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 173 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 174 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 175 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 176 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 177 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 178 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 179 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 180 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 181 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 182 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 183 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 184 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504689758.sql Line: 188 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1504697401.sql Line: 102 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 103 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 104 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 107 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 108 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 109 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 110 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 111 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 112 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 114 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 116 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 117 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 118 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 122 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1504697401.sql Line: 158 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 159 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 160 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 161 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 162 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 163 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 164 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 166 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 167 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 169 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 170 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 171 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 172 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 173 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 174 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 175 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 176 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 177 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 178 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 179 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 180 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 181 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 182 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 183 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 184 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 185 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 186 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 187 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 188 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 192 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1504697401.sql Line: 102 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 103 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 104 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 107 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 108 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 109 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 110 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 111 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 112 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 114 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 116 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 117 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 118 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 122 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1504697401.sql Line: 158 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 159 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 160 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 161 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 162 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 163 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 164 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 166 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 167 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 169 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 170 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 171 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 172 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 173 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 174 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 175 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 176 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 177 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 178 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 179 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 180 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 181 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 182 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 183 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 184 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 185 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 186 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 187 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 188 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504697401.sql Line: 192 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1504699280.sql Line: 102 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 103 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 104 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 107 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 108 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 109 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 110 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 111 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 112 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 114 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 116 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 117 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 118 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 122 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1504699280.sql Line: 157 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 158 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 159 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 160 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 161 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 162 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 163 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 165 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 166 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 168 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 169 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 170 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 171 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 172 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 173 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 174 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 175 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 176 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 177 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 178 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 179 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 180 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 181 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 182 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 183 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 184 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 185 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 186 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 187 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 191 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1504699280.sql Line: 102 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 103 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 104 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 107 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 108 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 109 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 110 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 111 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 112 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 114 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 116 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 117 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 118 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 122 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1504699280.sql Line: 157 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 158 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 159 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 160 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 161 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 162 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 163 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 165 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 166 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 168 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 169 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 170 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 171 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 172 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 173 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 174 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 175 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 176 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 177 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 178 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 179 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 180 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 181 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 182 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 183 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 184 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 185 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 186 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 187 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504699280.sql Line: 191 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1504770612.sql Line: 102 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 103 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 104 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 107 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 108 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 109 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 110 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 111 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 112 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 114 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 116 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 117 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 118 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 122 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1504770612.sql Line: 157 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 158 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 159 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 160 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 161 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 162 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 163 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 165 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 166 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 168 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 169 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 170 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 171 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 172 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 173 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 174 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 175 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 176 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 177 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 178 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 179 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 180 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 181 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 182 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 183 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 184 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 185 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 186 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 187 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 190 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 194 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1504770612.sql Line: 102 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 103 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 104 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 107 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 108 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 109 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 110 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 111 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 112 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 114 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 116 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 117 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 118 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 122 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1504770612.sql Line: 157 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 158 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 159 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 160 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 161 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 162 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 163 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 165 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 166 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 168 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 169 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 170 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 171 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 172 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 173 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 174 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 175 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 176 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 177 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 178 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 179 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 180 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 181 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 182 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 183 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 184 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 185 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 186 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 187 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 190 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504770612.sql Line: 194 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1504794230.sql Line: 102 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 103 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 104 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 107 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 108 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 109 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 110 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 111 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 112 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 114 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 116 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 117 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 118 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 123 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1504794230.sql Line: 158 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 159 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 160 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 161 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 162 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 163 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 164 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 166 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 167 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 169 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 170 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 171 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 172 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 173 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 174 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 175 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 176 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 177 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 178 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 179 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 180 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 181 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 182 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 183 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 184 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 185 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 186 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 187 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 188 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 190 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 194 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1504794230.sql Line: 102 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 103 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 104 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 107 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 108 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 109 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 110 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 111 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 112 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 114 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 116 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 117 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 118 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 123 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1504794230.sql Line: 158 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 159 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 160 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 161 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 162 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 163 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 164 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 166 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 167 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 169 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 170 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 171 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 172 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 173 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 174 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 175 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 176 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 177 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 178 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 179 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 180 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 181 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 182 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 183 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 184 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 185 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 186 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 187 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 188 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 190 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1504794230.sql Line: 194 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1505383024.sql Line: 102 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 103 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 104 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 107 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 108 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 109 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 110 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 111 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 113 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 115 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 116 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 117 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 122 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1505383024.sql Line: 156 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 157 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 158 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 159 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 160 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 161 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 162 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 164 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 165 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 167 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 168 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 169 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 170 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 171 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 172 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 173 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 174 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 175 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 176 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 177 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 178 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 179 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 180 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 181 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 182 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 183 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 184 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 185 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 186 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 188 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 192 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1505383024.sql Line: 102 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 103 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 104 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 107 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 108 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 109 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 110 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 111 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 113 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 115 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 116 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 117 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 122 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1505383024.sql Line: 156 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 157 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 158 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 159 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 160 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 161 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 162 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 164 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 165 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 167 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 168 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 169 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 170 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 171 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 172 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 173 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 174 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 175 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 176 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 177 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 178 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 179 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 180 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 181 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 182 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 183 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 184 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 185 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 186 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 188 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1505383024.sql Line: 192 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1506348776.sql Line: 102 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 103 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 104 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 107 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 108 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 109 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 110 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 111 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 114 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 115 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 116 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 117 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 122 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1506348776.sql Line: 155 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 156 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 157 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 158 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 159 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 160 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 161 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 163 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 164 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 166 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 167 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 168 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 169 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 170 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 171 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 172 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 173 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 174 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 175 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 176 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 177 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 178 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 179 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 180 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 181 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 182 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 183 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 184 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 185 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 187 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 191 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1506348776.sql Line: 102 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 103 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 104 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 107 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 108 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 109 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 110 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 111 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 114 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 115 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 116 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 117 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 122 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1506348776.sql Line: 155 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 156 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 157 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 158 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 159 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 160 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 161 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 163 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 164 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 166 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 167 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 168 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 169 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 170 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 171 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 172 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 173 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 174 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 175 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 176 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 177 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 178 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 179 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 180 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 181 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 182 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 183 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 184 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 185 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 187 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506348776.sql Line: 191 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1506349054.sql Line: 102 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 103 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 104 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 107 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 108 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 109 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 110 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 111 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 115 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 116 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 117 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 122 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1506349054.sql Line: 155 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 156 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 157 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 158 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 159 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 160 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 161 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 163 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 164 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 166 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 167 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 168 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 169 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 170 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 171 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 172 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 173 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 174 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 175 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 176 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 177 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 178 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 179 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 180 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 181 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 182 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 183 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 184 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 185 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 187 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 191 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1477651676.sql Line: 35 Keyword: 'MODIFY'
+File: 1477651676.sql Line: 36 Error: The keyword 'ASC' is invalid. Keyword: 'ASC',[minor]
+File: 1477651676.sql Line: 85 Keyword: 'MODIFY'
+File: 1477651676.sql Line: 152 Keyword: 'MODIFY'
+File: 1477651676.sql Line: 153 Keyword: 'MODIFY'
+File: 1477651676.sql Line: 154 Keyword: 'MODIFY'
+File: 1477651676.sql Line: 155 Keyword: 'MODIFY'
+File: 1477651676.sql Line: 156 Keyword: 'MODIFY'
+File: 1477651676.sql Line: 157 Keyword: 'MODIFY'
+File: 1477651676.sql Line: 158 Keyword: 'MODIFY'
+File: 1477651676.sql Line: 237 Keyword: 'MODIFY'
+File: 1477651676.sql Line: 35 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1477651676.sql Line: 36 Error: USING option is not spelled correctly. The right syntax is this: (USING(BTREE|HASH)), [major] 
+File: 1477651676.sql Line: 85 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1477651676.sql Line: 152 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1477651676.sql Line: 153 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1477651676.sql Line: 154 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1477651676.sql Line: 155 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1477651676.sql Line: 156 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1477651676.sql Line: 157 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1477651676.sql Line: 158 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1477651676.sql Line: 237 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1506349054.sql Line: 102 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 103 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 104 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 107 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 108 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 109 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 110 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 111 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 115 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 116 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 117 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 122 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]
+File: 1506349054.sql Line: 155 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 156 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 157 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 158 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 159 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 160 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 161 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 163 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 164 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 166 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 167 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 168 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 169 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 170 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 171 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 172 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 173 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 174 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 175 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 176 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 177 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 178 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 179 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 180 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 181 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 182 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 183 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 184 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 185 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 187 Error: The keyword 'PRECISION' is invalid. Keyword: 'PRECISION',[minor]
+File: 1506349054.sql Line: 191 Error: The keyword 'COMMENT' is invalid. Keyword: 'COMMENT',[minor]

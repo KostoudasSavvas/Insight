@@ -1,0 +1,27 @@
+
+File: 1460670767.sql Line: 245 Keyword: 'MODIFY'
+File: 1460670767.sql Line: 246 Error: The keyword '`int_social_id`' is invalid. Keyword: '`int_social_id`',[minor]
+File: 1460670767.sql Line: 250 Error: The keyword '`var_search_words`' is invalid. Keyword: '`var_search_words`',[minor]
+File: 1460670767.sql Line: 251 Error: The keyword '`int_freq`' is invalid. Keyword: '`int_freq`',[minor]
+File: 1460670767.sql Line: 252 Error: The keyword '`var_whisper_to`' is invalid. Keyword: '`var_whisper_to`',[minor]
+File: 1460670767.sql Line: 245 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1475185413.sql Line: 8 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: ';'
+File: 1475185413.sql Line: 8 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: ';'
+File: 1478056828.sql Line: 7 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: ';'
+File: 1478056828.sql Line: 7 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: ';'
+File: 1478056867.sql Line: 7 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: ';'
+File: 1478056867.sql Line: 7 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: ';'
+File: 1479674104.sql Line: 7 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: ';'
+File: 1479674104.sql Line: 7 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: ';'
+File: 1479678735.sql Line: 7 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: ';'
+File: 1479678735.sql Line: 7 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: ';'
+File: 1484337321.sql Line: 7 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: ';'
+File: 1484337321.sql Line: 7 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: ';'
+File: 1485912032.sql Line: 7 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: ';'
+File: 1460670767.sql Line: 245 Keyword: 'MODIFY'
+File: 1460670767.sql Line: 246 Error: The keyword '`int_social_id`' is invalid. Keyword: '`int_social_id`',[minor]
+File: 1460670767.sql Line: 250 Error: The keyword '`var_search_words`' is invalid. Keyword: '`var_search_words`',[minor]
+File: 1460670767.sql Line: 251 Error: The keyword '`int_freq`' is invalid. Keyword: '`int_freq`',[minor]
+File: 1460670767.sql Line: 252 Error: The keyword '`var_whisper_to`' is invalid. Keyword: '`var_whisper_to`',[minor]
+File: 1460670767.sql Line: 245 Error: SQL ALTER command does not support keyword 'MODIFY'. [major] 
+File: 1485912032.sql Line: 7 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: ';'

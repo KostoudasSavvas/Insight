@@ -1,0 +1,319 @@
+
+File: 1398883546.sql Line: 25 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1398883546.sql Line: 26 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1398883546.sql Line: 29 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1398883546.sql Line: 30 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1398883546.sql Line: 33 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1398883546.sql Line: 34 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1398883546.sql Line: 59 Error: The keyword 'delimiter' is invalid. Keyword: 'delimiter',[minor]
+File: 1398883546.sql Line: 67 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: '|'
+File: 1398883546.sql Line: 75 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: '|'
+File: 1398883546.sql Line: 99 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1398883546.sql Line: 109 Error: The keyword 'delimiter' is invalid. Keyword: 'delimiter',[minor]
+File: 1398883546.sql Line: 206 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1398921225.sql Line: 23 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1398921225.sql Line: 24 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1398921225.sql Line: 27 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1398921225.sql Line: 28 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1398921225.sql Line: 31 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1398921225.sql Line: 32 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1398921225.sql Line: 57 Error: The keyword 'delimiter' is invalid. Keyword: 'delimiter',[minor]
+File: 1398921225.sql Line: 65 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: '|'
+File: 1398921225.sql Line: 73 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: '|'
+File: 1398921225.sql Line: 97 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1398921225.sql Line: 107 Error: The keyword 'delimiter' is invalid. Keyword: 'delimiter',[minor]
+File: 1398921225.sql Line: 204 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1398921225.sql Line: 23 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1398921225.sql Line: 24 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1398921225.sql Line: 27 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1398921225.sql Line: 28 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1398921225.sql Line: 31 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1398921225.sql Line: 32 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1398921225.sql Line: 57 Error: The keyword 'delimiter' is invalid. Keyword: 'delimiter',[minor]
+File: 1398921225.sql Line: 65 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: '|'
+File: 1398921225.sql Line: 73 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: '|'
+File: 1398921225.sql Line: 97 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1398921225.sql Line: 107 Error: The keyword 'delimiter' is invalid. Keyword: 'delimiter',[minor]
+File: 1398921225.sql Line: 204 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1399064180.sql Line: 4 Keyword: '.'
+File: 1399064180.sql Line: 10 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1399064180.sql Line: 13 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1399064180.sql Line: 23 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399064180.sql Line: 24 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399064180.sql Line: 27 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399064180.sql Line: 28 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399064180.sql Line: 31 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399064180.sql Line: 32 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399064180.sql Line: 35 Keyword: '.'
+File: 1399064180.sql Line: 40 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1399064180.sql Line: 44 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1399064180.sql Line: 47 Keyword: '.'
+File: 1399064180.sql Line: 56 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1399064180.sql Line: 66 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: '|'
+File: 1399064180.sql Line: 74 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: '|'
+File: 1399064180.sql Line: 79 Keyword: '.'
+File: 1399064180.sql Line: 92 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1399064180.sql Line: 95 Keyword: '.'
+File: 1399064180.sql Line: 98 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1399064180.sql Line: 105 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1399064180.sql Line: 205 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1399064180.sql Line: 4 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1399064180.sql Line: 35 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1399064180.sql Line: 47 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1399064180.sql Line: 79 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1399064180.sql Line: 95 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1399064180.sql Line: 4 Keyword: '.'
+File: 1399064180.sql Line: 10 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1399064180.sql Line: 13 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1399064180.sql Line: 23 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399064180.sql Line: 24 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399064180.sql Line: 27 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399064180.sql Line: 28 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399064180.sql Line: 31 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399064180.sql Line: 32 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399064180.sql Line: 35 Keyword: '.'
+File: 1399064180.sql Line: 40 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1399064180.sql Line: 44 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1399064180.sql Line: 47 Keyword: '.'
+File: 1399064180.sql Line: 56 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1399064180.sql Line: 66 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: '|'
+File: 1399064180.sql Line: 74 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: '|'
+File: 1399064180.sql Line: 79 Keyword: '.'
+File: 1399064180.sql Line: 92 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1399064180.sql Line: 95 Keyword: '.'
+File: 1399064180.sql Line: 98 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1399064180.sql Line: 105 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1399064180.sql Line: 205 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1399064180.sql Line: 4 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1399064180.sql Line: 35 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1399064180.sql Line: 47 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1399064180.sql Line: 79 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1399064180.sql Line: 95 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1399387229.sql Line: 4 Keyword: '.'
+File: 1399387229.sql Line: 10 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1399387229.sql Line: 13 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1399387229.sql Line: 23 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399387229.sql Line: 24 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399387229.sql Line: 27 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399387229.sql Line: 28 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399387229.sql Line: 31 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399387229.sql Line: 32 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399387229.sql Line: 35 Keyword: '.'
+File: 1399387229.sql Line: 40 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1399387229.sql Line: 44 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1399387229.sql Line: 47 Keyword: '.'
+File: 1399387229.sql Line: 56 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1399387229.sql Line: 66 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: '|'
+File: 1399387229.sql Line: 74 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: '|'
+File: 1399387229.sql Line: 79 Keyword: '.'
+File: 1399387229.sql Line: 92 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1399387229.sql Line: 95 Keyword: '.'
+File: 1399387229.sql Line: 98 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1399387229.sql Line: 105 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1399387229.sql Line: 204 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1399387229.sql Line: 4 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1399387229.sql Line: 35 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1399387229.sql Line: 47 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1399387229.sql Line: 79 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1399387229.sql Line: 95 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1399387229.sql Line: 4 Keyword: '.'
+File: 1399387229.sql Line: 10 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1399387229.sql Line: 13 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1399387229.sql Line: 23 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399387229.sql Line: 24 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399387229.sql Line: 27 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399387229.sql Line: 28 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399387229.sql Line: 31 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399387229.sql Line: 32 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399387229.sql Line: 35 Keyword: '.'
+File: 1399387229.sql Line: 40 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1399387229.sql Line: 44 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1399387229.sql Line: 47 Keyword: '.'
+File: 1399387229.sql Line: 56 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1399387229.sql Line: 66 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: '|'
+File: 1399387229.sql Line: 74 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: '|'
+File: 1399387229.sql Line: 79 Keyword: '.'
+File: 1399387229.sql Line: 92 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1399387229.sql Line: 95 Keyword: '.'
+File: 1399387229.sql Line: 98 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1399387229.sql Line: 105 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1399387229.sql Line: 204 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1399387229.sql Line: 4 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1399387229.sql Line: 35 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1399387229.sql Line: 47 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1399387229.sql Line: 79 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1399387229.sql Line: 95 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1399560904.sql Line: 4 Keyword: '.'
+File: 1399560904.sql Line: 10 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1399560904.sql Line: 13 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1399560904.sql Line: 23 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399560904.sql Line: 24 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399560904.sql Line: 27 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399560904.sql Line: 28 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399560904.sql Line: 31 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399560904.sql Line: 32 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399560904.sql Line: 35 Keyword: '.'
+File: 1399560904.sql Line: 40 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1399560904.sql Line: 44 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1399560904.sql Line: 47 Keyword: '.'
+File: 1399560904.sql Line: 56 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1399560904.sql Line: 66 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: '|'
+File: 1399560904.sql Line: 74 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: '|'
+File: 1399560904.sql Line: 79 Keyword: '.'
+File: 1399560904.sql Line: 92 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1399560904.sql Line: 95 Keyword: '.'
+File: 1399560904.sql Line: 98 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1399560904.sql Line: 104 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1399560904.sql Line: 205 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1399560904.sql Line: 4 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1399560904.sql Line: 35 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1399560904.sql Line: 47 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1399560904.sql Line: 79 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1399560904.sql Line: 95 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1399560904.sql Line: 4 Keyword: '.'
+File: 1399560904.sql Line: 10 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1399560904.sql Line: 13 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1399560904.sql Line: 23 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399560904.sql Line: 24 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399560904.sql Line: 27 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399560904.sql Line: 28 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399560904.sql Line: 31 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399560904.sql Line: 32 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1399560904.sql Line: 35 Keyword: '.'
+File: 1399560904.sql Line: 40 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1399560904.sql Line: 44 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1399560904.sql Line: 47 Keyword: '.'
+File: 1399560904.sql Line: 56 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1399560904.sql Line: 66 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: '|'
+File: 1399560904.sql Line: 74 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: '|'
+File: 1399560904.sql Line: 79 Keyword: '.'
+File: 1399560904.sql Line: 92 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1399560904.sql Line: 95 Keyword: '.'
+File: 1399560904.sql Line: 98 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1399560904.sql Line: 104 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1399560904.sql Line: 205 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1399560904.sql Line: 4 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1399560904.sql Line: 35 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1399560904.sql Line: 47 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1399560904.sql Line: 79 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1399560904.sql Line: 95 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1400011516.sql Line: 4 Keyword: '.'
+File: 1400011516.sql Line: 10 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1400011516.sql Line: 13 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1400011516.sql Line: 23 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1400011516.sql Line: 24 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1400011516.sql Line: 27 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1400011516.sql Line: 28 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1400011516.sql Line: 31 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1400011516.sql Line: 32 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1400011516.sql Line: 35 Keyword: '.'
+File: 1400011516.sql Line: 40 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1400011516.sql Line: 44 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1400011516.sql Line: 47 Keyword: '.'
+File: 1400011516.sql Line: 56 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1400011516.sql Line: 66 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: '|'
+File: 1400011516.sql Line: 74 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: '|'
+File: 1400011516.sql Line: 79 Keyword: '.'
+File: 1400011516.sql Line: 92 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1400011516.sql Line: 95 Keyword: '.'
+File: 1400011516.sql Line: 98 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1400011516.sql Line: 104 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1400011516.sql Line: 205 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1400011516.sql Line: 4 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1400011516.sql Line: 35 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1400011516.sql Line: 47 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1400011516.sql Line: 79 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1400011516.sql Line: 95 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1400011516.sql Line: 4 Keyword: '.'
+File: 1400011516.sql Line: 10 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1400011516.sql Line: 13 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1400011516.sql Line: 23 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1400011516.sql Line: 24 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1400011516.sql Line: 27 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1400011516.sql Line: 28 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1400011516.sql Line: 31 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1400011516.sql Line: 32 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1400011516.sql Line: 35 Keyword: '.'
+File: 1400011516.sql Line: 40 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1400011516.sql Line: 44 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1400011516.sql Line: 47 Keyword: '.'
+File: 1400011516.sql Line: 56 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1400011516.sql Line: 66 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: '|'
+File: 1400011516.sql Line: 74 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: '|'
+File: 1400011516.sql Line: 79 Keyword: '.'
+File: 1400011516.sql Line: 92 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1400011516.sql Line: 95 Keyword: '.'
+File: 1400011516.sql Line: 98 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1400011516.sql Line: 104 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1400011516.sql Line: 205 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1400011516.sql Line: 4 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1400011516.sql Line: 35 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1400011516.sql Line: 47 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1400011516.sql Line: 79 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1400011516.sql Line: 95 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1400179756.sql Line: 4 Keyword: '.'
+File: 1400179756.sql Line: 10 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1400179756.sql Line: 13 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1400179756.sql Line: 23 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1400179756.sql Line: 24 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1400179756.sql Line: 27 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1400179756.sql Line: 28 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1400179756.sql Line: 31 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1400179756.sql Line: 32 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1400179756.sql Line: 35 Keyword: '.'
+File: 1400179756.sql Line: 40 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1400179756.sql Line: 44 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1400179756.sql Line: 47 Keyword: '.'
+File: 1400179756.sql Line: 56 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1400179756.sql Line: 66 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: '|'
+File: 1400179756.sql Line: 74 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: '|'
+File: 1400179756.sql Line: 79 Keyword: '.'
+File: 1400179756.sql Line: 92 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1400179756.sql Line: 95 Keyword: '.'
+File: 1400179756.sql Line: 98 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1400179756.sql Line: 104 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1400179756.sql Line: 260 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1400179756.sql Line: 4 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1400179756.sql Line: 35 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1400179756.sql Line: 47 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1400179756.sql Line: 79 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1400179756.sql Line: 95 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1398883546.sql Line: 25 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1398883546.sql Line: 26 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1398883546.sql Line: 29 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1398883546.sql Line: 30 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1398883546.sql Line: 33 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1398883546.sql Line: 34 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1398883546.sql Line: 59 Error: The keyword 'delimiter' is invalid. Keyword: 'delimiter',[minor]
+File: 1398883546.sql Line: 67 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: '|'
+File: 1398883546.sql Line: 75 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: '|'
+File: 1398883546.sql Line: 99 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1398883546.sql Line: 109 Error: The keyword 'delimiter' is invalid. Keyword: 'delimiter',[minor]
+File: 1398883546.sql Line: 206 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1400179756.sql Line: 4 Keyword: '.'
+File: 1400179756.sql Line: 10 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1400179756.sql Line: 13 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1400179756.sql Line: 23 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1400179756.sql Line: 24 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1400179756.sql Line: 27 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1400179756.sql Line: 28 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1400179756.sql Line: 31 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1400179756.sql Line: 32 Error: The keyword 'TRIGGER' is invalid. Keyword: 'TRIGGER',[minor]
+File: 1400179756.sql Line: 35 Keyword: '.'
+File: 1400179756.sql Line: 40 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1400179756.sql Line: 44 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1400179756.sql Line: 47 Keyword: '.'
+File: 1400179756.sql Line: 56 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1400179756.sql Line: 66 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: '|'
+File: 1400179756.sql Line: 74 Error: This keyword is not allowed in the Hecate Tool. [minor] Keyword: '|'
+File: 1400179756.sql Line: 79 Keyword: '.'
+File: 1400179756.sql Line: 92 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1400179756.sql Line: 95 Keyword: '.'
+File: 1400179756.sql Line: 98 Error: The keyword 'DEFAULT' is invalid. Keyword: 'DEFAULT',[minor]
+File: 1400179756.sql Line: 104 Error: The keyword 'COLLATE' is invalid. Keyword: 'COLLATE',[minor]
+File: 1400179756.sql Line: 260 Error: The keyword '<EOF>' is invalid. Keyword: '<EOF>',[minor]
+File: 1400179756.sql Line: 4 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1400179756.sql Line: 35 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1400179756.sql Line: 47 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1400179756.sql Line: 79 Error: Packages are not allowed in Hecate Tool. [major] 
+File: 1400179756.sql Line: 95 Error: Packages are not allowed in Hecate Tool. [major] 

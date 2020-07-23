@@ -1,0 +1,11 @@
+Table	Duration	Birth	Death	LastKnownVersion	BirthDate	LKVDate	YearOfBirth	YearOfLKV	DurationDays	SchemaSize@Birth	SchemaSize@LKV	SchemaSizeAvg	SchemaSizeResizeRatio	SumUpd	CountVwUpd	ATU	UpdRate	AvgUpdVolume	SurvivalClass	ActivityClass	LADClass
+php_session	1	0	0	0	2016-04-14 21:52:47	2016-04-14 21:52:47	0	0	0	5	5	5	1	0	0	0	0		10	0	10
+tbl_email	1	0	0	0	2016-04-14 21:52:47	2016-04-14 21:52:47	0	0	0	6	6	6	1	0	0	0	0		10	0	10
+tbl_feed	1	0	0	0	2016-04-14 21:52:47	2016-04-14 21:52:47	0	0	0	6	6	6	1	0	0	0	0		10	0	10
+tbl_group	1	0	0	0	2016-04-14 21:52:47	2016-04-14 21:52:47	0	0	0	4	4	4	1	0	0	0	0		10	0	10
+tbl_layer	1	0	0	0	2016-04-14 21:52:47	2016-04-14 21:52:47	0	0	0	7	7	7	1	0	0	0	0		10	0	10
+tbl_layer_subscription	1	0	0	0	2016-04-14 21:52:47	2016-04-14 21:52:47	0	0	0	4	4	4	1	0	0	0	0		10	0	10
+tbl_search_suggest	1	0	0	0	2016-04-14 21:52:47	2016-04-14 21:52:47	0	0	0	3	3	3	1	0	0	0	0		10	0	10
+tbl_ssshout	1	0	0	0	2016-04-14 21:52:47	2016-04-14 21:52:47	0	0	0	18	18	18	1	0	0	0	0		10	0	10
+tbl_subdomain	1	0	0	0	2016-04-14 21:52:47	2016-04-14 21:52:47	0	0	0	6	6	6	1	0	0	0	0		10	0	10
+tbl_user	1	0	0	0	2016-04-14 21:52:47	2016-04-14 21:52:47	0	0	0	11	11	11	1	0	0	0	0		10	0	10

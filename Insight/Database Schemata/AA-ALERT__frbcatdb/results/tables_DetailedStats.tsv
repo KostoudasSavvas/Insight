@@ -1,0 +1,18 @@
+Table	Duration	Birth	Death	LastKnownVersion	BirthDate	LKVDate	YearOfBirth	YearOfLKV	DurationDays	SchemaSize@Birth	SchemaSize@LKV	SchemaSizeAvg	SchemaSizeResizeRatio	SumUpd	CountVwUpd	ATU	UpdRate	AvgUpdVolume	SurvivalClass	ActivityClass	LADClass
+authors	12	0	-	15	2016-10-28 10:47:56	2017-09-25 14:17:34	0	1	332	9	9	9	1	0	0	0	0		20	0	20
+frbcat	4	1	4	4	2016-11-02 12:27:46	2016-11-11 09:09:33	1	1	8	0	0	0	NaN	0	0	0	0		10	0	10
+frbs	12	0	-	15	2016-10-28 10:47:56	2017-09-25 14:17:34	0	1	332	5	5	5	1	0	0	0	0		20	0	20
+frbs_have_publications	12	0	-	15	2016-10-28 10:47:56	2017-09-25 14:17:34	0	1	332	2	2	2	1	0	0	0	0		20	0	20
+frbs_notes	12	0	-	15	2016-10-28 10:47:56	2017-09-25 14:17:34	0	1	332	5	5	5	1	0	0	0	0		20	0	20
+observations	12	0	-	15	2016-10-28 10:47:56	2017-09-25 14:17:34	0	1	332	8	9	8.83	1.12	1	1	0.08	0.08	1	20	1	21
+observations_have_publications	12	0	-	15	2016-10-28 10:47:56	2017-09-25 14:17:34	0	1	332	2	2	2	1	0	0	0	0		20	0	20
+observations_notes	12	0	-	15	2016-10-28 10:47:56	2017-09-25 14:17:34	0	1	332	5	5	5	1	0	0	0	0		20	0	20
+publications	12	0	-	15	2016-10-28 10:47:56	2017-09-25 14:17:34	0	1	332	5	5	5	1	0	0	0	0		20	0	20
+radio_images	12	0	-	15	2016-10-28 10:47:56	2017-09-25 14:17:34	0	1	332	4	4	4	1	0	0	0	0		20	0	20
+radio_images_have_radio_measured_params	12	0	-	15	2016-10-28 10:47:56	2017-09-25 14:17:34	0	1	332	2	2	2	1	0	0	0	0		20	0	20
+radio_measured_params	12	0	-	15	2016-10-28 10:47:56	2017-09-25 14:17:34	0	1	332	33	38	35.58	1.15	23	6	1.92	0.5	3.83	20	2	22
+radio_measured_params_have_publications	12	0	-	15	2016-10-28 10:47:56	2017-09-25 14:17:34	0	1	332	2	2	2	1	0	0	0	0		20	0	20
+radio_measured_params_notes	12	0	-	15	2016-10-28 10:47:56	2017-09-25 14:17:34	0	1	332	5	5	5	1	0	0	0	0		20	0	20
+radio_observations_params	12	0	-	15	2016-10-28 10:47:56	2017-09-25 14:17:34	0	1	332	21	24	23.67	1.14	12	5	1	0.42	2.4	20	2	22
+radio_observations_params_have_publications	12	0	-	15	2016-10-28 10:47:56	2017-09-25 14:17:34	0	1	332	2	2	2	1	0	0	0	0		20	0	20
+radio_observations_params_notes	12	0	-	15	2016-10-28 10:47:56	2017-09-25 14:17:34	0	1	332	5	5	5	1	0	0	0	0		20	0	20
