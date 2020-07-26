@@ -38,7 +38,9 @@ public class ColorTextIdentifier {
 		try {
 			Document doc = textArea.getDocument();
 			String text = doc.getText(0, doc.getLength());
-			int position = 0;
+			int position = 0,countSymbols = 0;
+			int startPosInsideParenthesis = 0,startPosNames = 0;
+			String textInsideParenthesisString = "", textInsideNamesSymbol = "";
 			
 			Color colorText;
 			try {
@@ -64,8 +66,56 @@ public class ColorTextIdentifier {
 					styledDoc.setCharacterAttributes(position, position+pattern.length() - position, style, true);	
 				}else if (text.charAt(position) == '=') {
 					styledDoc.setCharacterAttributes(position, position+pattern.length() - position, style, true);	
+				}else if (text.charAt(position) == '(' &&  pattern.equals("(")) {
+					if (text.charAt(position + 1) != '`' && text.charAt(position + 1) != '\'' && text.charAt(position + 1) != '\"')  {
+						startPosInsideParenthesis = position + 1;
+						
+						while (text.charAt(startPosInsideParenthesis) != ')') {
+							textInsideParenthesisString += text.charAt(position);
+							startPosInsideParenthesis ++;
+						}
+						
+						StyleConstants.setForeground(style,Color.magenta);   // purple color for integer numbers inside () symbols
+						styledDoc.setCharacterAttributes(startPosInsideParenthesis - textInsideParenthesisString.length(),textInsideParenthesisString.length(), style, true);
+						StyleConstants.setForeground(style,Color.black);
+						
+						startPosInsideParenthesis = 0;
+						textInsideParenthesisString = "";
+					}else {
+						startPosInsideParenthesis = position + 2;
+						
+						while (text.charAt(startPosInsideParenthesis) != ')') {
+							textInsideParenthesisString += text.charAt(position);
+							startPosInsideParenthesis ++;
+						}
+						
+						StyleConstants.setForeground(style,Color.green);   // green color for names inside () symbols with ',`,"
+						styledDoc.setCharacterAttributes(startPosInsideParenthesis - textInsideParenthesisString.length(),textInsideParenthesisString.length() - 1, style, true);
+						StyleConstants.setForeground(style,Color.black);
+						
+						startPosInsideParenthesis = 0;
+						textInsideParenthesisString = "";
+					}
+					
+				}else if (text.charAt(position) == '`') {
+					countSymbols ++;
+					if (countSymbols % 2 != 0) {
+						startPosNames = position + 1;
+						
+						while (text.charAt(startPosNames) != '`') {
+							textInsideNamesSymbol += text.charAt(position);
+							startPosNames ++;
+						}
+						
+						StyleConstants.setForeground(style,Color.green);   // green color for names inside symbols ',`,"
+						styledDoc.setCharacterAttributes(startPosNames - textInsideNamesSymbol.length(),textInsideNamesSymbol.length(), style, true);
+						StyleConstants.setForeground(style,Color.black);
+						
+						startPosNames = 0;
+						textInsideNamesSymbol = "";
+					}
+					
 				}
-			
 				position += pattern.length();
 			}
 			

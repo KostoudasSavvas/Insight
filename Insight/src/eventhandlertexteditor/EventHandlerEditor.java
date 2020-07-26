@@ -251,7 +251,7 @@ public class EventHandlerEditor {
 		
 		colMap.put("`", "black");colMap.put("'", "black");colMap.put("\"", "black");colMap.put("IF EXISTS", "black");colMap.put("ENGINE", "black");
 		colMap.put("CHARSET", "black");colMap.put("AUTO_INCREMENT", "black");colMap.put(";", "black");colMap.put("ADD", "black");
-		colMap.put("unsigned","black");
+		colMap.put("unsigned","black");colMap.put("(","black");
 		
 		// blue color keywords and commands
 		
