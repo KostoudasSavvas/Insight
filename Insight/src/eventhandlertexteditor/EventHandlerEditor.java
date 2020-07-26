@@ -7,14 +7,14 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
+
 import javax.swing.*;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import javax.swing.event.MenuEvent;
 import javax.swing.event.MenuListener;
 import javax.swing.text.Element;
-
-//import guitexteditor.FindFunctionWindow;
 import versionmanager.Document;
 import versionmanager.VersionsManager;
 import versionmanager.VolatileVersionsStrategy;
@@ -60,6 +60,7 @@ public class EventHandlerEditor {
 	public void handleEdit(String schemaPath,String fileName,JFrame newWindow,JFrame ffw,JCheckBoxMenuItem checkBox1,JMenuItem buttonClear,JMenuItem buttonRol,JMenuItem buttonSave,JMenuItem btnCancel,JTextPane textArea,JTextArea linesArea,JLabel labelN,JMenu printerMenu,JMenuItem btnFind) {
 		VolatileVersionsStrategy vt1 = new VolatileVersionsStrategy();
 		VersionsManager mg2 = new VersionsManager(vt1);
+		ColorTextIdentifier colorTextIdentifier = new ColorTextIdentifier();
 
 		// -------------------------------------------------------------------------------------------------------------------------------- this code loads the file
 		
@@ -121,6 +122,12 @@ public class EventHandlerEditor {
 			labelN.setText("                                                                                                               Editing Now: "+  fileName);		
 			initialVersion = textArea.getText();   // contents of initial version after load
 			openDocPath = schemaPath + File.separator + "schemata" + File.separator + fileName;
+			
+			// now lets color the important keywords of the sql files
+			HashMap<String,String> colorsMap = fillColorsMap();
+			
+			
+			//colorTextIdentifier.identifyAndColor(textArea, colorsMap, pattern);
 		}else {
 			// something error happened if the control came here, so print error and exit safely
 		    JOptionPane.showMessageDialog(null, "Filepath or Filename is invalid", "Invalid Directory", JOptionPane.ERROR_MESSAGE);
@@ -220,5 +227,32 @@ public class EventHandlerEditor {
 			}
 		});
 		
+	}
+
+	/**
+	 * This method fills the colors map with each color for each command or keyword
+	 * @return
+	 */
+	private static HashMap<String, String> fillColorsMap() {
+		HashMap<String, String> colMap =  new HashMap<String, String>();
+		// red color keywords and commands
+		
+		colMap.put("CREATE", "red");colMap.put("DROP", "red");colMap.put("TRUNCATE", "red");colMap.put("RENAME", "red");colMap.put("COMMENT", "red");
+		colMap.put("ALTER", "red");colMap.put("USE", "red");colMap.put("INSERT INTO", "red");colMap.put("COMMIT", "red");colMap.put("PRIMARY KEY", "red");
+		colMap.put("=", "red");colMap.put("NOT NULL", "red");colMap.put("DEFAULT", "red");colMap.put("SET", "red");colMap.put("ON UPDATE", "red");
+		colMap.put("CASCADE", "red");colMap.put("VALUES", "red");colMap.put("DATABASE", "red");colMap.put("TABLE", "red");colMap.put("INDEX", "red");
+		colMap.put("VIEW", "red");colMap.put("FUNCTION", "red");colMap.put("SCHEMA", "red");colMap.put("PROCEDURE", "red");colMap.put("TRIGGER", "red");
+		colMap.put("CONSTRAINT", "red");colMap.put("FOREIGN KEY", "red");colMap.put("REFERENCES", "red");colMap.put("ON DELETE", "red");colMap.put("UPDATE", "red");
+		
+		// yellow color keywords and commands
+		
+		
+		
+		
+		
+		
+		
+		
+		return colMap;
 	}
 }
