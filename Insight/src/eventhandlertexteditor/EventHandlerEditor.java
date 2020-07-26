@@ -126,8 +126,10 @@ public class EventHandlerEditor {
 			// now lets color the important keywords of the sql files
 			HashMap<String,String> colorsMap = fillColorsMap();
 			
+			for (String name: colorsMap.keySet()){
+				colorTextIdentifier.identifyAndColor(textArea,name,colorsMap.get(name).toString());
+			} 
 			
-			//colorTextIdentifier.identifyAndColor(textArea, colorsMap, pattern);
 		}else {
 			// something error happened if the control came here, so print error and exit safely
 		    JOptionPane.showMessageDialog(null, "Filepath or Filename is invalid", "Invalid Directory", JOptionPane.ERROR_MESSAGE);
@@ -243,15 +245,18 @@ public class EventHandlerEditor {
 		colMap.put("CASCADE", "red");colMap.put("VALUES", "red");colMap.put("DATABASE", "red");colMap.put("TABLE", "red");colMap.put("INDEX", "red");
 		colMap.put("VIEW", "red");colMap.put("FUNCTION", "red");colMap.put("SCHEMA", "red");colMap.put("PROCEDURE", "red");colMap.put("TRIGGER", "red");
 		colMap.put("CONSTRAINT", "red");colMap.put("FOREIGN KEY", "red");colMap.put("REFERENCES", "red");colMap.put("ON DELETE", "red");colMap.put("UPDATE", "red");
+		colMap.put("NULLs", "red");
 		
-		// yellow color keywords and commands
+		// black color keywords and commands
 		
+		colMap.put("`", "black");colMap.put("'", "black");colMap.put("\"", "black");colMap.put("IF EXISTS", "black");colMap.put("ENGINE", "black");
+		colMap.put("CHARSET", "black");colMap.put("AUTO_INCREMENT", "black");colMap.put(";", "black");colMap.put("ADD", "black");
+		colMap.put("unsigned","black");
 		
+		// blue color keywords and commands
 		
-		
-		
-		
-		
+		colMap.put("int","blue");colMap.put("varchar","blue");colMap.put("decimal","blue");colMap.put("datetime","blue");colMap.put("tinyint","blue");
+		colMap.put("text","blue");colMap.put("INTEGER","blue");colMap.put("bigint","blue");
 		
 		return colMap;
 	}

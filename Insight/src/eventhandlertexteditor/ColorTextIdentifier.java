@@ -1,10 +1,12 @@
 package eventhandlertexteditor;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-
+import java.awt.Color;
+import java.lang.reflect.Field;
+import javax.swing.JTextPane;
 import javax.swing.text.Document;
-import javax.swing.text.JTextComponent;
+import javax.swing.text.Style;
+import javax.swing.text.StyleConstants;
+import javax.swing.text.StyledDocument;
 
 /**
  * This class is responsible to identify the important keywords of the
@@ -17,36 +19,58 @@ public class ColorTextIdentifier {
 
 	
 	/**
-	 * This method  will provide the coloring of the important keywords.
-	 * The parameter pattern contains the keyword we color each time.
+	 * This method will color each important color with the corresponding color
+	 * Commands : red color
+	 * Table Names or Field Names: yellow color
+	 * Integer Numbers: Purple color
+	 * Field Types: blue color
+	 * Table Names without "`": green color 
 	 * @param textArea
-	 * @param colorsMap
 	 * @param pattern
+	 * @param color
 	 */
 	
-	public void identifyAndColor(JTextComponent textArea,HashMap<String, String> colorsMap,String pattern) {
+	public void identifyAndColor(JTextPane textArea,String pattern,String color) {
+		
+		StyledDocument styledDoc = textArea.getStyledDocument();
+	    Style style = textArea.addStyle("Keyword Style", null);
+	    
 		try {
 			Document doc = textArea.getDocument();
 			String text = doc.getText(0, doc.getLength());
 			int position = 0;
 			
+			Color colorText;
+			try {
+			    Field field = Class.forName("java.awt.Color").getField(color);
+			    colorText = (Color)field.get(null);
+			} catch (Exception e) {
+			    colorText = null; // Not defined
+			}
+			
+			StyleConstants.setForeground(style,colorText);
 			
 			while ((position = text.indexOf(pattern, position)) >= 0) {
 				
 				if ((text.charAt(position-1) == ' ') && text.charAt(position + pattern.length()) == ' '){
-					//Hlight.addHighlight(position, position+pattern.length(),MyHighlightPainter);
-					position += pattern.length();
+					styledDoc.setCharacterAttributes(position, position+pattern.length() - position, style, true);	
 				}else if ((text.charAt(position-1) == '\n') && (position + 1 == (text.length()-1))) {
-					//Hlight.addHighlight(position, position+patternUpperCase.length(),MyHighlightPainter);
-					position += pattern.length();
+					styledDoc.setCharacterAttributes(position, position+pattern.length() - position, style, true);	
 				}else if ((((text.charAt(position + pattern.length()) == ' ' || text.charAt(position + pattern.length()) == '\n') && (text.charAt(position-1) == ' ' || text.charAt(position-1) == '\n')))){
-					//Hlight.addHighlight(position, position+patternUpperCase.length(),MyHighlightPainter);
-					position += pattern.length();
+					styledDoc.setCharacterAttributes(position, position+pattern.length() - position, style, true);	
+				}else if ((text.charAt(position-1) == ' ') && (text.charAt(position + pattern.length()) == ';' || text.charAt(position + pattern.length()) == ',')) {
+					styledDoc.setCharacterAttributes(position, position+pattern.length() - position, style, true);	
+				}else if ((text.charAt(position-1) == ' ') && text.charAt(position + pattern.length()) == '(') {
+					styledDoc.setCharacterAttributes(position, position+pattern.length() - position, style, true);	
+				}else if (text.charAt(position) == '=') {
+					styledDoc.setCharacterAttributes(position, position+pattern.length() - position, style, true);	
 				}
-				else {
-					position += pattern.length();
-				}
+			
+				position += pattern.length();
 			}
+			
+			StyleConstants.setForeground(style,Color.black);
+
 		} catch (Exception e) {}
 	}
 }
