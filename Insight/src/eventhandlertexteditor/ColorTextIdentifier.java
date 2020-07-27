@@ -20,11 +20,12 @@ public class ColorTextIdentifier {
 	
 	/**
 	 * This method will color each important color with the corresponding color
-	 * Commands : red color
-	 * Table Names or Field Names: yellow color
-	 * Integer Numbers: Purple color
+	 * 
+	 * Commands and important DDL keywords: red color
+	 * Table Names or Field Names: black color
+	 * Integer Numbers inside parenthesis: Purple color
 	 * Field Types: blue color
-	 * Table Names without "`": green color 
+	 * Names inside "`" symbols inside parenthesis: green color 
 	 * @param textArea
 	 * @param pattern
 	 * @param color
