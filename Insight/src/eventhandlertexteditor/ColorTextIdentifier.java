@@ -38,9 +38,9 @@ public class ColorTextIdentifier {
 		try {
 			Document doc = textArea.getDocument();
 			String text = doc.getText(0, doc.getLength());
-			int position = 0,countSymbols = 0;
-			int startPosInsideParenthesis = 0,startPosNames = 0;
-			String textInsideParenthesisString = "", textInsideNamesSymbol = "";
+			int position = 0;
+			int startPosInsideParenthesis = 0;
+			String textInsideParenthesisString = "";
 			
 			Color colorText;
 			try {
@@ -95,24 +95,6 @@ public class ColorTextIdentifier {
 						
 						startPosInsideParenthesis = 0;
 						textInsideParenthesisString = "";
-					}
-					
-				}else if (text.charAt(position) == '`') {
-					countSymbols ++;
-					if (countSymbols % 2 != 0) {
-						startPosNames = position + 1;
-						
-						while (text.charAt(startPosNames) != '`') {
-							textInsideNamesSymbol += text.charAt(position);
-							startPosNames ++;
-						}
-						
-						StyleConstants.setForeground(style,Color.green);   // green color for names inside symbols ',`,"
-						styledDoc.setCharacterAttributes(startPosNames - textInsideNamesSymbol.length(),textInsideNamesSymbol.length(), style, true);
-						StyleConstants.setForeground(style,Color.black);
-						
-						startPosNames = 0;
-						textInsideNamesSymbol = "";
 					}
 					
 				}

@@ -1,6 +1,8 @@
 package eventhandlertexteditor;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -61,6 +63,9 @@ public class EventHandlerEditor {
 		VolatileVersionsStrategy vt1 = new VolatileVersionsStrategy();
 		VersionsManager mg2 = new VersionsManager(vt1);
 		ColorTextIdentifier colorTextIdentifier = new ColorTextIdentifier();
+		
+		// now lets color the important keywords of the sql files
+		HashMap<String,String> colorsMap = fillColorsMap();
 
 		// -------------------------------------------------------------------------------------------------------------------------------- this code loads the file
 		
@@ -123,9 +128,8 @@ public class EventHandlerEditor {
 			initialVersion = textArea.getText();   // contents of initial version after load
 			openDocPath = schemaPath + File.separator + "schemata" + File.separator + fileName;
 			
-			// now lets color the important keywords of the sql files
-			HashMap<String,String> colorsMap = fillColorsMap();
 			
+			// coloring the important keywords in sql files
 			for (String name: colorsMap.keySet()){
 				colorTextIdentifier.identifyAndColor(textArea,name,colorsMap.get(name).toString());
 			} 
@@ -138,6 +142,26 @@ public class EventHandlerEditor {
 			
 		// -------------------------------------------------------------------------------------------------------------------- -------------------- end of load code
 		    
+		textArea.addKeyListener(new KeyListener() {
+			public void keyTyped(KeyEvent e) {
+			}
+			
+			public void keyReleased(KeyEvent e) {
+			}
+			
+			public void keyPressed(KeyEvent e) {
+				if (e.getKeyCode() == KeyEvent.VK_SPACE) {
+					for (String name: colorsMap.keySet()){
+						colorTextIdentifier.identifyAndColor(textArea,name,colorsMap.get(name).toString());
+					} 
+				}
+			}
+		} );
+		
+		
+		
+		
+		
 		// event handling for the save button
 		buttonSave.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent e){
