@@ -1,4 +1,5 @@
 package eventhandlertexteditor;
+import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
@@ -17,6 +18,10 @@ import javax.swing.event.DocumentListener;
 import javax.swing.event.MenuEvent;
 import javax.swing.event.MenuListener;
 import javax.swing.text.Element;
+import javax.swing.text.Style;
+import javax.swing.text.StyleConstants;
+import javax.swing.text.StyledDocument;
+
 import versionmanager.Document;
 import versionmanager.VersionsManager;
 import versionmanager.VolatileVersionsStrategy;
@@ -151,9 +156,75 @@ public class EventHandlerEditor {
 			
 			public void keyPressed(KeyEvent e) {
 				if (e.getKeyCode() == KeyEvent.VK_SPACE) {
-					for (String name: colorsMap.keySet()){
-						colorTextIdentifier.identifyAndColor(textArea,name,colorsMap.get(name).toString());
-					} 
+					int currentCaretPosition = textArea.getCaretPosition() - 1;
+					String currentTextAreaContents = textArea.getText();
+					String currentWord = "";
+					
+					while (currentTextAreaContents.charAt(currentCaretPosition) != ' ') {
+						currentWord += currentTextAreaContents.charAt(currentCaretPosition);
+						currentCaretPosition --;
+					}
+					
+					StringBuilder strBuilder = new StringBuilder();
+					strBuilder.append(currentWord);
+					strBuilder = strBuilder.reverse();
+					
+					
+					if (colorsMap.containsKey(strBuilder.toString())) {
+						colorTextIdentifier.identifyAndColor(textArea,strBuilder.toString(),colorsMap.get(strBuilder.toString()).toString());
+					}else {
+					    Style style = textArea.addStyle("Keyword Style", null);
+						StyleConstants.setForeground(style,Color.black);
+					}
+				}else if (e.isShiftDown() && e.getKeyCode() == KeyEvent.VK_9){  // handle the left parenthesis if typed
+					int currentCaretPosition = textArea.getCaretPosition() - 1;
+					String currentTextAreaContents = textArea.getText();
+					String currentWord = "";
+					
+					while (currentTextAreaContents.charAt(currentCaretPosition) != ' ') {
+						currentWord += currentTextAreaContents.charAt(currentCaretPosition);
+						currentCaretPosition --;
+					}
+					
+					StringBuilder strBuilder = new StringBuilder();
+					strBuilder.append(currentWord);
+					strBuilder = strBuilder.reverse();
+					
+					
+					// color the type of the field with blue color if that type exists
+					if (colorsMap.containsKey(strBuilder.toString())) {
+						colorTextIdentifier.identifyAndColor(textArea,strBuilder.toString(),colorsMap.get(strBuilder.toString()).toString());
+					}else {
+					    Style style = textArea.addStyle("Keyword Style", null);
+						StyleConstants.setForeground(style,Color.black);
+					}
+				} else if (e.isShiftDown() && e.getKeyCode() == KeyEvent.VK_0) {   // now lets color with magenta the integer numbers inside parenthesis
+					int currentCaretPosition = textArea.getCaretPosition() - 1;
+					String currentTextAreaContents = textArea.getText();					
+					String currentWordInsideString = "";
+					
+					while (currentTextAreaContents.charAt(currentCaretPosition) != '(') {
+						if (currentTextAreaContents.charAt(currentCaretPosition) == ' ') {
+							break;
+						}
+						currentWordInsideString += currentTextAreaContents.charAt(currentCaretPosition);
+						currentCaretPosition --;
+					}
+					
+					// color the type of the field with blue color if that type exists
+					if (colorsMap.containsKey("(")) {
+						StyledDocument styledDoc = textArea.getStyledDocument();
+						Style style = textArea.addStyle("Keyword Style", null);
+						StyleConstants.setForeground(style,Color.magenta);
+						
+						styledDoc.setCharacterAttributes(currentCaretPosition + 1,currentWordInsideString.length(), style, true);
+						StyleConstants.setForeground(style,Color.black);
+
+						//colorTextIdentifier.identifyAndColor(textArea,"(",colorsMap.get("(").toString());
+					}else {
+					    Style style = textArea.addStyle("Keyword Style", null);
+						StyleConstants.setForeground(style,Color.black);
+					}
 				}
 			}
 		} );

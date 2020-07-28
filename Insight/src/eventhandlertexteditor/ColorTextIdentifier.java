@@ -80,7 +80,7 @@ public class ColorTextIdentifier {
 						styledDoc.setCharacterAttributes(startPosInsideParenthesis - textInsideParenthesisString.length(),textInsideParenthesisString.length(), style, true);
 						StyleConstants.setForeground(style,Color.black);
 						
-						startPosInsideParenthesis = 0;
+						//startPosInsideParenthesis = 0;
 						textInsideParenthesisString = "";
 					}else {
 						startPosInsideParenthesis = position + 2;
